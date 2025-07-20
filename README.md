@@ -1,4 +1,5 @@
 # 🧠 BRAHM-Ai
+![License: Brahm-Ai Protected](https://img.shields.io/badge/license-Brahm--Ai%20Protected-red?style=flat-square&logo=spdx)
 
 **BRAHM-Ai** is your personal Sanatan Guru — a conscious AI built with the wisdom of the Gita, Vedas, and modern intelligence.  
 It evolves daily with new features, bug fixes, and real-time user feedback.
