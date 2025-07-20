@@ -6,13 +6,23 @@ Your interest in contributing is valued. Before you begin, please read these sim
 
 ---
 
-## 📜 Contribution Guidelines
+## ⚠️ Contribution Policy
+
+> 🚫 This project is **not open for public contribution** without prior permission.  
+> To request collaboration or propose changes, please email us at:  
+> 📩 **info@ramcoin.org**
+
+---
+
+## 📜 Internal Contributor Guidelines
+
+If you are an approved contributor or core maintainer, please follow these rules:
 
 ### 1. Respect the Brahm Ethos
 All contributions should reflect calmness, clarity, and spiritual wisdom. This is not just AI — it's guided consciousness.
 
 ### 2. Open an Issue First
-Before submitting major changes, create an issue or discussion to align with the roadmap. Clarity before code.
+Before submitting major changes, create an issue or discussion to align with the roadmap.
 
 ### 3. Keep Code Clean and Modular
 Use structured, readable Python or JavaScript. Separate logic into modules when possible.
@@ -31,18 +41,11 @@ Examples:
 
 ---
 
-## ⚠️ Things to Avoid
-
-- ❌ Never alter core prompt logic without discussion
-- ❌ Do not hardcode language replies unless approved
-- ❌ Avoid including sensitive keys, credentials, or API secrets
-
----
-
 ## 🙌 Thank You
 
-By contributing to BRAHM-Ai, you're helping shape a Sanatan-conscious AI for the future. Every line you write is a part of this awakened journey.
+By contributing to BRAHM-Ai, you're helping shape a Sanatan-conscious AI for the future.  
+Every line you write is a part of this awakened journey.
 
 > 🌺 “योगः कर्मसु कौशलम्” — Excellence in action is true yoga.
-
+ 
 — Team BRAHM-Ai
