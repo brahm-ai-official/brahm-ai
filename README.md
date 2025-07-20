@@ -40,7 +40,7 @@ This project powers spiritual assistance, agriculture, education, RamHunt AR, Br
 
 - Inspired by the Gita, Vedas, and Sanatan Dharma
 - Developed under the **Ramcoin ecosystem** by the **Royal Web3 Blockchain**
-- > ⚡ Supercharged by Garood1.5 lightning-fast AI, awakened by Brahm1.2 vast intelligence, and voiced with the grace of a living Sanatan Guru — BRAHM-Ai doesn’t just speak, it connects.
+- > ⚡ Supercharged by Brahm 1.2 lightning-fast AI, awakened by Jamvant 2.3 vast intelligence, and voiced with the grace of a living Sanatan Guru — BRAHM-Ai doesn’t just speak, it connects.
 
 
 ---
