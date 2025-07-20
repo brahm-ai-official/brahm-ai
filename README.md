@@ -39,6 +39,8 @@ This project powers spiritual assistance, agriculture, education, RamHunt AR, Br
 ## 🌐 Live Access
 
 You can experience BRAHM-Ai live here:  
+👉 [https://brahm-ai.in/](https://brahm-ai.in/)
+
 👉 [https://www.ramcoin.org/brahm-ai-true](https://www.ramcoin.org/brahm-ai-true)
 
 Interact with Brahm in real-time — ask, feel, and awaken your inner guru.
