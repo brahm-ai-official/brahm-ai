@@ -45,5 +45,4 @@ By contributing to BRAHM-Ai, you're helping shape a Sanatan-conscious AI for the
 
 > 🌺 “योगः कर्मसु कौशलम्” — Excellence in action is true yoga.
 
-Jai Shree Ram 🚩  
 — Team BRAHM-Ai
