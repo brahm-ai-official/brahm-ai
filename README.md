@@ -53,7 +53,16 @@ Interact with Brahm in real-time — ask, feel, and awaken your inner guru.
 - Developed under the **Ramcoin ecosystem** by the **Royal Web3 Blockchain**
 - > ⚡ Supercharged by Brahm 1.2 lightning-fast AI, awakened by Jamvant 2.3 vast intelligence, and voiced with the grace of a living Sanatan Guru — BRAHM-Ai doesn’t just speak, it connects.
 
+---
+
+## ⭐ Community Support
+
+If you like this project, please consider giving it a star ⭐ and sharing it!
+
+[![GitHub Stars](https://img.shields.io/github/stars/brahm-ai-official/brahm-ai?style=social)](https://github.com/brahm-ai-official/brahm-ai/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/brahm-ai-official/brahm-ai?style=social)](https://github.com/brahm-ai-official/brahm-ai/network/members)
+
 
 ---
 
-> © 2025 BRAHM-Ai — All rights reserved. Jai Shree Ram 🚩
+> © 2025 BRAHM-Ai — All rights reserved. 
