@@ -1,3 +1,34 @@
+📅 21 July 2025 – Daily Update
+✅ New Enhancements:
+
+🛠️ BRAHMScan Mode Bug Fixed
+
+Issue: Mode activation not displaying properly in Hindi/English
+
+Fix: Display now correctly shows BrahmScan prompts in both languages.
+
+📉 Crypto Price Detection Improved
+
+Now detects over 1000+ cryptocurrencies (BTC, ETH, SHIBA, etc.)
+
+Robust pattern match for symbol names, spacing, and case sensitivity.
+
+📈 Stock Price API Bug Fixed
+
+Resolved incorrect fetch issues and response fallback logic.
+
+🧠 Other Updates:
+
+Wiki Pages Completed: Features, Roadmap, Prompt Philosophy, Developer Guide
+
+GitHub Profile Updated: Domain, Name, Bio, Logo
+
+GitHub README updated with live link, badge, modules, and daily log
+
+
+
+
+
 # 📜 BRAHM-Ai — Daily Updates Log
 
 This log documents daily improvements, bug fixes, new modules, and logic updates made in the BRAHM-Ai ecosystem. It supports transparent tracking and open collaboration.
