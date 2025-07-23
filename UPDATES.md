@@ -1,3 +1,21 @@
+📅 23rd July 2025
+🔁 Fixed local chat restoration logic to load per user_id (PWA-safe).
+
+⚡ Enhanced chat loading speed with scroll-triggered fuzzy logic — older messages now load smoothly as user scrolls up.
+
+🛡️ Resolved bug where crypto mode was falsely activated on general questions like "clear chat", "who are you", etc.
+
+🧹 New feature: Implemented "clear chat" command detection with confirmation prompt, allowing users to fully reset their session history.
+
+🔄 Garud LLM upgraded from v1.2 (Jun 2024) to v1.3 (active until Jan 2025) for faster and smarter response behavior.
+
+📅 22nd July 2025
+✅ Fixed crypto and stock detection glitch, which was wrongly intercepting general questions like "What is karma?"
+
+🎬 BrahmTube Shorts: Created short-format videos highlighting this bug fix for community awareness.
+
+📹 Added new entries to BrahmTube video library map to enrich search diversity and spiritual queries coverage.
+
 📅 21 July 2025 – Daily Update
 ✅ New Enhancements:
 
@@ -24,9 +42,6 @@ Wiki Pages Completed: Features, Roadmap, Prompt Philosophy, Developer Guide
 GitHub Profile Updated: Domain, Name, Bio, Logo
 
 GitHub README updated with live link, badge, modules, and daily log
-
-
-
 
 
 # 📜 BRAHM-Ai — Daily Updates Log
