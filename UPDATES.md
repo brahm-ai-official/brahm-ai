@@ -3,51 +3,41 @@
 This log documents daily improvements, bug fixes, new modules, and logic updates made in the BRAHM-Ai ecosystem. It supports transparent tracking and open collaboration.
 
 ---
-📅 23rd July 2025
-🔁 Fixed local chat restoration logic to load per user_id (PWA-safe).
+## 📅 July 23, 2025
 
-⚡ Enhanced chat loading speed with scroll-triggered fuzzy logic — older messages now load smoothly as user scrolls up.
+- 🔁 **Fixed local chat restoration logic** to load per `user_id` (PWA-safe).
+- ⚡ **Enhanced chat loading speed** with scroll-triggered fuzzy logic — older messages now load smoothly as user scrolls up.
+- 🛡️ **Resolved bug** where crypto mode was falsely activated on general questions like `"clear chat"`, `"who are you"`, etc.
+- 🧹 **New feature**: Implemented `"clear chat"` command detection with confirmation prompt to allow full session reset.
+- 🔄 **Garud LLM upgraded** from v1.2 (Jun 2024) to v1.3 (active until Jan 2025) — improving response speed and intelligence.
 
-🛡️ Resolved bug where crypto mode was falsely activated on general questions like "clear chat", "who are you", etc.
+---
 
-🧹 New feature: Implemented "clear chat" command detection with confirmation prompt, allowing users to fully reset their session history.
+## 📅 July 22, 2025
 
-🔄 Garud LLM upgraded from v1.2 (Jun 2024) to v1.3 (active until Jan 2025) for faster and smarter response behavior.
+- ✅ **Fixed crypto and stock detection glitch**, which was misclassifying general questions like `"What is karma?"`.
+- 🎬 **BrahmTube Shorts** created to highlight this logic bug and fix — used in emotional spiritual clips.
+- 📹 **Expanded BrahmTube library map** with more video entries to improve search results for Hindi spiritual terms.
 
-📅 22nd July 2025
-✅ Fixed crypto and stock detection glitch, which was wrongly intercepting general questions like "What is karma?"
+---
 
-🎬 BrahmTube Shorts: Created short-format videos highlighting this bug fix for community awareness.
+## 📅 July 21, 2025
 
-📹 Added new entries to BrahmTube video library map to enrich search diversity and spiritual queries coverage.
+### ✅ **New Enhancements**
+- 🛠️ **BRAHMScan Mode Bug Fixed**
+  - Display issue in Hindi/English mode prompts now resolved.
+- 📉 **Crypto Price Detection Improved**
+  - Now supports detection of **1000+ cryptocurrencies**.
+  - Robust matching for symbols, spacing, and casing.
+- 📈 **Stock API Logic Fixed**
+  - Resolved fallback error and inaccurate ticker responses.
 
-📅 21 July 2025 – Daily Update
-✅ New Enhancements:
+### 🧠 **Other Updates**
+- 📄 Completed **Wiki Pages**: Features, Roadmap, Prompt Philosophy, Developer Guide.
+- 🧾 Updated **GitHub Profile**: Bio, logo, domain, and verified identity.
+- 📘 Enhanced **README.md**: Added badges, daily update log, module table, and live link.
 
-🛠️ BRAHMScan Mode Bug Fixed
-
-Issue: Mode activation not displaying properly in Hindi/English
-
-Fix: Display now correctly shows BrahmScan prompts in both languages.
-
-📉 Crypto Price Detection Improved
-
-Now detects over 1000+ cryptocurrencies (BTC, ETH, SHIBA, etc.)
-
-Robust pattern match for symbol names, spacing, and case sensitivity.
-
-📈 Stock Price API Bug Fixed
-
-Resolved incorrect fetch issues and response fallback logic.
-
-🧠 Other Updates:
-
-Wiki Pages Completed: Features, Roadmap, Prompt Philosophy, Developer Guide
-
-GitHub Profile Updated: Domain, Name, Bio, Logo
-
-GitHub README updated with live link, badge, modules, and daily log
-
+---
 
 
 ## 📅 July 20, 2025
