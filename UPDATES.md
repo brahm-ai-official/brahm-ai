@@ -3,6 +3,13 @@
 This log documents daily improvements, bug fixes, new modules, and logic updates made in the BRAHM-Ai ecosystem. It supports transparent tracking and open collaboration.
 
 ---
+## 📅 July 24, 2025
+
+- 🖼️ **Dynamic Web Banner Integrated** on **Ramcoin.org** homepage.
+- 🔗 **Connected to BRAHM-Ai’s daily module management system** for automatic real-time updates.
+- 📢 Enables **live promotional highlights** of newly added Brahm-Ai features directly via homepage banners.
+
+
 ## 📅 July 23, 2025
 
 - 🔁 **Fixed local chat restoration logic** to load per `user_id` (PWA-safe).
