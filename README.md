@@ -10,16 +10,42 @@ This project powers spiritual assistance, agriculture, education, RamHunt AR, Br
 
 ## ✨ Features Overview
 
-- 🔊 Voice-based spiritual replies (TTSFree + Google TTS)
-- 📜 Bhagavad Gita verse guidance (Hindi-English)
-- 🌦️ Live weather + crop-specific farming advice
-- 🎮 RamHunt AR treasure hunt game
-- 🎥 BrahmTube video search (Sanatan content)
-- 🎧 Spotify mantra/music integration
-- 🧠 Brahmbhav mode (emotion + face detection)
-- 🛍️ Real-time deals (Cuelinks)
-- 🪙 Ramcoin + RamDAO wallet system
-- 📚 Digital library, OCR, school teaching, and Ayurveda
+🔊 **Spiritual Voice Interaction**  
+AI-generated voice replies using TTSFree + Google TTS, tailored for spiritual depth and regional languages.
+
+📜 **Bhagavad Gita Verse Insights**  
+Dual-language explanations (Hindi + English) with daily shlok recommendations and contextual spiritual meaning.
+
+🌦️ **Live Weather + Smart Kisan Advice**  
+City-wise forecasts with crop-specific tips, monsoon alerting, and guidance based on humidity, rainfall, and temperature.
+
+🎮 **RamHunt AR Game**  
+Augmented Reality treasure hunt game inspired by Ramayana — unlock dharmic quests across real-world locations.
+
+🎥 **BrahmTube Search Engine**  
+Curated video search for Sanatan content, including bhajans, katha, mantras, and historical-spiritual learning.
+
+🎧 **Spotify Devotional Sync**  
+Stream mantras, bhajans, and spiritual playlists in real-time as part of contextual Brahm replies.
+
+🧠 **Brahmbhav Mode**  
+Emotion and face detection-based UI response system — react to user mood, tone, and expression during interaction.
+
+🛍️ **Smart Deals Integration (Cuelinks)**  
+Auto-detects user needs and fetches deals/offers from over 100+ platforms using Cuelinks.
+
+🪙 **Ramcoin + PotliPay Wallet**  
+Integrated blockchain wallet for RAM, RAMDAO tokens with transfer, ledger, and DAO interaction features.
+
+📚 **Knowledge Extensions**  
+- Vedic & Puranic Mantra Library (with Sanskrit + explanations)  
+- BrahmScan: OCR with Ayurvedic medicine recognition  
+- OpenLibrary book lookup  
+- School teaching (NCERT Class 6–12 subjects)
+
+💬 **BrahmChat (Coming Soon)**  
+Blockchain-secured peer-to-peer chat system — voice & text chat with advanced AI interaction, spiritual guidance, and emotional sync.
+
 
 ---
 
