@@ -138,7 +138,7 @@ This upgrade ensures more **reliable**, **location-sensitive**, and **farmer-fri
 ### 🌐 Multilingual Intelligence Test Completed (Across All Sectors)
 
 - 🧠 **BRAHM-Ai successfully passed multilingual query handling tests** in both **functional** and **spiritual** domains.
-- 🧪 Test conducted using prompts prepared by **ChatGPT-4.0** to evaluate Brahm’s understanding across:
+- 🧪 Test conducted using questions prepared by **ChatGPT-4.0** to evaluate Brahm’s understanding across:
   - ✅ General Q&A
   - ✅ Vedic explanation
   - ✅ Daily use commands
