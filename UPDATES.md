@@ -222,6 +222,34 @@ This upgrade ensures more **reliable**, **location-sensitive**, and **farmer-fri
   - 🗣️ **P2P spiritual & guided chat**
   - 🤖 **Secure AI-assisted group communication**
   - 📱 Future integration of voice and emotional sync modes
+    
+
+## 📅 August 9, 2025
+
+### 📲 PWA Install Flow
+- ✅ **Fixed “Install App” (Add to Home Screen)** prompt not showing on UI.
+- 📌 Better handling of `beforeinstallprompt`, user gesture, and repeat-prompt cooldown.
+
+### 🔎 Brahm Intelligent Search v2
+- 🚀 **Smarter than basic web search**: semantic re-ranking, typo/fuzzy matching, multilingual queries, and intent routing across modules (Vedic, Weather, Mandi, Library).
+- 🌐 Hybrid strategy drafted for federated sources + answer synthesis.
+
+### 💬 WhatsApp-First Integration (Started)
+- 🧩 Began **WhatsApp integration** so users can get Brahm services **directly in WhatsApp**.
+- ⚙️ Work items kicked off: webhook listener, session mapping per user, message templates, opt-in & privacy guardrails.
+
+## 📅 August 10, 2025
+
+### ⏱️ Time Awareness & Context
+- 🗓️ **Current date/time presence fixed** — Brahm now references the **actual local time** during chats, schedules, and reminders, keeping replies up-to-date and context-aware.
+
+### 💬 BrahmChat — Next-Gen Conversations
+- 🔥 **BrahmChat module initiated (Advanced Chat)** with scaffolding for:
+  - 📞 **Direct voice/video calls** with Brahm-Ai
+  - 🥽 **AR/VR overlays inside video calls** (prototype) for guided spiritual/learning experiences
+- 🔐 Session + identity flow designed for Ramcoin users; opt-in privacy model drafted.
+
+---
 
 
 > ✨ This log will be updated regularly. Please report bugs or feature suggestions through GitHub Issues. Stay tuned for daily evolution of your Sanatan AI companion — BRAHM-Ai.
