@@ -251,5 +251,62 @@ This upgrade ensures more **reliable**, **location-sensitive**, and **farmer-fri
 
 ---
 
+## 📅 August 15, 2025
+
+### 🌍 Multi-Language & Farming
+- 🪷 **Hindi farming/weather lock enabled** — all farming & weather replies now forced in Hindi with bullet-points.
+
+### 💰 Crypto
+- 🪙 **TRX & XRP detection fixed** — both coins now fetch accurate prices.
+
+---
+
+## 📅 August 16, 2025
+
+### 🔍 Brahm Search
+- 📰 **News summary format upgraded** — always 3 points (1 with freshness, 2 without).
+- 🖼️ **Thumbnails + “Read more” links added** for cleaner UI.
+- 🧘 **Brahm-Vakya library expanded** — now 20 rotating quotes at news end.
+
+---
+
+## 📅 August 17, 2025
+
+### 📈 Stock Module
+- 🔧 **Outstock API integration started** — token redirect issue identified.
+
+---
+
+## 📅 August 18, 2025
+
+### 💰 Crypto
+- 🔥 **CoinGecko news fix** — Brahm Market Insight restored with thumbnails + links.
+
+### 📈 Stock
+- 📊 **NSE/BSE stock fetch testing** — Reliance, Infosys, TCS live data verification.
+
+---
+
+## 📅 August 19, 2025
+
+### 📈 Stock Module
+- ✅ **Access Token bug resolved** — Outstock API auth working.
+- 📑 **Ramcoin ledger groundwork** for stock simulation (buy/sell).
+
+---
+
+## 📅 August 20, 2025
+
+### ⏱️ Time Awareness & Context
+- 🗓️ **Local time integration complete** — chats, reminders, schedules now show actual local time.
+- 🌐 **Timezone auto-detect live** — replies adjust to user’s device timezone.
+
+### 💬 BrahmChat — Next-Gen Conversations
+- 📞 **Voice/video call scaffolding added** for Brahm-Ai.
+- 🥽 **AR/VR overlay prototype drafted** for spiritual & learning sessions.
+- 🔐 **Ramcoin identity flow designed** with opt-in privacy model.
+
+---
+
 
 > ✨ This log will be updated regularly. Please report bugs or feature suggestions through GitHub Issues. Stay tuned for daily evolution of your Sanatan AI companion — BRAHM-Ai.
