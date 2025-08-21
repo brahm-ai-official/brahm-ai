@@ -287,4 +287,19 @@ Hindi, Marathi, Tamil, Telugu, Bengali, Gujarati, Kannada, Malayalam
 
 ---
 
+## 📅 August 21, 2025
+
+### 📈 Stock Module Upgrade
+- ✅ **Indian Stock Price Fetch Fixed** — live NSE/BSE stock rates now fetched correctly.  
+- 🏷️ **Stock Slug Mapping Added** — e.g., `"reliance"`, `"infosys"`, `"tcs"` now map accurately to exchange tickers.  
+- 🔍 **Multi-Stock Fuzzy Logic Fine-Tuned**  
+  - Queries like `"reliance stock price"` or `"tcs market rate"` now trigger stock module correctly.  
+  - Avoids false triggers and handles flexible user phrasing.  
+- ⚖️ **Crypto vs Stock Detection Refined** — reduced chances of mixing stock queries with crypto lookups.  
+- 🐞 **Known Glitch**: Further improvement needed in **fuzzy stock matcher** to eliminate edge-case mismatches.
+
+---
+
+
+
 > ✨ This log will be updated regularly. Please report bugs or feature suggestions through GitHub Issues. Stay tuned for daily evolution of your Sanatan AI companion — BRAHM-Ai.
