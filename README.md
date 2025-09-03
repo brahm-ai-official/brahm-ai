@@ -45,6 +45,12 @@ This project powers:
 ### 🧠 Brahmbhav Emotional Engine  
 - Detects **emotion + facial expression + tone**  
 - Provides mood-aware AI responses with Sanatan wisdom  
+- 🩺 **[New | Experimental] Health Vitals & Age Detection**  
+  - Prototype live (since Aug 25, 2025)  
+  - Detects user **face & age** via camera in real time  
+  - Estimates **Blood Pressure, SpO₂, respiration and other vitals**  
+  - Current accuracy: ~90% (fine-tuning in progress)  
+ 
 
 ### 🎵 BrahmShuddhi (Sound Therapy)  
 - Separate **healing mode** with binaural audio & vibrations  
