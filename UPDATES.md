@@ -305,7 +305,13 @@ Hindi, Marathi, Tamil, Telugu, Bengali, Gujarati, Kannada, Malayalam
 - 🩺 **Prototype live for health vitals detection** using face recognition.  
 - Detects **Blood Pressure, SpO₂, and other readings** directly from camera input.  
 - Accuracy at ~90% (experimental) — fine-tuning underway.  
-- Marks the beginning of **Brahm-Ai as a wellness companion**, blending spiritual & medical insights.  
+- Marks the beginning of **Brahm-Ai as a wellness companion**, blending spiritual & medical insights.
+
+## 📅 August 29, 2025
+### 🌐 Website Update — brahm-ai.in
+- 🖼️ **Main landing page redesigned** with new features showcase.  
+- 🪷 Added **dynamic promotional banner** highlighting Brahm-Ai’s live modules.  
+- Improved **user experience flow** with cleaner navigation and feature highlights.  
 
 
 
