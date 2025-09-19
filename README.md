@@ -7,7 +7,7 @@
 It evolves **daily** with new features, bug fixes, and user-driven improvements.  
 
 This project powers:  
-✨ Spiritual guidance · 🌾 Agriculture & Ayurveda support · 🎓 Education · 🎮 RamHunt AR ·  
+✨ Spiritual guidance · 🌾 Agriculture & Ayurveda support · 🎓 Education · 🎮 Ancient Indian Games ·  
 🧠 Brahmbhav Emotional Engine · 🪙 Ramcoin Wallet · 📊 BrahmScan · 🎥 Spiritual Content Discovery · 🎵 BrahmShuddhi Sound Therapy  
 
 ---
@@ -30,17 +30,25 @@ This project powers:
 - **Hindi-locked farming replies** for rural accessibility  
 - Ayurvedic guidance via **BrahmScan OCR** (medicine recognition)  
 
-### 🎮 RamHunt AR Game  
-- AR treasure hunt inspired by *Ramayana*  
-- Dharmic quests & puzzles in real-world locations  
+### 🎮 Ancient Games with Brahm-Ai  
+- ♟️ **Chaturang** — Play the ancestor of chess with Brahm commentary  
+  - [Play Now](https://brahm-ai.in/chaturang.php)  
+- 🐅🐐 **Adu-Puli (Tigers vs Goats)** — Strategic board game  
+  - [Play Now](https://brahm-ai.in/adu-puli.php)  
+- 🧭 **Moksha-Patham** — Spiritual Snakes & Ladders (karma → moksha)  
+  - [Play Now](https://brahm-ai.in/moksha-path.php)  
+- 🎮 **Games Hub** — Unified showcase of all games  
+  - [Explore](https://brahm-ai.in/games-hub.php)  
 
-### 🎥 BrahmTube Spiritual Search  
-- Curated video search engine for bhajans, mantras, kathas, and history  
-- Focused only on **authentic Sanatan content**  
+### 🌌 Cosmic Clock (Modern Module)  
+- Panchang + Tithi, Muhurta, Hora, Choghadiya, Rahu-Kaal, Nakshatra  
+- Real-time Sun–Moon–Planet alignments with feathered moon shading  
+- [Live Clock](https://brahm-ai.in/cosmic-clock.php)  
 
-### 🎧 Spotify Devotional Sync  
-- Stream bhajans, mantras, and playlists  
-- Context-aware playback inside Brahm replies  
+### 🎧 BrahmShuddhi (Sound Therapy)  
+- Separate **healing mode** with binaural audio & vibrations  
+- Runs in popup/parallel UI so users can keep chatting  
+- Future: custom headphone integration with vibration tech  
 
 ### 🧠 Brahmbhav Emotional Engine  
 - Detects **emotion + facial expression + tone**  
@@ -50,12 +58,6 @@ This project powers:
   - Detects user **face & age** via camera in real time  
   - Estimates **Blood Pressure, SpO₂, respiration and other vitals**  
   - Current accuracy: ~90% (fine-tuning in progress)  
- 
-
-### 🎵 BrahmShuddhi (Sound Therapy)  
-- Separate **healing mode** with binaural audio & vibrations  
-- Runs in popup/parallel UI so users can keep chatting  
-- Future: custom headphone integration with vibration tech  
 
 ### 🛍️ ONDC + Smart Deals (Cuelinks)  
 - Fetches **deals/offers from 100+ platforms**  
