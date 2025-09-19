@@ -299,19 +299,72 @@ Hindi, Marathi, Tamil, Telugu, Bengali, Gujarati, Kannada, Malayalam
 - 🐞 **Known Glitch**: Further improvement needed in **fuzzy stock matcher** to eliminate edge-case mismatches.
 
 ---
-## 📅 August 25, 2025
-
-### 🧠 Brahmbhav Mode — Experimental Health Monitoring
-- 🩺 **Prototype live for health vitals detection** using face recognition.  
-- Detects **Blood Pressure, SpO₂, and other readings** directly from camera input.  
-- Accuracy at ~90% (experimental) — fine-tuning underway.  
-- Marks the beginning of **Brahm-Ai as a wellness companion**, blending spiritual & medical insights.
+## 📅 August 28, 2025
+### 🎵 Brahm-Ai — Full Functional Audio Player
+- Integrated **Binaural Full Functional Audio Player** into Brahm-Ai.  
+- Modular bottom player with playlist support and DSP presets.  
+- Smooth playback experience across all Brahm modules.  
 
 ## 📅 August 29, 2025
-### 🌐 Website Update — brahm-ai.in
-- 🖼️ **Main landing page redesigned** with new features showcase.  
-- 🪷 Added **dynamic promotional banner** highlighting Brahm-Ai’s live modules.  
-- Improved **user experience flow** with cleaner navigation and feature highlights.  
+### 🌌 Cosmic Clock — Modern Redesign Started
+- Began development of the **new modern Cosmic Clock page** with fresh UI modules.  
+- Added layered dials, planetary alignments, and geolocation-based rendering.  
+- Emphasis on **Sanatan cosmic timekeeping** in a futuristic design.  
+
+## 📅 August 31, 2025
+### 🕰️ Cosmic Clock — Live on Website
+- 🚀 Launched the new **Cosmic Clock module** on [brahm-ai.in](https://brahm-ai.in/cosmic-clock.php).  
+- Features include:  
+  - **Tithi, Muhurta, Hora, Choghadiya, Rahu-Kaal, Nakshatra dials**  
+  - **Moon phase shading, Sun–Moon path tracking**  
+  - Interactive cosmic events with modern rendering.  
+- Blends ancient Indian Panchang with live astronomical data.  
+
+## 📅 September 1, 2025
+### ♟️ Ancient Game — Chaturang Development Started
+- Began work on the **Chaturang** (ancestor of chess) interactive module.  
+- Designed authentic board layout with **Sanskrit piece names** (Rāja, Mantri, Ratha, Gaja, etc.).  
+
+## 📅 September 3, 2025
+### ♟️ Chaturang — Live with Brahm-Ai
+- Launched [Chaturang Game](https://brahm-ai.in/chaturang.php).  
+- Key Features:  
+  - Modes: **2-Player (manual)** and **vs Brahm-Ai (AI-assisted)**  
+  - Piece movement based on **authentic ancient rules** (no check/mate, win by capturing Rāja).  
+  - Integrated commentary + move history with Brahm’s guidance.  
+- Full guide page included for gameplay.  
+
+## 📅 September 6, 2025
+### 🐅🐐 Adu-Puli — Tigers & Goats Game Launched
+- Released [Adu-Puli (Tigers vs Goats)](https://brahm-ai.in/adu-puli.php).  
+- Features:  
+  - **20 goats vs 4 tigers** strategy gameplay.  
+  - AI-powered difficulty levels: Shishya (beginner) & Acharya (expert).  
+  - Sound effects + bilingual guide page.  
+
+## 📅 September 10, 2025
+### 🎮 Games Hub — Unified Showcase
+- Launched [Games Hub](https://brahm-ai.in/games-hub.php).  
+- All ancient games now showcased in a **unified hub** with milestone tracking.  
+- Includes **Chaturang, Adu-Puli, Moksha Patham** and future titles.  
+- Badges + commentary integrated with Brahm-Ai.  
+
+## 📅 September 14, 2025
+### 🧭 Moksha-Path — Spiritual Snake & Ladders Started
+- Began work on **Moksha-Patham** (ancient Snake & Ladders with spiritual journey).  
+- Designed board with **spiritual milestone ladders** and **karmic snake falls**.  
+- Commentary system initiated to guide players on moral choices.  
+
+## 📅 September 16, 2025
+### 🧭 Moksha-Path — Fully Launched
+- Released [Moksha Path Game](https://brahm-ai.in/moksha-path.php).  
+- Features:  
+  - Fully playable **spiritual Snakes & Ladders** with Brahm commentary.  
+  - 🎵 Integrated background music + SFX (dice, snake, ladder, win).  
+  - Guide page explaining spiritual journey of karma → moksha.  
+- Completes the **first trilogy of Sanatan-inspired games** on Brahm-Ai.  
+
+---
 
 
 
