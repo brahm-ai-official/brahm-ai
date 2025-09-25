@@ -4,6 +4,34 @@ This log documents daily improvements, bug fixes, new modules, and logic updates
 
 ---
 
+## 📅 September 23, 2025
+### 🌌 Ramverse Hub — Live on **ramcoin.in**
+- 🚀 Launched **Ramverse** as a unified Web3 hub on **[ramcoin.in](https://ramcoin.in)**.
+- 🧭 Aggregates live modules from **ramcoin.org** and **brahm-ai.in** in one place.
+- 🧪 **Unique Atom UI:** modular, live tiles showing real-time states of Brahm-Ai & Ramcoin features.
+- 🔗 One-view access to: Ramcoin ledger/tx, PotliPay, Brahm-Ai modules (Games, Cosmic Clock, VR Walk).
+- 🔐 Identity & routing designed for seamless navigation across the Ramverse ecosystem.
+
+---
+
+## 📅 September 20, 2025
+### 🗺️ Brahm VR Walk — **New Map + VR Explorer**
+- 🌐 Rolled out a **new map experience** on **[Brahm VR Walk](https://brahm-ai.in/vr-walk.php)** — not a Google Map clone; crafted for **travelers & bloggers**.
+- 📷 Supports **360° panoramas + normal photos**; creators can name their **VR tracks**.
+- 🗣️ Optional Brahm-TTS narration layer for immersive, hands-free exploration.
+- 🧭 Track-first UX: journey playback, thumbnail grid, and VR box with quick switch between scenes.
+
+---
+
+## 📅 September 18, 2025
+### 🌀 Chakravyuh — **Game Launched**
+- 🎮 **Chakravyuh** is live: **[brahm-ai.in/chakravyuh.php](https://brahm-ai.in/chakravyuh.php)**.
+- 🏹 **Abhimanyu Commentary:** Brahm-Ai provides **step-by-step commentary** on every Abhimanyu move.
+- 🧠 Focus on circular-ring tactics, surround logic, and progressive difficulty.
+- 🔊 Designed to pair with Brahm-style voice/commentary for an epic Mahabharat-themed experience.
+
+---
+
 ## 📅 September 16, 2025
 ### 🧭 Moksha-Path — Fully Launched
 - Released [Moksha Path Game](https://brahm-ai.in/moksha-path.php).  
