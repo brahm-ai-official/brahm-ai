@@ -25,7 +25,7 @@ This log documents daily improvements, bug fixes, new modules, and logic updates
 
 ## 📅 September 18, 2025
 ### 🌀 Chakravyuh — **Game Launched**
-- 🎮 **Chakravyuh** is live: **[brahm-ai.in/chakravyuh.php](https://brahm-ai.in/chakravyuh.php)**.
+- 🎮 **Chakravyuh** is live: **[chakravyuh](https://brahm-ai.in/chakravyuh.php)**.
 - 🏹 **Abhimanyu Commentary:** Brahm-Ai provides **step-by-step commentary** on every Abhimanyu move.
 - 🧠 Focus on circular-ring tactics, surround logic, and progressive difficulty.
 - 🔊 Designed to pair with Brahm-style voice/commentary for an epic Mahabharat-themed experience.
