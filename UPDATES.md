@@ -1,6 +1,39 @@
 # 📜 BRAHM-Ai — Daily Updates Log
 
 This log documents daily improvements, bug fixes, new modules, and logic updates made in the BRAHM-Ai ecosystem. It supports transparent tracking and open collaboration.
+---
+## 📅 October 16, 2025
+### 🪶 **Panini Tutor (v2.x) Launched** — + 📘 **Panini Guide** (study playbook)
+- 🚀 **Live pages:**  
+  - Tutor: [brahm-ai.in/panini.php](https://brahm-ai.in/panini.php)  
+  - Guide: [brahm-ai.in/panini-guide.php](https://brahm-ai.in/panini-guide.php)
+
+#### 🧠 What the Tutor does
+- 🇮🇳 **Sanskrit-first, bilingual UI (HI/EN):** Devanagari primary with instant English switch; terms stay standard.
+- 🔎 **Sūtra Explorer (fast + forgiving):**  
+  - Type **partial Devanagari** *or* **transliteration** (IAST/Harvard-Kyoto style) — typo-tolerant fuzzy search.  
+  - Live dropdown keeps the **best match pinned on top**; supports direct refs like `1.1.1`.
+- 📚 **Structured packs (JSON):** `/panini/packs/sutra_*.json` with sūtra text, anvaya, gloss, examples; quick indexed loading + cache.
+- 🧑‍🏫 **Readable Sūtra cards:** Devanagari → transliteration → meaning → notes/examples; collapsible sections for focus.
+- 🔊 **Section-scoped TTS:** one **Play/Pause** button per card; long-press = Stop; respects global Mute/Replay logic.
+- 🧭 **Daily Class from navbar:** opens a guided sequence for today’s lesson; auto-saves **where you left off**.
+- 📝 **Practice prompts:** “Try yourself” after each concept; reveal/hide steps; copy text for sharing.
+- 💾 **Local session memory:** last sūtra, reading position, and class progress restored on reload (PWA-safe).
+- 🎨 **UX polish:** day/night themes, chip/nowrap fixes, accessible font sizes, mobile-first layout.
+
+#### 📘 What the **Panini Guide** adds
+- 🗺️ **Learning path:** Ashtādhyāyī → Chapter → Topic → Checkpoints (what to know before moving on).
+- 🧾 **Reference sheets:** sandhi/saṁjñā/paribhāṣā quick cards (HI + EN labels).
+- 🧠 **Worked examples:** stepwise derivations with hints; toggle **Show steps/Hide steps**; “Add to recap”.
+- 🗣️ **Read-aloud mode:** grammar-clean narration via TTS for examples and key definitions.
+- ✅ **Study utilities:** progress ticks, mini-quizzes (identify rule / choose correct derivation), and recap list.
+
+#### 🔍 Quick examples to try
+- “**1.1.1 vṛddhir ādaiC**” → open by number or by typing “vrddhir adaiC”.  
+- “**sandhi rules for a + i**” → jump to vowel sandhi sheet, then examples with TTS.  
+- “**लकाराः — लोट्**” → list lakāra overview and drill prompts.
+
+> ℹ️ Designed as a **learning assistant**. Encourages derivation and understanding—**not for rote dumping or exam malpractice**.
 
 ---
 ## 📅 October 14, 2025
