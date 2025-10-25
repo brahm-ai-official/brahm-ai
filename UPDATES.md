@@ -13,7 +13,7 @@ This log documents daily improvements, bug fixes, new modules, and logic updates
 - 🔎 **Sūtra Explorer (fast + forgiving):**  
   - Type **partial Devanagari** *or* **transliteration** (IAST/Harvard-Kyoto style) — typo-tolerant fuzzy search.  
   - Live dropdown keeps the **best match pinned on top**; supports direct refs like `1.1.1`.
-- 📚 **Structured packs (JSON):** `/panini/packs/sutra_*.json` with sūtra text, anvaya, gloss, examples; quick indexed loading + cache.
+- 📚 **Structured packs (JSON):** `/pack/sutra_*.json` with sūtra text, anvaya, gloss, examples; quick indexed loading + cache.
 - 🧑‍🏫 **Readable Sūtra cards:** Devanagari → transliteration → meaning → notes/examples; collapsible sections for focus.
 - 🔊 **Section-scoped TTS:** one **Play/Pause** button per card; long-press = Stop; respects global Mute/Replay logic.
 - 🧭 **Daily Class from navbar:** opens a guided sequence for today’s lesson; auto-saves **where you left off**.
