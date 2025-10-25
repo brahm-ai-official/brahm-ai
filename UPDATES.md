@@ -1,6 +1,32 @@
 # 📜 BRAHM-Ai — Daily Updates Log
 
 This log documents daily improvements, bug fixes, new modules, and logic updates made in the BRAHM-Ai ecosystem. It supports transparent tracking and open collaboration.
+
+---
+## 📅 October 14, 2025
+### 🧮 **Aryabhata — Math Tutor (v2.x) Launched**  +  📘 **Aryabhata Guidance — Study Companion**
+- 🚀 **Live pages:**  
+  - Tutor: [brahm-ai.in/aryabhata.php](https://brahm-ai.in/aryabhata.php)  
+  - Guidance: [brahm-ai.in/aryabhata-guidance.php](https://brahm-ai.in/aryabhata-guidance.php)
+- 🧠 **Focus:** math-only reasoning with **step-by-step derivations**; concise final answers + intermediate working.
+- 🔤 **LaTeX-first output:** clean math typesetting; accepts plain text, ASCII math, and basic LaTeX in queries.
+- 🌐 **Bilingual (EN/HI):** Hindi-first option with instant English switch; terms and symbols stay standard.
+- 🔊 **Voice:** TTS playback for solutions (LaTeX → speech); Opera/Chrome safe init; **mute/replay** logic aligned with Brahm-Ai.
+- 🗂️ **Topics covered:** Algebra, Calculus (limits/derivatives/integrals), Polynomials, Sequences/Series, Coordinate & Vector Geometry, Trig, Basic Stats/Probability, Matrices.
+- 🧩 **Tools & Controls:**  
+  - **Show steps / Hide steps**, **Copy LaTeX**, **Ask another**, **Reset counter** (daily one-time).  
+  - Long answers stream safely with **continue** handling to avoid truncation.
+- 💾 **Session & History:** local session restore; lightweight logs for recent problems to revisit and compare attempts.
+- 📱 **UX:** centered layout, mobile-first ask bar, accessible font sizes, and fast PWA load.
+- 🛡️ **Education notice:** concept learning and practice aid — **not for exam malpractice**.
+
+#### 📘 Aryabhata Guidance — what’s inside
+- 🗺️ **Syllabus map:** chapter → sub-topic → skill checkpoints.  
+- 🧾 **Formula sheets:** quick recall cards (Hindi + English labels).  
+- 🧠 **Solved examples & hints:** stepwise solutions with “try yourself” drills and difficulty toggles.  
+- 🗣️ **Read-aloud mode:** TTS for examples and hints; grammar-cleaned narration.  
+- 🧰 **Practice flow:** pick topic → attempt → reveal steps → compare with ideal method → save to recap list.
+
 ---
 ## 📅 October 8, 2025
 ### 📊 **Brahm-Ai X — Markets & AI Analysis (Stocks + Crypto) Launched**
