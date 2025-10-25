@@ -1,6 +1,24 @@
 # 📜 BRAHM-Ai — Daily Updates Log
 
 This log documents daily improvements, bug fixes, new modules, and logic updates made in the BRAHM-Ai ecosystem. It supports transparent tracking and open collaboration.
+---
+## 📅 September 28, 2025
+### 💬 Brahm-Ai **Samvad** — Conversational Interface Launched
+- 🚀 **Samvad page live:** [brahm-ai.in/samvad.php](https://brahm-ai.in/samvad.php)
+- 🔁 **Two-way, turn-based conversation with voice:** clear “who speaks next” flow with an on-screen **Turn** indicator (idle/speaking/listening), auto stop/play, and overlap guards.
+- 🧠 **Local memory:** recent session context is stored locally so follow-ups feel consistent and personal.
+- 🎧 **Headphone-aware routing:**  
+  - **Headphones connected?** Partner **translation plays in your headphones**.  
+  - **No headphones?** Both sides’ audio **plays on the device speaker** (duplex clarity safeguards).
+- 🌐 **Language selectors:** **My Language** and **Partner Language** pickers; smart fallbacks for multilingual use.
+- 🗣️ **Voice I/O controls:** **Speak (Me)**, **Listen (Partner)**, **Skip**, and **Clear**—optimized for quick switching during live conversations.
+- 🔒 **Safety & UX:** mute/replay protected playback, prompt-safe handling for long replies, PWA-friendly session restore.
+
+### 🌍 Brahm Translate — Quick Tool (Text • Voice • Scan)
+- 🧭 **One-way quick translation** panel aligned with the Samvad experience.
+- ✅ **Grammar Check toggle** to refine translated text for clarity and correctness.
+- 🖼️ **OCR “Scan”** to capture text from images; **Result → Copy** for fast sharing.
+- 🗣️ **Voice notes:** mic input & TTS playback where supported; a compatibility notice appears if the browser blocks voice features (use Chrome/Edge on Android/Desktop for full support).
 
 ---
 
