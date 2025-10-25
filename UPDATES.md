@@ -2,6 +2,83 @@
 
 This log documents daily improvements, bug fixes, new modules, and logic updates made in the BRAHM-Ai ecosystem. It supports transparent tracking and open collaboration.
 ---
+## 📅 October 8, 2025
+### 📊 **Brahm-Ai X — Markets & AI Analysis (Stocks + Crypto) Launched**
+- 🚀 **Live page:** [brahm-ai.in/x.php](https://brahm-ai.in/x.php)
+- 🧭 **Modes:** **Stocks** and **Crypto** (top-left switch).
+- 💱 **Currency toggle:** **USD / INR**.
+- 🕒 **Timeframe:** quick selector (e.g., **1D**). Live status shows *market open/closed* and a **Data updated** timestamp.
+- 📈 **Charting:** Candlesticks with dual moving averages (short/long) + **RSI(14)**; dotted guides for support/resistance zones.
+- 🧩 **Actions:**
+  - **Load Chart** — fetch & render latest OHLC + indicators.
+  - **Analyze (Brahm-Ai)** — generates structured commentary (bilingual-ready) from the current chart state.
+- 🗂️ **Nav:** Home • Markets • Watchlist • VR Walk • About • EN/HI toggle • Live badge.
+- 🛡️ **Safety:** *Educational tool — ⚠️ Not financial advice.*
+
+#### 🤖 Brahm-Ai Analysis — Output Template
+Brahm produces a compact note:
+1) **Trend (5 bullets)**  
+2) **Support & Resistance** (levels + confidence)  
+3) **Momentum & Risk** (RSI/volatility/context)  
+4) **Bullish vs Bearish Scenarios** (with invalidation)  
+5) **≤20-word Takeaway**  
+> ⚠️ Education only. Not financial advice.
+
+---
+
+#### 📝 **Stock Example** (1D: `NSE:RELIANCE`)
+_Last price ~ **₹1451.60**; MAs ~ **₹1393.90 / ₹1390.91** (price above both)._
+
+- **Trend**
+  - Turn up after long ₹1380–₹1420 consolidation.
+  - Closes above short/long MAs → improving bias.
+  - Breakout candles expanding vs prior range bars.
+  - Prior supply near mid-₹1400s visible in guides.
+  - Follow-through needed to confirm regime change.
+
+- **Support / Resistance**
+  - S: **₹1420**, then **₹1400–₹1390** (near MAs)
+  - R: **₹1475**, then **₹1500** psychological
+
+- **Momentum & Risk**
+  - **RSI(14)** neutral→bullish (~50–60); room to extend if bids persist.
+  - Risk: quick mean-reversion wicks back to MAs.
+
+- **Scenarios**
+  - **Bullish:** Sustained closes **> ₹1450–1475** can open **₹1500+**.
+  - **Bearish:** Daily close **< ₹1400** risks drift to **₹1370**.
+
+- **Takeaway (≤20 words)**  
+  **Bias turning up; hold above ₹1450 favors ₹1475–₹1500. Guardrail ₹1400.**
+
+---
+
+#### 🪙 **Crypto Example** (1D: `RAM-USD`)
+_Snapshot from your chart: **Price ≈ $0.025045**, MAs ≈ **$0.024982 / $0.024877** (price above both)._
+
+- **Trend**
+  - Persistent up-slope in both MAs; price riding above = constructive.
+  - Gradual higher lows since early year; tight pullbacks bought.
+  - Dotted guides cluster near prior supply bands around $0.025.
+  - Volatility moderated—trend grind instead of spikes.
+  - Break above guide could transition to momentum phase.
+
+- **Support / Resistance**
+  - S: **$0.0249–0.0248** (near MAs), then **$0.0245**
+  - R: **$0.0251–0.0253**, then **$0.0255**
+
+- **Momentum & Risk**
+  - **RSI(14)** mid-zone → room for expansion without immediate overbought.
+  - Risk: thin liquidity snapbacks; watch closes back **below short MA**.
+
+- **Scenarios**
+  - **Bullish:** Acceptance **> $0.0251–0.0253** targets **$0.0255** and higher.
+  - **Bearish:** Lose **$0.0248** → rotation to **$0.0245** base.
+
+- **Takeaway (≤20 words)**  
+  **Constructive uptrend; hold above $0.0248 keeps $0.0253–0.0255 in play.**
+
+---
 ## 📅 September 28, 2025
 ### 💬 Brahm-Ai **Samvad** — Conversational Interface Launched
 - 🚀 **Samvad page live:** [brahm-ai.in/samvad.php](https://brahm-ai.in/samvad.php)
