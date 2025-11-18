@@ -2,6 +2,30 @@
 
 This log documents daily improvements, bug fixes, new modules, and logic updates made in the BRAHM-Ai ecosystem. It supports transparent tracking and open collaboration.
 ---
+## 📅 November 8, 2025
+### 🗂️ **Brahm Dashboard — Nature Clock available in App**
+- 📲 **In-app tile** for quick launch from the Dashboard; preserves last mode and settings.
+- ⚡ **PWA-friendly**: fast load, offline-ready assets, and session restore.
+- 🧭 **Unified UX**: respects global theme, mute/replay, and Hindi-first language setting.
+- 🔔 Optional reminder entry points for daily practice (quiet by default).
+
+---
+
+## 📅 November 4, 2025
+### 🌿 **Vedic Nature Clock (v2.x) — Real-time Clock + Mantra Meditation**
+- ⏱️ **True real-time clock**: high-precision timer with drift correction; stays accurate across tab visibility changes.
+- 🕰️ **Local time awareness**: auto-detects device timezone; shows live time and date with smooth second-hand sweep.
+- 🧘 **Mantra Meditation mode**:
+  - 🟢 **Modes**: *Off / Breath / Mantra / Silence* (quick toggle).
+  - 🧿 **Mantra flow**: progress ring + bead counter; safe long-reply playback (prompt-safe) and replay controls.
+  - 🔉 **Beat/Tāl sync**: gentle metronome support for paced chanting; intensity control.
+  - 🎛️ **Presets & controls**: intensity slider, test button, and clean start/stop with overlap guards.
+- 🎚️ **Audio safety**: global **Mute** respected; only manual replay when muted.
+- 🌓 **UX polish**: mobile-first layout, high-contrast themes (auto light/dark), clear typography.
+
+---
+
+
 ## 📅 October 16, 2025
 ### 🪶 **Panini Tutor (v2.x) Launched** — + 📘 **Panini Guide** (study playbook)
 - 🚀 **Live pages:**  
