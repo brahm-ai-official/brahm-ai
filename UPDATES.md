@@ -3,6 +3,32 @@
 This log documents daily improvements, bug fixes, new modules, and logic updates made in the BRAHM-Ai ecosystem. It supports transparent tracking and open collaboration.
 
 ---
+## 📅 December 09, 2025
+### 📜 **Vedavyas — Shastrarth AI + Digital Sanatan Library Module**
+
+- 🧠 **Shastrarth-based AI flow finalized**: Brahm-Ai persona replies in guru–shishya tone (“मेरे शिष्य…”) with logical, scripture-inspired explanations (200–1000 chars).
+- 🔌 **Groq LLM integration stabilized**: Uses OpenAI-compatible `/openai/v1/chat/completions` endpoint with strict daily quota control.
+- 📉 **Graceful LLM fallback added**: When Brahm Ai quota ends or API fails, Vedavyas auto-responds using indexed JSON corpus (Veda, Purana, Smriti, Nyaya, Yoga).
+- 🗂️ **Auto-learning corpus system**: Every valid LLM reply is stored into topic-wise JSON buckets with keyword indexing for future reuse.
+- 🧭 **Smart topic routing engine**: User queries mapped to correct grantha using alias + priority-based routing logic.
+- ⚖️ **BM25-lite semantic index enabled**: Fast local retrieval from accumulated shastric data without external AI dependency.
+- 🔐 **Daily quota enforcement hardened**: Per-device UID/IP tracking with JSON ledger (`llm_quota_YYYY-MM-DD.json`).
+- 🧾 **Human-like learning response**: If no reference found, Vedavyas replies politely (“अभी अध्ययन जारी है…”) instead of hallucinating.
+- 🌐 **Multilingual auto-detection**: Hindi / English default with support for Indian + foreign scripts (BN, GU, MR, PA, TA, TE, AR, FR, ES, DE, RU, JA).
+- 🔊 **Auto-TTS with native voices**: Browser speech synthesis with language-aware voice selection and safe cleanup.
+- 🎙️ **Voice input stabilized**: Speech-to-text with debounce and double-send protection.
+- 📚 **Digital Library showcase added**: PDFs placed in `/vedavyas/library/` auto-listed as scrollable book cards.
+- 🖼️ **First-page PDF thumbnail rendering**: PDF.js generates cached canvas previews (localStorage).
+- 📖 **Animated book-style reader**: Clicking any book opens a full-page PDF reader overlay with smooth navigation.
+- 🔁 **One-click reindex tool**: Rebuilds corpus + semantic index without breaking existing data.
+- 💾 **Local chat persistence**: Last 10 shastrarth exchanges saved on device (privacy-first).
+- 🌓 **Unified Brahm-Ai UI theme**: Dark/Light toggle, WA-style chat bubbles, calm Sanatan visual tone.
+- 🛡️ **Security & stability guardrails**: Safe file serving, range-enabled PDF streaming, defensive JSON handling.
+- 🧩 **Single-file architecture preserved**: `vedavyas.php` remains a self-contained app (UI + API + Library).
+---
+
+
+---
 
 ## 📅 November 29, 2025
 ### 🧬 BRAHM Matrix — Emotion + Voice + Gesture Console stabilized
