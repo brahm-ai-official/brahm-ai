@@ -7,7 +7,6 @@ This log documents daily improvements, bug fixes, new modules, and logic updates
 ### 📜 **Vedavyas — Shastrarth AI + Digital Sanatan Library Module**
 
 - 🧠 **Shastrarth-based AI flow finalized**: Brahm-Ai persona replies in guru–shishya tone (“मेरे शिष्य…”) with logical, scripture-inspired explanations (200–1000 chars).
-- 🔌 **Brahm LLM integration stabilized**: Uses OpenAI-compatible `/openai/v1/chat/completions` endpoint with strict daily quota control.
 - 📉 **Graceful LLM fallback added**: When Brahm Ai quota ends or API fails, Vedavyas auto-responds using indexed JSON corpus (Veda, Purana, Smriti, Nyaya, Yoga).
 - 🗂️ **Auto-learning corpus system**: Every valid LLM reply is stored into topic-wise JSON buckets with keyword indexing for future reuse.
 - 🧭 **Smart topic routing engine**: User queries mapped to correct grantha using alias + priority-based routing logic.
