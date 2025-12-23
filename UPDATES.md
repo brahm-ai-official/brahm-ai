@@ -1,6 +1,36 @@
 # 📜 BRAHM-Ai — Daily Updates Log
 
 This log documents daily improvements, bug fixes, new modules, and logic updates made in the BRAHM-Ai ecosystem. It supports transparent tracking and open collaboration.
+
+---
+
+## 📅 November 29, 2025
+### 🧬 BRAHM Matrix — Emotion + Voice + Gesture Console stabilized
+- ✅ Face-API model path fix: supports `/media/matrix/models` and `/matrix/models` with auto-detect + safe fallback.
+- 🙂 Emotion detection pipeline added: TinyFaceDetector + ExpressionNet with throttled sampling for smoother performance.
+- 🧠 Emotion→Brahm response hook: detected emotion can trigger Brahm console reactions without breaking core render loop.
+- 🔊 Auto TTS reliability improved: Hindi/English voice pick logic refined; speaking state now drives particle “speech envelope”.
+- 👄 Humanoid mouth animation synced: speaking state animates mouth-zone particles for “talking” illusion.
+- ✋ Hand tracking integration hardened: Mudra detection (Pinch / Abhay / Gyan) stabilized with debounce + safer toggles.
+- 🤟 Sign-to-Chat module added: gesture phrase builder (hold gesture ~0.6s) with Send / Backspace / Clear controls.
+- 🧭 UX polish: Camera preview click + Canvas double-click shortcuts for quick emotion read (optional).
+- ⚡ Performance guardrails: sampling throttles + non-blocking async loops to prevent FPS drops on mobile devices.
+- 💾 World persistence remains intact: Save/Load JSON schema preserved; no breaking changes to existing worlds.
+
+---
+
+## 📅 November 18, 2025
+### 🎵 Brahm-Tube — Music, Reels & Radio integrated
+- 📲 In-app tile enabled for instant launch from Dashboard; restores last active tab, volume level, and Sound Lab preset.
+- 🎧 Unified media experience: Local music, Reels (short videos), Radio streams, and BrahmNet (Audius) music in one player.
+- 📱 Refined mobile header UX: Action buttons aligned beside logo; search input shifts to next row on small screens.
+- 🎬 Reels / Shorts feed with vertical scroll-snap, auto-play, mute toggle, and smooth swipe navigation.
+- 📻 Radio stability update: AIR Vividh Bharati, FM Gold, News, and curated MP3/AAC stations with fallback-safe handling.
+- 🎚️ Sound Lab enhancements: Visualizer and EQ presets with auto-disable logic on restricted streams.
+- 🧠 Brahm-AI DJ commands supporting natural Hindi/English voice-text actions.
+- 💾 Session persistence: Recent play state, queue order, and audio settings auto-restored.
+- ⚡ PWA-ready module with fast load, installable app feel, and offline-ready UI assets.
+
 ---
 ## 📅 November 8, 2025
 ### 🗂️ **Brahm Dashboard — Nature Clock available in App**
