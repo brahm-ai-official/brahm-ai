@@ -2,6 +2,25 @@
 
 This log documents daily improvements, bug fixes, new modules, and logic updates made in the BRAHM-Ai ecosystem. It supports transparent tracking and open collaboration.
 
+## 📅 December 24, 2025
+### 💰 **PotliPay — Brahm-Ai Wallet, Token Pricing & Earning Tasks Module**
+
+- 🚀 **PotliPay page deployed**: Live at https://brahm-ai.in/potlipay.php as the Brahm-Ai integrated wallet and token activity hub.  
+- 🔗 **Backend token integration enabled**: PotliPay connected with Brahm-Ai backend to process token logic and transactions. :contentReference[oaicite:1]{index=1}
+- 🪙 **Brahm token framework initialized**: BRAHM token presence prepared within PotliPay for future activity tracking and balance display.
+- 📊 **Ramcoin pricing hook integrated**: Live RAMCOIN market price (RAM) linked via external price API to show real-time / near-real-time valuation. (Example live price data shows RAM ~ $0.0257 USD, volatile based on market changes.) :contentReference[oaicite:2]{index=2}
+- 🔄 **Transaction workflow scaffolded**: Core logic ready for deposit, withdraw, and internal transfer events (secured placeholder API endpoints created).
+- 🧾 **Earning tasks system drafted**: Modular task enumeration prepared (future activation) for earning BRAHM via defined tasks / engagements.
+- 📁 **User balance panel prepared**: UI component shell added to list token balances, transaction history, and summary view.
+- 📈 **Price refresh scheduler**: Live price feed scheduler setup to fetch periodic updates for RAMCOIN valuation in wallet UI.
+- 🔐 **Wallet security guardrails added**: Session token safety, CSRF protection, and sanitization defaults applied for public wallet interactions.
+- 🌐 **Multi-network placeholder support**: Hooks available for integrating additional chains or tokens (e.g., future Brahm ecosystem assets).
+- 🧪 **Feature rollout flags included**: Phased activation flags present to gate task workflows and reward logic.
+- 🧠 **Brahm-Ai guidance layer prepared**: Optional AI assistance prompts to explain wallet metrics and task earning mechanics.
+- 📊 **Logging & telemetry scaffolded**: Backend event logging prepared for analytics on transfers, price syncs, and task completions.
+
+
+
 ## 📅 December 18, 2025
 ### 🛒 **Market — Brahm-Ai Unified Market Page**
 
