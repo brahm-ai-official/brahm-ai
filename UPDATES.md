@@ -1,6 +1,87 @@
 # 📜 BRAHM-Ai — Daily Updates Log
 
 This log documents daily improvements, bug fixes, new modules, and logic updates made in the BRAHM-Ai ecosystem. It supports transparent tracking and open collaboration.
+---
+## 📅 January 21, 2026
+### 🗣️ **Avatar Mode & Brahm-Ai Voice — Production Voice Interaction System**
+
+- 🎙️ **Direct Speak button enabled**: Users initiate real-time interaction by tapping the Speak button without intermediate demo layers.
+- 🎧 **System-level mic permission handling**: Browser microphone access requested once with persistent permission logic and safe re-checks.
+- 🧠 **Real-time Speech-to-Text pipeline**: User speech captured, normalized, and streamed into Brahm-Ai core reasoning layer.
+- 🔊 **Live Brahm response playback**: AI replies rendered instantly through Text-to-Speech with natural pacing and controlled latency.
+- 👄 **Lips synchronization activated**: Avatar mouth movements dynamically synced with generated speech phonemes for realistic expression.
+- 👁️ **Micro facial motion support**: Subtle eye blink, focus alignment, and head stability applied during speech output.
+- 🧍 **Avatar presence mode stabilized**: Brahm avatar remains visually active during listening, thinking, and speaking states.
+- 🔄 **State-aware conversation loop**: System manages listen → think → speak cycles without double triggers or overlap.
+- 🧾 **Fallback text reply ensured**: If voice playback fails or is interrupted, response is safely delivered as text.
+- 🌐 **Multilingual voice readiness**: Voice system aligned with Hindi / English output and expandable language voice packs.
+- 🛡️ **Production safety guardrails**: Input throttling, permission validation, and audio cleanup applied to prevent crashes.
+- ⚙️ **Latency tuning in progress**: Ongoing fine-tuning for response speed, voice clarity, and lipsync precision.
+- 🧩 **Modular voice architecture preserved**: Voice, avatar, and chat layers remain decoupled for independent upgrades.
+
+#### 🧱 Technical Architecture (STT → LLM → TTS → Avatar)
+
+- 🎤 **STT Layer (Speech-to-Text)**
+  - Captures mic audio stream → applies noise control / silence detection → converts to text.
+  - Emits `final_transcript` only after debounce + end-of-speech detection (prevents double-send).
+- 🧠 **LLM Layer (Brahm Core)**
+  - Receives transcript → applies language detection + persona routing → generates response text.
+  - Applies safety formatting + fallback logic (if model/API fails → text fallback).
+- 🔊 **TTS Layer (Text-to-Speech)**
+  - Converts response text → speech audio (browser/native voice).
+  - Publishes timing markers (`word/phoneme timestamps`) to sync animation.
+- 👤 **Avatar Layer (Animation + Presence)**
+  - Uses TTS timing markers to drive **lipsync visemes** (mouth shapes).
+  - Drives **presence states**: listening / thinking / speaking.
+  - Adds micro-motions: blink, head alignment, idle breathing loop.
+
+#### 🔁 State Machine (Text Diagram)
+
+- **IDLE**
+  - ↓ (User taps Speak)
+- **REQUEST_MIC**
+  - ↓ (Permission granted) → **LISTENING**
+  - ↓ (Permission denied) → **FALLBACK_TEXT**
+- **LISTENING**
+  - ↓ (Speech detected) → **CAPTURING**
+  - ↓ (User cancels / timeout) → **IDLE**
+- **CAPTURING**
+  - ↓ (End-of-speech) → **STT_PROCESSING**
+- **STT_PROCESSING**
+  - ↓ (Transcript ready) → **LLM_THINKING**
+  - ↓ (STT error) → **FALLBACK_TEXT**
+- **LLM_THINKING**
+  - ↓ (Response ready) → **TTS_SYNTH**
+  - ↓ (LLM error/quota) → **FALLBACK_TEXT**
+- **TTS_SYNTH**
+  - ↓ (Audio ready) → **SPEAKING**
+  - ↓ (TTS error) → **FALLBACK_TEXT**
+- **SPEAKING**
+  - ↺ (During playback) Avatar lipsync + micro expressions active
+  - ↓ (Playback end) → **IDLE**
+  - ↓ (User interrupts) → **IDLE**
+- **FALLBACK_TEXT**
+  - ↓ (Text shown) → **IDLE**
+
+#### 🛣️ Future Roadmap (Planned Enhancements)
+
+- ✋ **Hand Sync (Guru Mudra gestures)**
+  - Speech-intent based gesture mapping (explain → point, bless → open palm, emphasize → subtle hand raise).
+  - Timing aligned with TTS markers for natural gesture beats.
+- 😊 **Emotion Layer (Expression Engine)**
+  - Emotion inference from response text (calm, compassion, firm clarity, curiosity).
+  - Face rig control: eyebrow, eye-squint, smile softness, gaze focus shift.
+- 🧘 **Guru-Style Shastrarth Presence**
+  - Head nods during “शिष्य…” addressing.
+  - Slow breathing idle, slight torso sway, attentive listening posture shifts.
+- 🎚️ **Quality & Latency Optimization**
+  - Faster STT endpoint + chunked transcript streaming.
+  - Cached voice selection per language + pre-warmed TTS to reduce first-response delay.
+- 🧠 **Context Memory Upgrade**
+  - Voice session memory: last N turns retained for more natural continuity in speech conversations.
+- 🔗 **Live voice chat interface**: BRAHM-Ai Voice available at https://www.ramcoin.org/brahm-ai-voice
+
+---
 
 ## 📅 December 24, 2025
 ### 💰 **PotliPay — Brahm-Ai Wallet, Token Pricing & Earning Tasks Module**
@@ -19,7 +100,7 @@ This log documents daily improvements, bug fixes, new modules, and logic updates
 - 🧠 **Brahm-Ai guidance layer prepared**: Optional AI assistance prompts to explain wallet metrics and task earning mechanics.
 - 📊 **Logging & telemetry scaffolded**: Backend event logging prepared for analytics on transfers, price syncs, and task completions.
 
-
+---
 
 ## 📅 December 18, 2025
 ### 🛒 **Market — Brahm-Ai Unified Market Page**
@@ -34,7 +115,7 @@ This log documents daily improvements, bug fixes, new modules, and logic updates
 - 🧪 **Progressive rollout flag set**: Market marked as evolving module for phased feature activation.
 - 🧩 **Single-page integrity preserved**: `market.php` kept clean and extensible for future expansion.
 
-
+---
 
 ## 📅 December 12, 2025
 ### 📡 **BeaconMesh — Offline Mesh Communication & Trust Network Module**
