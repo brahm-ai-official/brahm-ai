@@ -88,121 +88,121 @@ This log documents daily improvements, bug fixes, new modules, and logic updates
 
 ### 🔹 Core Functional Features
 
-- 📍 **Location-aware dashboard**: User location (e.g. Jaipur, Rajasthan) ke hisaab se localised data cards auto-load hote hain.
-- 🧑‍🌾 **Mode-based experience**: `Resources` / `Kisan` modes ke through content relevance switch hoti hai.
-- 🗣️ **Multi-language support**: Hindi (hi-IN) primary with English + state language readiness.
-- 🧠 **Brahm Copilot integrated**: Niche persistent copilot jo cards se context le kar natural language me jawab deta hai.
-- 🔊 **Per-card voice output**: Har card par speak / stop control for TTS-based information delivery.
-- 📊 **Expandable smart cards**: Cards tap karne par detail expand hoti hai (page height fixed, chat scroll-only).
-- 🔐 **Guest vs Login limits**:  
-  - Guest: 3 questions/day  
-  - Logged-in user: 7 questions/day
+- 📍 **Location-aware dashboard**: Automatically loads region-specific data based on detected user location (e.g., Jaipur, Rajasthan).
+- 🧑‍🌾 **Mode-based experience**: Switchable modes (`Resources` / `Kisan`) to tailor data relevance and card visibility.
+- 🌐 **Multi-language ready architecture**: English-first system with scalable support for regional languages.
+- 🧠 **Brahm Copilot integration**: Persistent AI copilot that understands card context and answers user queries naturally.
+- 🔊 **Per-card voice output**: Each data card includes speak / stop controls for text-to-speech playback.
+- 📊 **Expandable smart cards**: Cards expand inline for details while keeping overall page height fixed (chat scroll only).
+- 🔐 **Guest vs login usage limits**:
+  - Guest users: 3 questions per day  
+  - Logged-in users: 7 questions per day
 
-### 🔹 Resource Intelligence Cards (Visible)
+### 🔹 Resource Intelligence Cards
 
-- 🌦️ **मौसम अपडेट (Weather Update)**  
-  - Aaj / upcoming forecast toggle  
-  - Farming-relevant conditions focus
-- 🏪 **मंडी भाव (Mandi Prices)**  
-  - Crop-wise + market-wise price structure  
-  - Setup / refresh hooks visible
-- 💧 **पानी की स्थिति (Water Status)**  
-  - Reservoir / talab / groundwater awareness
-- 🌱 **फसल जोखिम रडार (Crop Risk Radar)**  
-  - Climate + soil + season risk indicators
-- ⚡ **बिजली अपडेट (Electricity Status)**  
-  - Grid / outage / load awareness (region based)
-- 🧑‍🌾 **खेती के टिप्स (Farming Tips)**  
-  - Knowledge-assisted tips (Vedvyas hook visible)
-- 🌲 **ForestWatch**  
-  - Forest / green cover monitoring intent
-- 🏔️ **HillWatch**  
-  - Hilly region alerts (pan-India scope)
-- 🌊 **Coastal Watch**  
-  - Coastal area monitoring (future-ready)
-- 👥 **Community Pulse**  
-  - Crowd-sourced signals + future validation layer
+- 🌦️ **Weather Update**
+  - Current-day and upcoming forecast modes
+  - Agriculture-relevant weather signals
+- 🏪 **Mandi Prices**
+  - Crop-wise and market-wise pricing structure
+  - Setup and refresh hooks for live data
+- 💧 **Water Status**
+  - Reservoir, lake, and groundwater awareness
+- 🌱 **Crop Risk Radar**
+  - Climate, soil, and seasonal risk indicators
+- ⚡ **Electricity Status**
+  - Grid availability and outage awareness by region
+- 🌾 **Farming Tips**
+  - Knowledge-assisted tips (Vedvyas integration hook)
+- 🌲 **ForestWatch**
+  - Forest and green-cover monitoring intent
+- 🏔️ **HillWatch**
+  - Hilly-region alert framework (pan-India scope)
+- 🌊 **Coastal Watch**
+  - Coastal monitoring framework (future-ready)
+- 👥 **Community Pulse**
+  - Crowd-sourced signals with validation hooks
 
 ### 🔹 Interaction & UX Features
 
-- 🎤 **Speak / Stop control**: Card-level TTS toggle (audio on demand).
-- 🔽 **Expand / Collapse logic**: UI hint (`▼ = expand`) clearly defined.
-- 🧭 **Auto / Manual control**: Data auto-fetch vs manual trigger option.
-- 🧾 **Chat-first layout**: Data cards + chat coexist without page height growth.
-- 🌙 **Dark-first UI**: Calm, low-cognitive-load Sanatan-inspired visual tone.
+- 🎤 **Speak / stop controls**: Card-level audio playback on demand.
+- 🔽 **Expand / collapse logic**: Clear expand indicators for detailed views.
+- 🧭 **Auto vs manual fetch control**: Supports automatic refresh and manual triggers.
+- 🧾 **Chat-first layout**: Data cards and copilot chat coexist without page height growth.
+- 🌙 **Dark-first UI design**: Calm, low-distraction visual system optimized for long usage.
 
 ---
 
 ### 🧱 Technical Architecture (High Level)
 
 - 🧩 **Frontend**
-  - Card-based modular UI
-  - State-preserved single-page interaction
-  - Per-card async fetch (non-blocking)
+  - Modular, card-based UI
+  - Single-page state preservation
+  - Per-card asynchronous data fetch (non-blocking)
 
 - 🔗 **Data Layer**
-  - Multiple **Government APIs + public datasets**
-  - Provider-wise adapters (mandi, weather, water, power)
-  - API slowness currently observed on gov endpoints
+  - Multiple government APIs and public datasets
+  - Provider-specific adapters for weather, mandi, water, and power
+  - Government API latency currently observed
 
 - 🧠 **Brahm Copilot Layer**
-  - Natural language interpretation
-  - Card-context injection into prompts
-  - Fallback-safe responses (no hallucination)
+  - Natural language query understanding
+  - Card-context injection into responses
+  - Safe fallback replies without hallucination
 
 - 🗂️ **Caching & Resilience**
   - Cache-first read strategy
-  - Stale-cache fallback when gov API is slow/down
-  - Card-level error isolation (one failure ≠ full page break)
+  - Stale-cache fallback when live APIs are slow or unavailable
+  - Card-level error isolation (single failure does not block the page)
 
 - 🔐 **Access Control**
-  - Session-based quota ledger
-  - Guest / logged-in differentiation
-  - Safe throttling to protect shared hosting
+  - Session-based quota tracking
+  - Guest vs authenticated user separation
+  - Throttling safeguards for shared hosting environments
 
 ---
 
-### 🐢 Current Technical Challenges (Transparent)
+### 🐢 Current Technical Challenges
 
-- 🏛️ **Government API latency**:  
-  - Slow response / timeout from official sources
-  - Especially for water & mandi datasets
-- ⏱️ **Timeout tuning ongoing**:  
-  - Preventing mobile hang / site-wide blocking
-- 🔄 **Adapter optimization in progress**:  
-  - Each provider being isolated + rate-limited
+- 🏛️ **Government API latency**
+  - Slow responses and timeouts from official endpoints
+  - Especially noticeable for water and mandi datasets
+- ⏱️ **Timeout tuning in progress**
+  - Preventing mobile hangs and full-page blocking
+- 🔄 **Adapter optimization ongoing**
+  - Provider isolation and rate-limit handling under refinement
 
 ---
 
 ### 🛠️ Active Development Status
 
-- 🚧 **Work in progress**:  
+- 🚧 **Work in progress**
   - Live fetch optimization ongoing
-  - Cache TTL + retry logic being tuned
-- 🧪 **Progressive rollout**:  
-  - Some cards informational, some live, some gated
-- 🧩 **Extensible by design**:  
-  - New government datasets can be plugged without UI rewrite
+  - Cache TTL and retry logic being tuned
+- 🧪 **Progressive rollout**
+  - Some cards fully live, some informational, some gated
+- 🧩 **Extensible by design**
+  - New government datasets can be added without UI rewrite
 
 ---
 
-### 🎯 Practical Uses (Ground Reality)
+### 🎯 Practical Use Cases
 
 - 🧑‍🌾 **For Farmers**
-  - Daily mandi price check
-  - Irrigation & water availability awareness
-  - Crop risk early signals
+  - Daily mandi price checks
+  - Water availability and irrigation planning
+  - Early crop risk signals
   - Weather-aligned farming decisions
 
-- 🏛️ **For Administrators / Planners**
+- 🏛️ **For Planners & Administrators**
   - Region-level resource overview
-  - Early stress indicators
+  - Early stress and risk indicators
   - Community signal observation
 
 - 🌍 **For General Users**
-  - Authentic government-backed information
-  - Voice-based consumption (low literacy friendly)
-  - Location-relevant insights without data overload
+  - Government-backed, verifiable information
+  - Voice-based data consumption
+  - Location-relevant insights without information overload
 
 ---
 
