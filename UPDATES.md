@@ -83,6 +83,129 @@ This log documents daily improvements, bug fixes, new modules, and logic updates
 
 ---
 
+## 📅 January 06, 2026
+### 🧺 **Brahm Kosh — Location-Aware Government Data Intelligence & Copilot System**
+
+### 🔹 Core Functional Features
+
+- 📍 **Location-aware dashboard**: User location (e.g. Jaipur, Rajasthan) ke hisaab se localised data cards auto-load hote hain.
+- 🧑‍🌾 **Mode-based experience**: `Resources` / `Kisan` modes ke through content relevance switch hoti hai.
+- 🗣️ **Multi-language support**: Hindi (hi-IN) primary with English + state language readiness.
+- 🧠 **Brahm Copilot integrated**: Niche persistent copilot jo cards se context le kar natural language me jawab deta hai.
+- 🔊 **Per-card voice output**: Har card par speak / stop control for TTS-based information delivery.
+- 📊 **Expandable smart cards**: Cards tap karne par detail expand hoti hai (page height fixed, chat scroll-only).
+- 🔐 **Guest vs Login limits**:  
+  - Guest: 3 questions/day  
+  - Logged-in user: 7 questions/day
+
+### 🔹 Resource Intelligence Cards (Visible)
+
+- 🌦️ **मौसम अपडेट (Weather Update)**  
+  - Aaj / upcoming forecast toggle  
+  - Farming-relevant conditions focus
+- 🏪 **मंडी भाव (Mandi Prices)**  
+  - Crop-wise + market-wise price structure  
+  - Setup / refresh hooks visible
+- 💧 **पानी की स्थिति (Water Status)**  
+  - Reservoir / talab / groundwater awareness
+- 🌱 **फसल जोखिम रडार (Crop Risk Radar)**  
+  - Climate + soil + season risk indicators
+- ⚡ **बिजली अपडेट (Electricity Status)**  
+  - Grid / outage / load awareness (region based)
+- 🧑‍🌾 **खेती के टिप्स (Farming Tips)**  
+  - Knowledge-assisted tips (Vedvyas hook visible)
+- 🌲 **ForestWatch**  
+  - Forest / green cover monitoring intent
+- 🏔️ **HillWatch**  
+  - Hilly region alerts (pan-India scope)
+- 🌊 **Coastal Watch**  
+  - Coastal area monitoring (future-ready)
+- 👥 **Community Pulse**  
+  - Crowd-sourced signals + future validation layer
+
+### 🔹 Interaction & UX Features
+
+- 🎤 **Speak / Stop control**: Card-level TTS toggle (audio on demand).
+- 🔽 **Expand / Collapse logic**: UI hint (`▼ = expand`) clearly defined.
+- 🧭 **Auto / Manual control**: Data auto-fetch vs manual trigger option.
+- 🧾 **Chat-first layout**: Data cards + chat coexist without page height growth.
+- 🌙 **Dark-first UI**: Calm, low-cognitive-load Sanatan-inspired visual tone.
+
+---
+
+### 🧱 Technical Architecture (High Level)
+
+- 🧩 **Frontend**
+  - Card-based modular UI
+  - State-preserved single-page interaction
+  - Per-card async fetch (non-blocking)
+
+- 🔗 **Data Layer**
+  - Multiple **Government APIs + public datasets**
+  - Provider-wise adapters (mandi, weather, water, power)
+  - API slowness currently observed on gov endpoints
+
+- 🧠 **Brahm Copilot Layer**
+  - Natural language interpretation
+  - Card-context injection into prompts
+  - Fallback-safe responses (no hallucination)
+
+- 🗂️ **Caching & Resilience**
+  - Cache-first read strategy
+  - Stale-cache fallback when gov API is slow/down
+  - Card-level error isolation (one failure ≠ full page break)
+
+- 🔐 **Access Control**
+  - Session-based quota ledger
+  - Guest / logged-in differentiation
+  - Safe throttling to protect shared hosting
+
+---
+
+### 🐢 Current Technical Challenges (Transparent)
+
+- 🏛️ **Government API latency**:  
+  - Slow response / timeout from official sources
+  - Especially for water & mandi datasets
+- ⏱️ **Timeout tuning ongoing**:  
+  - Preventing mobile hang / site-wide blocking
+- 🔄 **Adapter optimization in progress**:  
+  - Each provider being isolated + rate-limited
+
+---
+
+### 🛠️ Active Development Status
+
+- 🚧 **Work in progress**:  
+  - Live fetch optimization ongoing
+  - Cache TTL + retry logic being tuned
+- 🧪 **Progressive rollout**:  
+  - Some cards informational, some live, some gated
+- 🧩 **Extensible by design**:  
+  - New government datasets can be plugged without UI rewrite
+
+---
+
+### 🎯 Practical Uses (Ground Reality)
+
+- 🧑‍🌾 **For Farmers**
+  - Daily mandi price check
+  - Irrigation & water availability awareness
+  - Crop risk early signals
+  - Weather-aligned farming decisions
+
+- 🏛️ **For Administrators / Planners**
+  - Region-level resource overview
+  - Early stress indicators
+  - Community signal observation
+
+- 🌍 **For General Users**
+  - Authentic government-backed information
+  - Voice-based consumption (low literacy friendly)
+  - Location-relevant insights without data overload
+
+---
+
 ## 📅 December 24, 2025
 ### 💰 **PotliPay — Brahm-Ai Wallet, Token Pricing & Earning Tasks Module**
 
