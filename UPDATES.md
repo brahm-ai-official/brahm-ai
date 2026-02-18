@@ -1,7 +1,134 @@
 # 📜 BRAHM-Ai — Daily Updates Log
 
 This log documents daily improvements, bug fixes, new modules, and logic updates made in the BRAHM-Ai ecosystem. It supports transparent tracking and open collaboration.
+
 ---
+
+## 📅 February 4, 2026  
+### 🧿 **Smart Object Detection & Live Reading — Vision Interaction Upgrade**
+
+- 🧿 **Voice-triggered object detection**: The system scans the camera scene and identifies visible objects in real time on user command.
+- 📦 **Multi-object recognition support**: Detects multiple objects in a frame and reports them in a structured response.
+- 🗣️ **“What is this?” interaction flow**: The user points the camera → Brahm-Ai identifies the object and explains it contextually.
+- 📖 **Live text reading from camera**: Reads medicine strips, labels, book text, and packaging through real-time OCR.
+- 🔍 **Focus-based smart capture**: Central-frame priority and large-text preference for higher extraction accuracy.
+- 🧠 **Object → knowledge bridge**: Detected item is passed to the LLM for contextual explanation, usage, or guidance.
+- 🎯 **Single-call scan mode**: Detect → read → explain executed within one voice command.
+- 🔄 **Continuous vision loop support**: “Scan next” flow without restarting the camera.
+- 🛡️ **False-trigger protection**: Object announcement only after stable frame and confidence threshold.
+- ⚙️ **Lightweight real-time inference**: Optimized detection interval to avoid blocking the voice interaction loop.
+- 🧍 **Avatar visual response state**: Speaking presence and focus alignment maintained during explanations.
+- 🧾 **Fallback text output**: If voice playback is interrupted, detected object/text is displayed in chat.
+- 🌐 **Live system**: https://www.ramcoin.org/brahm-ai-voice
+
+#### 🧱 Technical Architecture (Camera → Object Vision → OCR → LLM → TTS → Avatar)
+
+- 📷 **Camera Frame Layer**  
+  - Voice-triggered frame capture → region focus → confidence filtering.
+
+- 🧿 **Object Detection Layer**  
+  - Real-time model inference → object labels → priority selection.
+
+- 🔠 **OCR / Text Extraction Layer**  
+  - Large-text detection → noise cleanup → medicine/name-first parsing.
+
+- 🧠 **LLM Context Mapping**  
+  - Inputs: `detected_object`, `extracted_text`, `confidence_score`.
+
+- 🔊 **TTS Layer (Live Reading Mode)**  
+  - Extracted text spoken with natural pacing.
+
+- 👤 **Avatar Layer (Explainer State)**  
+  - Speaking animation with continuous micro-motions.
+
+---
+
+## 📅 January 29, 2026  
+### 📷 **Vision Intelligence Layer — Camera-based User Recognition & Empathy System**
+
+- 📷 **Voice-controlled camera activation**: The camera opens automatically on user instruction with secure permission handling.
+- 🙂 **Real-time mood detection**: Live facial analysis identifies emotional state (happy / sad / neutral / stressed) and adapts responses accordingly.
+- 🎂 **Age estimation support**: Detects approximate age group and applies a personalized interaction flow.
+- 🧠 **Face memory system enabled**: Returning users are recognized through session-based identity persistence.
+- 🙏 **Personalized welcome-back flow**: Recognized users receive an automatic contextual greeting.
+- 👁️ **Presence-aware interaction**: Avatar maintains eye alignment and listening state when the user is visible.
+- 🔄 **Vision → conversation context bridge**: Mood and user-state signals are injected into the Brahm core reasoning layer.
+- 🧾 **Daily recognition cooldown**: Smart caching prevents repeated age and identity processing within short intervals.
+- 🛡️ **Privacy-safe processing**: No raw image storage — only derived attributes (mood / age band / face signature).
+- ⚙️ **Lightweight real-time pipeline**: Optimized frame sampling for low-latency performance without blocking the voice loop.
+- 🧍 **Avatar empathy response mode**: Voice tone, expression, and reply style adapt based on detected mood.
+- 🔁 **Seamless voice coexistence**: Vision processing runs in parallel with the STT → LLM → TTS pipeline.
+- 🌐 **Live system**: https://www.ramcoin.org/brahm-ai-voice
+
+#### 🧱 Technical Architecture (Camera → Vision → Memory → LLM → TTS → Avatar)
+
+- 📷 **Camera Layer**  
+  - Secure media stream initialization → frame sampling → permission persistence.
+
+- 🧠 **Vision Processing Layer**  
+  - Face detection → mood classification → age estimation → face embedding generation.
+
+- 🗂️ **Face Memory Cache**  
+  - Stores anonymous face signature with last-seen timestamp.  
+  - Controls recognition cooldown and returning-user logic.
+
+- 🧠 **LLM Context Injection**  
+  - Structured inputs: `mood`, `age_group`, `is_returning_user`.
+
+- 🔊 **TTS Layer (Empathetic Voice Modulation)**  
+  - Response tone and pacing adjusted according to detected emotion.
+
+- 👤 **Avatar Layer (Visual Empathy State)**  
+  - Eye focus on user face.  
+  - Micro-expressions aligned with mood-aware responses.  
+  - Welcome gesture for recognized users.
+
+---
+
+## 📅 January 25, 2026  
+### 🤖 **Automation Agent & Cross-App Voice Actions — Brahm-Ai Voice**
+
+- 🎙️ **Voice → Action intent detection**: The system now differentiates between conversational input and executable automation commands in real time.
+- 🤖 **Automation Agent mode enabled**: Brahm-Ai can plan, confirm, and execute multi-step tasks instead of only generating responses.
+- 💬 **WhatsApp message automation (safe flow)**: Voice command → contact resolution → message drafting → user confirmation → open/send via deep-link.
+- 🎵 **Spotify playback control**: User-driven music search, play, pause, next, and playlist launch through voice-based app routing.
+- ▶️ **YouTube smart launch & playback**: Spoken query converts to search → video opens → playback control without breaking the voice session.
+- ✉️ **Email compose assistant**: Voice-generated structured email drafts with subject, body, and recipient mapping → opens in the mail client for final sending.
+- 📞 **Call / dialer trigger support**: “Call <name> / dial number” resolves contact → validates number → opens the native dialer with explicit user approval.
+- 🌐 **Unified app routing layer**: LLM output mapped to allowed device intents (WhatsApp / Spotify / YouTube / Mail / Dialer).
+- ✅ **User confirmation gate for sensitive actions**: Sending messages, calls, and external launches always require tap or voice confirmation.
+- 🧠 **Plan → Execute → Report loop**: The agent generates action steps, executes them sequentially, and returns a completion summary.
+- 🔄 **Step execution state tracking**: Avatar presence extended to show listening → planning → executing → completed.
+- 🛡️ **Duplicate trigger & cooldown protection**: Prevents multiple launches from repeated transcripts or rapid voice input.
+- 🧾 **Session action trace logging**: Compact automation logs stored for debugging and performance tuning.
+- ⚙️ **Failure recovery & guided fallback**: If an app launch fails, Brahm-Ai provides a safe text-based instruction path.
+- 🌐 **Live system**: https://www.ramcoin.org/brahm-ai-voice
+
+#### 🧱 Technical Architecture (STT → LLM → Agent → App Intents → TTS → Avatar)
+
+- 🎤 **STT Layer (Speech-to-Text)**  
+  - Captures mic stream → silence detection → emits a single `final_transcript`.
+
+- 🧠 **LLM Layer (Brahm Core)**  
+  - Transcript → language detection → intent classification → response **or** `agent_plan`.
+
+- 🤖 **Agent Layer (Planner + Executor)**  
+  - Builds structured `action_steps[]` for each supported app.  
+  - Applies safety levels → requests confirmation → executes sequential flow.
+
+- 📲 **App Intent / Deep-Link Layer**  
+  - Launches WhatsApp / Spotify / YouTube / Email / Dialer via secure OS intents.  
+  - Validates permissions and handles unavailable app fallback.
+
+- 🔊 **TTS Layer (Text-to-Speech)**  
+  - Speaks confirmations, progress hints, and the final completion response.
+
+- 👤 **Avatar Layer (Presence + Animation)**  
+  - Execution-state visuals with continuous micro-motion and stable lipsync.
+
+---
+
+
 ## 📅 January 21, 2026
 ### 🗣️ **Avatar Mode & Brahm-Ai Voice — Production Voice Interaction System**
 
