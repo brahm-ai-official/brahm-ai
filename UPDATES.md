@@ -4,6 +4,90 @@ This log documents daily improvements, bug fixes, new modules, and logic updates
 
 ---
 
+## 📅 February 10, 2026  
+### 🧠 **Persistent User Memory, Dynamic Welcome Gesture & Avatar Idle System**
+
+- 🧠 **Persistent user memory enabled**: Brahm-Ai now remembers returning users across sessions with last-visit tracking.
+- 🕓 **Visit timeline awareness**: System stores and recalls when the user last interacted and uses it in contextual greetings.
+- 🙏 **Personalized welcome gesture**: On user detection, the avatar joins hands (Namaste) and delivers a greeting automatically.
+- 🧍 **Returning vs first-time user logic**: Different welcome flows based on recognition status.
+- 👁️ **Face-based identity continuity**: Previously recognized face instantly restores user context and interaction state.
+- 😊 **Contextual greeting responses**: Welcome message adapts using stored memory (time gap / past interaction signal).
+- 🎭 **Krishna & Rama idle animation frames activated**: Dedicated idle presence loops for both avatars when not speaking.
+- 🔄 **Idle ↔ interaction auto-transition**: Seamless switch between idle, listening, thinking, and speaking states.
+- 🎙️ **Voice system synchronization preserved**: Welcome gesture and idle system do not block the STT → LLM → TTS loop.
+- 🧾 **Session-safe memory handling**: Lightweight structured storage without affecting real-time performance.
+- 🛡️ **Privacy-aware identity model**: Stores only derived face signature and interaction metadata (no raw image storage).
+- ⚙️ **Low-latency restoration**: User context loads instantly on recognition without reprocessing.
+- 🌐 **Live system**: https://www.ramcoin.org/brahm-ai-voice
+
+#### 🧱 Technical Architecture (Vision Memory → Identity Cache → LLM Context → TTS → Avatar States)
+
+- 👁️ **Face Recognition Layer**  
+  - Detects returning user → generates stable face signature → matches with memory cache.
+
+- 🗂️ **User Memory Store**  
+  - Stores: `last_visit_time`, `interaction_count`, `returning_user_flag`.
+
+- 🧠 **Context Injection Layer**  
+  - Passes user history into Brahm core for personalized greeting and responses.
+
+- 🔊 **TTS Layer (Welcome Mode)**  
+  - Triggers greeting speech automatically on successful recognition.
+
+- 👤 **Avatar State Engine**  
+  - Welcome gesture (joined hands).  
+  - Krishna & Rama idle animation loops.  
+  - Smooth transition to conversation states.
+
+---
+
+## 📅 February 9, 2026  
+### 💊 **Medicine Strip Reader — Live Vision → OCR → Expert Medical Explainer**
+
+- 💊 **Voice-triggered medicine scan**: Users can say “दवाई देखो”, “दवाई पढ़ो”, “read this medicine”, or “scan this tablet” to start instant detection.
+- 📷 **Live camera-based strip reading**: The system extracts the medicine name directly from the strip in real time using focused OCR.
+- 🔍 **Smart name-first extraction**: Prioritizes brand/generic medicine name from large, clear text for high accuracy.
+- 🧠 **Medicine → knowledge pipeline**: The detected name is sent to the Brahm core for structured medical understanding.
+- 👨‍⚕️ **Expert-style response generation**: Brahm-Ai explains the medicine like a specialist, including:
+  - usage / purpose  
+  - composition / salt name  
+  - dosage guidance (general)  
+  - precautions  
+  - common side effects  
+  - safety notes  
+- 🗣️ **Fully voice-interactive flow**: User can directly ask via camera — no typing required.
+- 🌐 **Bilingual command support**: Works with Hindi and English voice triggers seamlessly.
+- 🔄 **Single-call intelligent flow**: Detect → read → identify → explain completed in one continuous interaction.
+- 🎯 **Stable frame confidence check**: OCR runs only after a clear frame lock to prevent wrong readings.
+- 🛡️ **Medical safety guardrail**: Provides informational guidance only with safe-use disclaimer logic.
+- 🧾 **Text fallback output**: If voice playback is interrupted, full medicine details appear in chat.
+- 🧍 **Avatar expert mode**: Speaking presence with focused explanation behavior during medical response.
+- ⚙️ **Optimized real-time pipeline**: Lightweight processing to keep the voice conversation loop uninterrupted.
+- 🌐 **Live system**: https://www.ramcoin.org/brahm-ai-voice
+
+#### 🧱 Technical Architecture (Camera → OCR → Medicine Parser → LLM → TTS → Avatar)
+
+- 📷 **Camera Capture Layer**  
+  - Voice-triggered frame lock → text-region focus → clarity validation.
+
+- 🔠 **OCR Extraction Layer**  
+  - Detects large strip text → noise cleanup → medicine-name-first parsing.
+
+- 🧪 **Medicine Intelligence Mapper**  
+  - Maps detected name → structured medical knowledge query.
+
+- 🧠 **LLM Expert Reasoning Layer**  
+  - Generates formatted medical explanation with safety-aware output.
+
+- 🔊 **TTS Layer (Expert Response Mode)**  
+  - Speaks the medicine details with clear, paced delivery.
+
+- 👤 **Avatar Layer (Medical Explainer State)**  
+  - Stable posture + micro-motions during detailed explanation.
+
+---
+
 ## 📅 February 4, 2026  
 ### 🧿 **Smart Object Detection & Live Reading — Vision Interaction Upgrade**
 
