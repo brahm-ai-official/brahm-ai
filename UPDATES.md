@@ -4,6 +4,168 @@ This log documents daily improvements, bug fixes, new modules, and logic updates
 
 ---
 
+## 📅 February 28, 2026  
+### ⏰ **Time-Aware Greetings, Visit Awareness & Animation Pipeline Optimization**
+
+- ⏰ **Time-aware greeting system added**: Brahm-Ai now detects the current time context (morning / afternoon / evening / night) and greets the user accordingly.
+- 🙏 **Contextual welcome messages**: The welcome greeting dynamically adapts based on the time of day and user presence.
+- 🕓 **User visit interval awareness**: Brahm-Ai tracks how long it has been since the user's last visit and references it naturally in the greeting.
+- 🧠 **Returning-user conversational context**: If a user returns after some time, Brahm-Ai acknowledges it with contextual phrases like welcoming them back after the elapsed time.
+- 👁️ **Presence-aware interaction system**: Brahm-Ai automatically recognizes when a user appears and initiates the greeting interaction.
+- 🎭 **Improved avatar animation flow**: All avatar movements and transitions have been optimized for smoother visual interaction.
+- ⚡ **Lightweight animation engine**: Animations are now lighter and smoother to improve responsiveness across devices.
+- 🔄 **Smooth animation pipeline**: Idle → welcome → listening → speaking transitions are now handled through a unified animation flow.
+- 🧩 **Backend-driven animation control**: Animation triggers and states are now controlled through backend APIs rather than UI scripts.
+- 🛠 **UI script cleanup**: All heavy animation scripts have been removed from the frontend UI layer.
+- 🌐 **Centralized API control layer**: Interaction logic and animation states are now processed through the API pipeline for better stability and maintainability.
+- ⚙️ **Improved performance stability**: Reduced UI processing ensures faster load time and smoother interaction.
+- 🌐 **Live system**: https://www.ramcoin.org/brahm-ai-voice
+
+#### 🧱 Technical Architecture (Presence Detection → Context Engine → API → TTS → Avatar Animation)
+
+- 👁️ **Presence Detection Layer**  
+  - Detects when a user appears and triggers the welcome interaction.
+
+- 🕓 **User Context Engine**  
+  - Tracks last visit timestamp and calculates the time interval since the previous interaction.
+
+- ⏰ **Time Context Module**  
+  - Determines greeting context (morning / afternoon / evening / night).
+
+- 🌐 **API Interaction Layer**  
+  - All interaction logic and animation triggers processed through centralized APIs.
+
+- 🔊 **TTS Greeting Engine**  
+  - Generates time-aware welcome messages dynamically.
+
+- 👤 **Avatar Animation System**  
+  - Executes lightweight and smooth animation states driven by the backend pipeline.
+
+---
+
+
+---
+
+## 📅 February 21, 2026  
+### 🌐 **Global Multilingual Language System — 20+ Languages Live**
+
+- 🌐 **New language dropdown selector added**: Users can now instantly switch conversation language using the on-screen language selector.
+- 🗣️ **Live multilingual conversation**: Brahm-Ai supports real-time conversations in multiple languages with the same natural interaction flow previously available in Hindi.
+- 🎤 **Speech-to-Text language routing**: The STT engine dynamically switches recognition models based on the language selected by the user.
+- 🔊 **Accent-matched Text-to-Speech**: TTS output automatically generates speech with the correct pronunciation and accent for the selected language.
+- 🧠 **Language detection powered by `brahm-panini-1X8AI`**: Brahm’s internal language intelligence model analyzes and understands multilingual input, ensuring accurate comprehension across different scripts and linguistic structures.
+- 🔄 **Unified language pipeline**: Voice input, reasoning, text display, and speech output remain synchronized in the same language.
+- 📱 **Instant language switching**: Users can change the language during a live session without refreshing the interface.
+- 🧠 **Language-aware reasoning context**: Brahm core processes conversation meaning in the selected language rather than relying on translation layers.
+- 🛡️ **Fallback safety logic**: If a voice pack is unavailable, the system safely falls back to text output while maintaining the selected language.
+- ⚙️ **Low-latency language routing**: Optimized switching ensures seamless conversation without interrupting the STT → LLM → TTS pipeline.
+
+### 🌏 Supported Indian Languages
+- Hindi  
+- Gujarati  
+- Marathi  
+- Punjabi  
+- Bengali  
+- Tamil  
+- Telugu  
+- Kannada  
+- Malayalam  
+- Assamese  
+
+### 🌍 Supported International Languages
+- English  
+- Arabic  
+- Persian  
+- Hebrew  
+- French  
+- German  
+- Spanish  
+- Russian  
+- Ukrainian  
+- Polish  
+- Dutch  
+- Italian  
+- Portuguese  
+- Indonesian  
+- Thai  
+- Japanese  
+- Korean  
+- Traditional Chinese  
+
+- 🌐 **Live system**: https://www.ramcoin.org/brahm-ai-voice
+
+#### 🧱 Technical Architecture (Language UI → STT Routing → Panini Model → LLM → TTS → Avatar)
+
+- 🌐 **Language Selector UI Layer**  
+  - Dropdown control enabling real-time language switching.
+
+- 🎤 **STT Recognition Router**  
+  - Dynamically switches speech recognition models according to the selected language.
+
+- 🧠 **`brahm-panini-1X8AI` Language Intelligence Layer**  
+  - Performs multilingual language detection.  
+  - Interprets grammar and sentence structure across different scripts.  
+  - Passes normalized linguistic context to the Brahm reasoning engine.
+
+- 🧠 **LLM Reasoning Layer**  
+  - Processes conversation meaning within the selected language context.
+
+- 🔊 **TTS Voice Engine**  
+  - Generates speech with matching language accent and pronunciation.
+
+- 👤 **Avatar Interaction Layer**  
+  - Maintains synchronized speech animation and presence during multilingual interaction.
+
+---
+
+
+---
+
+## 📅 February 16, 2026  
+### 🌍 **Scene Understanding & Environmental Awareness — Vision Intelligence Upgrade**
+
+- 🌄 **Full scene recognition enabled**: Brahm-Ai can now understand the overall environment visible through the camera instead of only detecting isolated objects.
+- 🏛️ **Sacred place recognition**: The system can recognize locations such as temples, churches, and similar religious environments within the scene.
+- 🌳 **Nature scene awareness**: Forests, mountains, skies, and large natural landscapes can now be identified and described contextually.
+- 🐾 **Animal recognition support**: The vision system detects animals appearing in the frame and reports them during scene analysis.
+- 🚦 **Traffic signal awareness**: Traffic lights and road signals can now be recognized to assist users in real-world environments.
+- 👁️ **Context-based scene explanation**: Brahm-Ai interprets the scene and explains what is happening in the environment like a human observer.
+- 🗣️ **Voice-triggered scene analysis**: Users can request scene understanding using commands like “look around”, “what is this place”, or “describe this scene”.
+- 🧠 **Scene → reasoning pipeline**: Detected environment data is sent to the Brahm reasoning layer to generate a contextual explanation.
+- 🌐 **Fine-tuned with live news search**: Scene recognition responses can now be enhanced with relevant contextual knowledge retrieved through the integrated news and web search system.
+- 🔄 **Continuous scene monitoring**: Users can ask follow-up questions about the same scene without restarting the camera.
+- 🛡️ **Confidence threshold filtering**: Scene descriptions are generated only after stable detection to avoid incorrect interpretation.
+- ⚙️ **Optimized real-time processing**: Scene analysis runs efficiently without interrupting the STT → LLM → TTS conversation loop.
+- 🌐 **Live system**: https://www.ramcoin.org/brahm-ai-voice
+
+#### 🧱 Technical Architecture (Camera → Scene Vision → Object Context → LLM → Search → TTS → Avatar)
+
+- 📷 **Camera Capture Layer**  
+  - Continuous frame stream with stability checks before scene analysis.
+
+- 🧠 **Scene Understanding Layer**  
+  - Environment classification (temple / church / nature / road / landscape).
+
+- 🧿 **Object Context Detection**  
+  - Detects animals, traffic lights, and supporting objects inside the scene.
+
+- 🌐 **Search & Context Layer**  
+  - Enhances explanations using the integrated Brahm news/search pipeline.
+
+- 🧠 **LLM Reasoning Layer**  
+  - Converts scene data into natural language explanations.
+
+- 🔊 **TTS Layer**  
+  - Speaks the interpreted scene description in real time.
+
+- 👤 **Avatar Layer**  
+  - Maintains visual engagement while describing the environment.
+
+---
+
+
+---
+
 ## 📅 February 10, 2026  
 ### 🧠 **Persistent User Memory, Dynamic Welcome Gesture & Avatar Idle System**
 
