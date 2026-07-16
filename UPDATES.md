@@ -2,6 +2,291 @@
 
 This log documents daily improvements, bug fixes, new modules, and logic updates made in the BRAHM-Ai ecosystem. It supports transparent tracking and open collaboration.
 
+```markdown
+---
+
+## 📅 June 30, 2026
+### 🌐 **BRAHM-AI Unified Platform — `brahm-ai.in` Becomes the Main AI Ecosystem**
+
+- 🌐 **Official main platform launched**: `brahm-ai.in` is now the primary website and central access point for the complete BRAHM-AI ecosystem.
+- 🔄 **Platform migration completed**: Core BRAHM-AI modules have been moved from earlier public routes to the official BRAHM-AI domain.
+- 🧠 **Unified AI ecosystem established**: Voice, deep conversation, vision, multilingual intelligence, Indian knowledge, live data, automation, and specialized tools now operate through one platform.
+- 💬 **Website Assistant activated**: A dedicated website assistant now helps users understand BRAHM-AI capabilities and access the appropriate module directly from the main website.
+- 🎙️ **BRAHM Voice available at `/voice`**: The live multilingual voice and avatar interaction system is now accessible through `https://brahm-ai.in/voice`.
+- 🧠 **BRAHM True available at `/true`**: The primary deep-conversation, reasoning, and knowledge experience is now accessible through `https://brahm-ai.in/true`.
+- 🔗 **BRAHM Voice and BRAHM True connected**: Voice interaction uses the main BRAHM intelligence flow, preserving consistent reasoning and response quality across both experiences.
+- 🧭 **Centralized module navigation**: Users can discover and access BRAHM-AI services, intelligence modules, utilities, and knowledge systems from one unified interface.
+- 🪔 **Panchang Intelligence integrated**: Tithi, Nakshatra, Yoga, Karana, Rahu Kaal, Choghadiya, Bhadra, sunrise, sunset, and related Panchang information are connected to the main platform.
+- 🪐 **Jyotish and Kundli capabilities connected**: Birth-detail-based astrology guidance, Lahiri Ayanamsa, planetary context, and related Jyotish tools are available within the BRAHM-AI ecosystem.
+- 📖 **Indian scripture intelligence unified**: Ramayan, Bhagavad Gita, Sanskrit, Dharma, philosophy, and other structured Indian knowledge systems are connected to the primary reasoning flow.
+- 🧠 **BRAHM-Panini language intelligence connected**: `brahm-panini-1X8AI` supports multilingual language detection, script understanding, linguistic normalization, and language-aware routing.
+- 🌍 **Multilingual interaction preserved**: Users can communicate through supported Indian and international languages using synchronized STT, reasoning, text, and TTS output.
+- 📷 **Vision intelligence integrated**: Camera-based object detection, OCR, medicine reading, scene recognition, face understanding, and visual reasoning are connected to the unified system.
+- 💊 **Medicine intelligence available**: Users can show medicine packaging or strips through the camera and request identification and structured informational guidance.
+- 📰 **Live news and web intelligence connected**: Current information can be retrieved and explained whenever a query requires recent or real-time knowledge.
+- 📈 **Market intelligence integrated**: Stock analysis, market context, company information, and news-supported financial insights are available through BRAHM-AI.
+- 🌾 **Mandi Bhav intelligence connected**: Users can ask for crop and city-specific agricultural market prices through natural-language queries.
+- 🌦️ **Real-time utility modules integrated**: Weather, location-aware information, and supported live-data capabilities are accessible through the unified platform.
+- 🤖 **Automation capabilities connected**: Supported reminders, communication actions, app routing, and assisted digital workflows operate through the BRAHM-AI ecosystem.
+- 🔄 **Unified multimodal reasoning**: Voice, text, camera observations, OCR results, memory, live search, and specialized knowledge can now be processed through a shared intelligence flow.
+- 👤 **Personalized interaction support**: User language, visit history, conversation context, recognition signals, and interaction preferences can be used across supported modules.
+- 🕓 **Returning-user awareness maintained**: BRAHM-AI can recognize returning-user context and generate time-aware, visit-aware, and personalized welcome interactions.
+- 🎭 **Avatar interaction system connected**: Welcome, idle, listening, thinking, speaking, and execution states remain synchronized with the unified voice pipeline.
+- 🔊 **Language-matched speech delivery**: Text-to-Speech output follows the selected language with appropriate pronunciation and supported accent routing.
+- 🔐 **Centralized account access**: Login, registration, profile access, and personalized services are now presented through the main BRAHM-AI website.
+- 📱 **Mobile-first experience maintained**: The platform supports voice, camera, touch, and text interactions across mobile and desktop devices.
+- ⚡ **Centralized API architecture**: Core logic, intelligence modules, animation controls, and data services operate through backend APIs instead of heavy UI-side scripts.
+- 🧩 **Modular system architecture preserved**: Voice, True, vision, language, Panchang, scriptures, market, news, agriculture, and automation modules remain independently upgradeable.
+- 🛡️ **Reliability and fallback handling improved**: API failures, unavailable services, voice interruptions, and unsupported actions use safer recovery and text fallback paths.
+- 🚀 **Foundation for future BRAHM-AI products**: The unified platform provides the base for upcoming AI agents, public APIs, business tools, avatars, and specialized intelligence services.
+- 🌐 **Main platform**: https://brahm-ai.in
+- 🎙️ **BRAHM Voice**: https://brahm-ai.in/voice
+- 🧠 **BRAHM True**: https://brahm-ai.in/true
+
+#### 🧱 Technical Architecture (Website → Assistant Router → Specialized Modules → BRAHM Core → Unified Response)
+
+- 🌐 **Main Platform Layer**
+  - Provides the primary public entry point for the complete BRAHM-AI ecosystem.
+  - Organizes products, AI capabilities, utilities, account access, and specialized services.
+
+- 💬 **Website Assistant Layer**
+  - Accepts natural-language questions directly from the main website.
+  - Helps users discover capabilities and routes requests toward the appropriate BRAHM-AI experience.
+
+- 🧭 **Capability Routing Layer**
+  - Identifies user intent and routes requests between BRAHM Voice, BRAHM True, vision, language, Panchang, Jyotish, scriptures, market, news, agriculture, and automation modules.
+  - Prevents unrelated modules from interfering with one another.
+
+- 🎙️ **BRAHM Voice Layer**
+  - Handles Speech-to-Text, live conversation, multilingual reasoning, Text-to-Speech, avatar animation, and voice-based actions.
+  - Uses the main BRAHM intelligence flow as its response source.
+
+- 🧠 **BRAHM True Layer**
+  - Acts as the primary deep-conversation and knowledge experience.
+  - Coordinates general reasoning, Indian knowledge, memory, live data, and specialized helper responses.
+
+- 🧠 **BRAHM Core Intelligence Layer**
+  - Performs intent analysis, context management, reasoning, module selection, and final response generation.
+  - Combines multimodal and specialized intelligence within a unified processing flow.
+
+- 🌍 **BRAHM-Panini Language Layer**
+  - Detects the selected or spoken language.
+  - Understands different scripts, sentence structures, and multilingual input patterns.
+  - Passes normalized language context to STT, reasoning, translation, and TTS services.
+
+- 🪔 **Panchang & Jyotish Layer**
+  - Processes Tithi, Nakshatra, Yoga, Karana, Rahu Kaal, Choghadiya, Bhadra, Lahiri Ayanamsa, and supported Kundli-related requests.
+  - Uses date, time, location, and computation context before generating explanations.
+
+- 📖 **Scripture Intelligence Layer**
+  - Retrieves structured scripture, Sanskrit, chapter, verse, and contextual knowledge.
+  - Passes verified references to the BRAHM reasoning engine for explanation.
+
+- 📷 **Vision Intelligence Layer**
+  - Processes camera frames, objects, scenes, faces, medicine strips, documents, traffic signals, animals, and OCR text.
+  - Converts visual observations into structured context for reasoning.
+
+- 🌐 **Live Knowledge Layer**
+  - Connects current news, web information, weather, market data, Mandi Bhav, and supported real-time services.
+  - Activates only when recent or live information is required.
+
+- 🤖 **Automation Layer**
+  - Converts supported user instructions into structured actions and workflows.
+  - Applies permission checks, confirmation gates, execution tracking, and safe fallback handling.
+
+- 🗂️ **Memory & User Context Layer**
+  - Maintains relevant conversation history, language selection, visit timestamps, user-recognition context, and interaction state.
+  - Supplies only required memory signals to the active module.
+
+- 🌐 **Centralized API Layer**
+  - Connects frontend interfaces with independent intelligence engines, databases, and service providers.
+  - Keeps core scripts and processing logic outside the user-interface layer.
+
+- 🔊 **Multilingual Response Layer**
+  - Produces text and speech in the user's selected language.
+  - Synchronizes STT language, reasoning output, displayed script, pronunciation, and supported TTS accent.
+
+- 👤 **Unified Experience Layer**
+  - Delivers responses through the website assistant, BRAHM True, BRAHM Voice, avatars, and specialized tool interfaces.
+  - Maintains a consistent BRAHM-AI identity across the complete platform.
+
+---
+
+
+## 📅 June 22, 2026
+### 🧠 **BRAHM Core Intelligence V2 — Unified Reasoning, Memory & Expert AI System**
+
+- 🧠 **BRAHM Core Intelligence V2 deployed**: Major upgrade to the core reasoning engine with improved decision-making, contextual understanding, and response quality.
+- 💭 **Long-term conversation memory enhanced**: Brahm-Ai now maintains richer conversational context for more natural follow-up interactions.
+- 👤 **Personalized user understanding**: The system adapts responses based on previous conversations, preferences, and interaction history.
+- 🎯 **Intent recognition improvements**: More accurate understanding of complex, multi-part, and conversational user requests.
+- 🧩 **Multi-domain expert reasoning**: Brahm-Ai intelligently combines knowledge across vision, automation, scriptures, productivity, and general intelligence within a single conversation.
+- 🌐 **Live web intelligence integration**: Responses can be enhanced with real-time web information whenever up-to-date knowledge is required.
+- 📷 **Vision-aware reasoning**: Camera observations, detected objects, scene understanding, and OCR results are now processed together with conversational context.
+- 🗣️ **Natural conversational flow**: Improved dialogue management creates smoother, more human-like interactions with fewer interruptions.
+- ⚡ **Optimized response generation**: Reduced overall latency while maintaining higher reasoning accuracy.
+- 🔄 **Unified multimodal context engine**: Voice, text, camera, memory, automation, and live knowledge are processed through a shared reasoning pipeline.
+- 🧠 **Context persistence improvements**: Better continuity across long conversations with reduced context loss.
+- 🛡️ **Reliability and fallback enhancements**: Smarter recovery logic for API interruptions, network delays, and model fallbacks.
+- 📊 **Performance optimization**: Lower memory consumption, faster context retrieval, and improved inference efficiency.
+- 🧱 **Modular architecture refinement**: Independent reasoning, vision, automation, memory, and language modules allow seamless future upgrades.
+- 🌐 **Live system**: https://www.ramcoin.org/brahm-ai-voice
+
+#### 🧱 Technical Architecture (Voice / Vision / Memory / Search / Automation → BRAHM Core V2 → Response)
+
+- 🎤 **Multimodal Input Layer**
+  - Collects voice, text, camera, OCR, and automation requests into a unified processing pipeline.
+
+- 🧠 **BRAHM Core Intelligence V2**
+  - Performs intent analysis, contextual reasoning, memory retrieval, and expert response generation.
+
+- 🗂️ **Memory Intelligence Layer**
+  - Retrieves user history, conversation context, and personalized interaction signals.
+
+- 🌐 **Knowledge & Search Layer**
+  - Integrates structured knowledge, live web search, and specialized domain engines when required.
+
+- 🤖 **Automation & Vision Layer**
+  - Combines automation workflows, scene understanding, object detection, OCR, and visual reasoning.
+
+- 🔊 **Response Delivery Layer**
+  - Generates synchronized multilingual text and speech responses.
+
+- 👤 **Avatar Experience Layer**
+  - Maintains smooth presence, animations, emotional expressions, and real-time interaction states.
+
+---
+
+## 📅 May 18, 2026
+### 🤖 **Brahm Automation Intelligence — Real-World Task Execution & AI Productivity Engine**
+
+- 🤖 **Next-generation Automation Engine released**: Brahm-Ai now performs real-world digital tasks through intelligent planning and execution instead of only answering questions.
+- 🧠 **Goal-oriented AI execution**: User requests are automatically converted into structured action plans before execution.
+- 🎙️ **Voice-first automation**: Users can execute tasks naturally through voice conversations without navigating complex menus.
+- 📱 **Cross-application workflow support**: Brahm-Ai intelligently coordinates actions across supported applications and services within a unified workflow.
+- 💬 **Advanced communication automation**: Create messages, emails, reminders, and communication drafts through natural conversations.
+- 🌐 **Intelligent web assistance**: Capable of searching, analyzing, summarizing, and organizing online information into actionable responses.
+- 📄 **Document understanding pipeline**: Reads, analyzes, summarizes, and extracts important information from supported documents.
+- 🧩 **Multi-step task planning**: Complex requests are automatically divided into sequential execution steps.
+- 🔄 **Context-aware workflow continuation**: Remembers the current task and continues multi-step workflows naturally without restarting.
+- 🧠 **Memory-assisted automation**: Uses conversation context and previous user interactions to improve execution accuracy.
+- ⚡ **Optimized execution pipeline**: Reduced planning latency and faster task completion across supported workflows.
+- 🛡️ **Secure confirmation system**: Sensitive actions continue to require explicit user approval before execution.
+- 📊 **Execution monitoring**: Live task progress tracking with structured completion summaries.
+- 🌍 **Multilingual automation**: Automation workflows are available in all supported conversation languages.
+- 🌐 **Live system**: https://www.ramcoin.org/brahm-ai-voice
+
+#### 🧱 Technical Architecture (Voice → Intent → Planner → Automation Engine → Execution → Response)
+
+- 🎤 **Voice & Intent Layer**
+  - Converts natural conversations into structured automation requests.
+
+- 🧠 **Task Planning Engine**
+  - Builds intelligent execution plans with dependency-aware task sequencing.
+
+- 🤖 **Automation Intelligence Layer**
+  - Coordinates supported actions, validates execution flow, and manages workflow state.
+
+- 🔄 **Execution Controller**
+  - Executes planned actions sequentially while monitoring progress and failures.
+
+- 🧠 **Memory & Context Layer**
+  - Maintains workflow continuity across conversations and follow-up requests.
+
+- 🔊 **Response Generation Layer**
+  - Produces real-time progress updates and natural completion summaries.
+
+- 👤 **Avatar Interaction Layer**
+  - Displays planning, execution, and completion states with synchronized voice and animation.
+
+---
+
+## 📅 April 12, 2026
+### 📚 **Scripture Intelligence Engine — Advanced Vedic Knowledge & Contextual Reasoning**
+
+- 📖 **Dedicated Scripture Intelligence Engine deployed**: Brahm-Ai now retrieves answers from structured Vedic knowledge instead of relying solely on general language model responses.
+- 🕉️ **Expanded scripture knowledge base**: Integrated support for multiple Hindu scriptures with structured indexing and semantic retrieval.
+- 🔍 **Natural scripture search**: Users can ask questions naturally without specifying chapter or verse numbers.
+- 📚 **Context-aware verse retrieval**: Brahm-Ai identifies the most relevant scripture, chapter, and verse before generating an explanation.
+- 🧠 **Multi-layer reasoning pipeline**: Combines scripture retrieval with AI reasoning to provide meaningful, context-rich answers.
+- 🪔 **Spiritual guidance mode**: Delivers practical explanations, philosophical insights, and life applications alongside scriptural references.
+- 📜 **Verse explanation engine**: Automatically explains Sanskrit verses in simple language while preserving their original meaning.
+- 🔗 **Cross-scripture understanding**: Capable of connecting related concepts across multiple scriptures where appropriate.
+- 🌍 **Multilingual scripture responses**: Scriptural explanations can now be generated in the user's selected language while preserving Sanskrit references.
+- 🧩 **Semantic keyword matching**: Understands intent instead of relying only on exact verse names or keywords.
+- ⚡ **Optimized retrieval pipeline**: Faster indexing and intelligent caching significantly reduce scripture lookup time.
+- 🛡️ **Source-first architecture**: Scripture references are retrieved first, followed by AI interpretation to maintain factual consistency.
+- 🌐 **Live system**: https://www.ramcoin.org/brahm-ai-voice
+
+#### 🧱 Technical Architecture (User Query → Scripture Engine → Knowledge Retrieval → Brahm Reasoning → TTS → Avatar)
+
+- 📖 **Scripture Query Layer**
+  - Detects religious and scriptural intent from natural language conversations.
+
+- 📚 **Scripture Intelligence Engine**
+  - Searches structured scripture databases using semantic retrieval.
+
+- 🔍 **Knowledge Retrieval Layer**
+  - Identifies relevant scriptures, chapters, verses, and contextual references.
+
+- 🧠 **Brahm Reasoning Layer**
+  - Combines retrieved scripture with contextual AI reasoning while preserving canonical references.
+
+- 🌐 **Multilingual Response Layer**
+  - Generates explanations in the user's selected language without altering the original Sanskrit source.
+
+- 🔊 **TTS Layer**
+  - Speaks scripture explanations naturally in the selected language.
+
+- 👤 **Avatar Layer**
+  - Maintains synchronized visual interaction and speaking animations during scripture discussions.
+
+---
+## 📅 March 8, 2026
+### 🪔 **Vedic Panchang Intelligence Engine — Astronomical Computation & Spiritual Reasoning**
+
+- 🪔 **Dedicated Panchang Intelligence Engine integrated**: Brahm-Ai now delivers precise Panchang information through an astronomical computation pipeline instead of relying on language model estimation.
+- 🌞 **Today's Panchang support**: Users can instantly ask for today's Panchang with complete daily Vedic details.
+- 📅 **Tithi calculation enabled**: Accurate lunar day calculation with contextual explanation.
+- 🌙 **Nakshatra identification**: Real-time Nakshatra determination with traditional descriptions.
+- ☀️ **Yoga computation**: Daily Yoga calculation integrated into the Panchang engine.
+- 🪵 **Karana calculation**: Complete Karana detection with contextual significance.
+- 🚫 **Rahu Kaal support**: Automatically calculates Rahu Kaal for the selected location and date.
+- ⏰ **Choghadiya calculation**: Day and night Choghadiya generated with auspicious and inauspicious periods.
+- ⚫ **Bhadra detection**: Detects Bhadra timings and identifies its current position (Heaven, Earth, or Netherworld where applicable).
+- 🌅 **Sunrise & sunset calculations**: Astronomically calculated sunrise and sunset times integrated into the Panchang engine.
+- 🌙 **Moonrise & moonset support**: Moon timing calculations available for supported locations.
+- 🪐 **Lahiri Ayanamsa calculation**: Dedicated Lahiri Ayanamsa computation engine integrated for accurate sidereal calculations.
+- 🌍 **Location-aware Panchang**: All calculations dynamically adapt according to the user's selected location.
+- 🧠 **Natural language Panchang interaction**: Users can ask questions conversationally without using fixed commands.
+- 📖 **Context-aware spiritual explanations**: Brahm-Ai explains Panchang elements in simple language instead of displaying raw values only.
+- ⚡ **Fast computation pipeline**: Optimized API routing significantly reduces Panchang response latency.
+- 🛡️ **Calculation-first architecture**: Astronomical values are generated through computation engines before entering the reasoning pipeline.
+- 🌐 **Live system**: https://www.ramcoin.org/brahm-ai-voice
+
+#### 🧱 Technical Architecture (User Query → Panchang Engine → Astronomical Computation → Brahm Reasoning → TTS → Avatar)
+
+- 🗣️ **Natural Language Layer**
+  - Detects Panchang-related user intent from conversational queries.
+
+- 🪔 **Panchang Intelligence Engine**
+  - Routes requests to dedicated astronomical calculation services.
+
+- 🌍 **Location & Time Engine**
+  - Applies geographic coordinates, timezone, and current date for precise calculations.
+
+- 🪐 **Astronomical Computation Layer**
+  - Calculates Tithi, Nakshatra, Yoga, Karana, Rahu Kaal, Choghadiya, Bhadra, Sunrise, Sunset, Moonrise, Moonset, and Lahiri Ayanamsa.
+
+- 🧠 **Brahm Reasoning Layer**
+  - Converts computed values into natural, context-aware explanations.
+
+- 🔊 **TTS Layer**
+  - Delivers Panchang information through natural voice output.
+
+- 👤 **Avatar Layer**
+  - Maintains synchronized visual interaction during Panchang explanations.
+
 ---
 
 ## 📅 February 28, 2026  
