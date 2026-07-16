@@ -1,8 +1,6 @@
 # 📜 BRAHM-Ai — Daily Updates Log
 
 This log documents daily improvements, bug fixes, new modules, and logic updates made in the BRAHM-Ai ecosystem. It supports transparent tracking and open collaboration.
-
-```markdown
 ---
 
 ## 📅 June 30, 2026
