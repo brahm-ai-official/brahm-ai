@@ -1,55 +1,580 @@
-# 🔐 BRAHM-Ai License
+# 🔐 BRAHM-AI Proprietary License
 
-Copyright © 2025  
-Developed and Maintained by the **Ramcoin Foundation** under the **Royal Web3 Blockchain Ecosystem**.
+**License Version:** 1.0
+**Effective Date:** July 16, 2026
+**Suggested SPDX Identifier:** `LicenseRef-BRAHM-AI-Proprietary`
 
----
+Copyright © 2025–2026 **Ramcoin Foundation**.
+Developed and maintained within the **Royal Web 3 Blockchain Ecosystem**.
 
-## 📜 Summary
-
-BRAHM-Ai is a spiritually conscious AI developed to serve humanity through Sanatan wisdom, guided intelligence, and purposeful design.
-
-This project is **publicly visible** for transparency and inspiration, but it is **not open for free reuse, duplication, or redistribution** without express written permission.
+All rights reserved.
 
 ---
 
-## ⚠️ Restrictions
+## 1. Purpose
 
-You are **NOT allowed** to:
+BRAHM-AI is an India-first artificial intelligence ecosystem developed to combine:
 
-- ❌ Copy or reuse source code, prompts, or logic without written permission
-- ❌ Use any part of this system to train LLMs or AI agents
-- ❌ Resell or host replicas of this project under different branding
-- ❌ Modify or fork for commercial/public deployment
+* Indian knowledge and scripture intelligence;
+* multilingual language understanding;
+* voice and avatar interaction;
+* computer vision and OCR;
+* Panchang and Jyotish computation;
+* automation and connected digital actions;
+* agriculture, education, market, and business intelligence;
+* local and sovereign AI research;
+* developer APIs and specialized AI services.
 
----
+The project may be publicly visible for transparency, technical documentation, collaboration, demonstration, and community awareness.
 
-## ✅ Permitted Usage
-
-You may:
-
-- ✅ View and learn from the public design and documentation
-- ✅ Discuss ideas or request collaboration via official email
-- ✅ Reference the project with proper credit in articles or research
-
----
-
-## 🤝 For Collaboration or Licensing
-
-Please contact:
-
-📩 **info@ramcoin.org**  
-🌐 **https://www.brahm-ai.in**
-🌐 **https://www.ramcoin.org**
+Public visibility does **not** make BRAHM-AI open source and does not grant permission to copy, modify, distribute, deploy, train from, imitate, or commercially exploit any protected material.
 
 ---
 
-## 🙏 Spiritual Clause
+## 2. Definitions
 
-This AI is built with dharma and divine principles. Any misuse, distortion, or unauthorized manipulation may result in karmic consequences — in code and consciousness.
+For this License:
 
-> 🌺 “सत्यं शिवं सुंदरम्” — That which is true, is divine, and is beautiful.
+### 2.1 “BRAHM-AI”
+
+“BRAHM-AI” means the complete BRAHM-AI ecosystem, including its websites, applications, APIs, models, agents, modules, services, documentation, interfaces, datasets, and associated technology.
+
+### 2.2 “Licensor”
+
+“Licensor” means the Ramcoin Foundation, Royal Web 3 Blockchain, and/or the applicable legal rights holder authorized to license the relevant BRAHM-AI material.
+
+### 2.3 “Materials”
+
+“Materials” includes, without limitation:
+
+* source code and compiled code;
+* frontend and backend applications;
+* API definitions, endpoints, schemas, and SDKs;
+* system prompts, instruction prompts, templates, and routing logic;
+* model weights, adapters, checkpoints, embeddings, and inference configurations;
+* fine-tuning data and evaluation datasets;
+* RAG databases, indexes, retrieval logic, and knowledge graphs;
+* scripture datasets, translations, explanations, and structured references;
+* Panchang, Jyotish, market, agriculture, vision, and language modules;
+* algorithms, workflows, helper systems, and business logic;
+* voice, STT, TTS, avatar, animation, and lipsync systems;
+* user-interface designs, layouts, graphics, icons, and media;
+* technical documentation, diagrams, changelogs, and examples;
+* product names, logos, slogans, trademarks, and branding;
+* non-public operational, security, deployment, and infrastructure information.
+
+### 2.4 “API”
+
+“API” means any current or future BRAHM-AI application programming interface, developer service, SDK, webhook, streaming endpoint, model endpoint, or integration interface.
+
+### 2.5 “Authorized Agreement”
+
+“Authorized Agreement” means a separate written agreement signed or expressly approved by the Licensor, including a commercial license, collaboration agreement, API agreement, partner agreement, research agreement, or contributor agreement.
 
 ---
 
-© 2025 BRAHM-Ai | All rights reserved | Ramcoin Foundation 🚩
+## 3. Ownership
+
+All rights, title, and interest in the Materials remain exclusively with the Licensor or the applicable third-party rights holder.
+
+This includes all copyrights, database rights, design rights, trademarks, trade secrets, patents, model rights, contractual rights, and other intellectual-property rights recognized under applicable law.
+
+No ownership is transferred by:
+
+* viewing this repository;
+* accessing a public BRAHM-AI website;
+* creating a GitHub fork;
+* downloading publicly accessible files;
+* linking to BRAHM-AI;
+* interacting with a demonstration;
+* submitting a collaboration request;
+* obtaining temporary API or platform access.
+
+Any rights not expressly granted in writing are reserved.
+
+---
+
+## 4. Limited Permission
+
+Subject to this License, you may:
+
+* view publicly available documentation and repository content;
+* access public BRAHM-AI demonstrations through their intended interfaces;
+* link to official BRAHM-AI websites and public repository pages;
+* discuss BRAHM-AI in journalism, commentary, education, or research;
+* quote limited portions of public documentation when reasonably necessary for commentary, with clear attribution;
+* submit bug reports, security reports, suggestions, or collaboration proposals through official channels;
+* evaluate public product demonstrations for potential authorized collaboration.
+
+These permissions do not include the right to reproduce or deploy the underlying system.
+
+---
+
+## 5. Prohibited Uses
+
+Unless expressly authorized under a separate written agreement, you must not:
+
+### 5.1 Copying and Distribution
+
+* copy, reproduce, republish, mirror, distribute, sublicense, sell, rent, lease, or transfer the Materials;
+* publish substantial portions of the Materials in another repository, website, application, dataset, or service;
+* package BRAHM-AI code, documentation, prompts, data, or workflows as your own product;
+* redistribute modified or unmodified versions of the Materials.
+
+### 5.2 Modification and Derivative Works
+
+* modify, adapt, translate, transform, or create derivative works from the Materials;
+* use the Materials to build a substantially similar product, platform, agent, model, API, website, or service;
+* recreate BRAHM-AI modules by reproducing their documented architecture, prompts, workflows, or protected implementation details;
+* remove, hide, or alter copyright, license, attribution, or proprietary notices.
+
+### 5.3 Commercial Use
+
+* use the Materials for commercial deployment, resale, subscription services, consulting deliverables, managed services, or client projects;
+* host a public or private replica of BRAHM-AI;
+* offer BRAHM-AI or a substantially similar implementation as software-as-a-service;
+* integrate protected Materials into a commercial product without written authorization;
+* monetize a fork, copy, adaptation, hosted instance, or derivative service.
+
+### 5.4 AI Training and Model Development
+
+* use the Materials to train, pre-train, fine-tune, align, evaluate, benchmark, or improve an AI model or agent;
+* use BRAHM-AI outputs as training data without written authorization;
+* generate synthetic training data from BRAHM-AI responses, APIs, voices, avatars, or knowledge modules;
+* perform knowledge distillation, model imitation, behavioural cloning, or response cloning;
+* extract system prompts, hidden instructions, safety policies, routing logic, or model configurations;
+* use the Materials to reproduce the behaviour, personality, language style, knowledge structure, or capabilities of BRAHM-AI;
+* include protected BRAHM-AI content in model datasets, vector databases, embeddings, or retrieval indexes.
+
+### 5.5 Scraping and Automated Extraction
+
+* scrape, crawl, harvest, index, bulk-download, archive, or systematically extract BRAHM-AI content;
+* use bots, scripts, browser automation, headless browsers, or automated agents to collect Materials;
+* extract scripture databases, translations, Panchang data, model responses, prompts, media, or structured API results at scale;
+* bypass pagination, rate limits, authentication, quotas, robots instructions, or technical restrictions;
+* use multiple accounts, identities, IP addresses, or keys to avoid usage controls.
+
+Normal search-engine indexing authorized by the Licensor is not prohibited.
+
+### 5.6 Reverse Engineering
+
+* reverse engineer, decompile, disassemble, decode, or attempt to reconstruct any BRAHM-AI component;
+* inspect network activity for the purpose of reproducing private endpoints or internal behaviour;
+* derive source code, algorithms, model architecture, prompts, keys, credentials, or protected configuration;
+* bypass technical protection measures, feature gates, authentication, subscription controls, or usage metering;
+* probe or enumerate undocumented endpoints without authorization.
+
+### 5.7 Security Interference
+
+* conduct penetration testing, vulnerability scanning, load testing, denial-of-service testing, or security research without prior written authorization;
+* attempt unauthorized access to user accounts, servers, databases, models, dashboards, logs, or infrastructure;
+* exploit or publicly disclose a vulnerability before following the responsible-disclosure process;
+* interfere with platform availability, integrity, performance, or security.
+
+Good-faith security research may be permitted only under an officially published security policy or written authorization.
+
+### 5.8 Branding and Identity
+
+* use the names “BRAHM-AI,” “BRAHM True,” “BRAHM Voice,” “Garudaa,” “BRAHM-Panini,” “PotliPay,” “Ramcoin,” or related product names without authorization;
+* use BRAHM-AI logos, symbols, avatars, screenshots, designs, or visual identity to imply affiliation;
+* register confusingly similar domains, social accounts, applications, companies, tokens, or products;
+* falsely represent that a product is powered by, certified by, partnered with, or approved by BRAHM-AI;
+* impersonate the Licensor, its developers, team members, products, or official accounts.
+
+### 5.9 Unlawful or Harmful Use
+
+* use BRAHM-AI Materials for fraud, deception, impersonation, surveillance, harassment, exploitation, or unlawful discrimination;
+* use the Materials to generate malware, steal credentials, bypass security, or facilitate unauthorized access;
+* use the Materials in violation of applicable law, regulation, contractual obligation, or third-party rights;
+* use spiritual, medical, financial, identity, or personal-data features in a misleading or harmful manner.
+
+---
+
+## 6. Public Repository and Forks
+
+The availability of a public GitHub repository is intended for documentation, transparency, public updates, and approved collaboration.
+
+A GitHub fork, clone, download, cache, or platform-generated copy:
+
+* does not create an open-source license;
+* does not grant commercial rights;
+* does not grant redistribution rights;
+* does not grant deployment rights;
+* does not grant AI-training rights;
+* does not authorize derivative products;
+* remains subject to this License.
+
+You must remove unauthorized copies upon written request from the Licensor.
+
+---
+
+## 7. API and Developer Access
+
+BRAHM-AI APIs, SDKs, developer keys, model endpoints, and integration services may be released under separate terms.
+
+Access to an API does not grant ownership of:
+
+* the underlying models;
+* source code;
+* system prompts;
+* datasets;
+* routing systems;
+* generated embeddings;
+* infrastructure;
+* proprietary response logic.
+
+API users must comply with all applicable:
+
+* API terms;
+* acceptable-use policies;
+* privacy policies;
+* pricing and billing terms;
+* quotas and rate limits;
+* data-retention rules;
+* attribution requirements;
+* security requirements;
+* product-specific restrictions.
+
+You must not:
+
+* share, sell, publish, or expose an API key;
+* embed secret keys in publicly accessible frontend code;
+* bypass billing, quota, or rate-limit controls;
+* resell API access unless explicitly permitted;
+* use API output for unauthorized model training or data extraction;
+* misrepresent API-generated results as independently verified facts;
+* use API access to reproduce or compete with protected BRAHM-AI services where prohibited by the applicable agreement.
+
+The Licensor may suspend, restrict, rotate, or revoke API access where misuse, security risk, non-payment, or policy violation is detected.
+
+---
+
+## 8. Models, Datasets, RAG Systems, and Outputs
+
+No rights are granted to BRAHM-AI:
+
+* model weights;
+* model adapters;
+* checkpoints;
+* training recipes;
+* fine-tuning datasets;
+* evaluation datasets;
+* embeddings;
+* retrieval indexes;
+* RAG databases;
+* knowledge graphs;
+* synthetic datasets;
+* system prompts;
+* hidden chain logic;
+* safety configurations;
+* model-routing rules.
+
+Access to model-generated output does not grant permission to:
+
+* reproduce outputs at scale;
+* create a competing dataset;
+* train or distill another model;
+* build an imitation service;
+* claim ownership of protected source material contained in an output;
+* remove source attribution or safety notices.
+
+Individual outputs may also contain information subject to third-party rights, public-domain status, quotation limitations, or separate source terms.
+
+---
+
+## 9. Scripture and Cultural Materials
+
+BRAHM-AI may include:
+
+* public-domain scripture text;
+* licensed editions;
+* user-provided text;
+* original translations;
+* original explanations;
+* structured metadata;
+* custom indexing;
+* retrieval logic;
+* commentary and educational presentation.
+
+The public-domain status of an original scripture does not automatically make BRAHM-AI’s:
+
+* translation;
+* explanation;
+* annotation;
+* database structure;
+* indexing;
+* metadata;
+* user interface;
+* retrieval system;
+* compilation;
+* generated educational material
+
+free for unrestricted reuse.
+
+Source editions and textual variants may have separate legal and scholarly conditions.
+
+---
+
+## 10. Third-Party Components
+
+BRAHM-AI may use or interact with third-party libraries, APIs, models, datasets, media, services, or open-source components.
+
+Third-party components remain subject to their own licenses and terms.
+
+This License applies only to Materials owned or controlled by the Licensor and does not override valid third-party rights.
+
+Where a specific file includes a different license notice, that specific notice governs that file to the extent of any conflict.
+
+---
+
+## 11. Contributions
+
+Unsolicited code, data, model, documentation, translation, or design contributions are not automatically accepted.
+
+Contributions may require:
+
+* a Contributor License Agreement;
+* proof of authorship and rights;
+* source and licensing disclosure;
+* security review;
+* privacy review;
+* written collaboration terms.
+
+Do not submit confidential, proprietary, copyrighted, personal, or restricted material unless you have the legal authority to do so.
+
+Submission of an issue or suggestion does not transfer ownership unless separately agreed in writing.
+
+---
+
+## 12. Confidential and Non-Public Information
+
+No permission is granted to access, disclose, copy, publish, or use non-public BRAHM-AI information, including:
+
+* credentials and API keys;
+* environment variables;
+* private repositories;
+* server configurations;
+* internal prompts;
+* infrastructure details;
+* unpublished datasets;
+* user information;
+* security reports;
+* commercial plans;
+* partner information;
+* internal analytics;
+* model-development materials.
+
+Accidental access does not create authorization. Such information must not be used or disclosed and should be reported promptly.
+
+---
+
+## 13. Privacy and User Data
+
+No license is granted to collect, process, sell, profile, identify, or reuse BRAHM-AI user data.
+
+You must not attempt to extract:
+
+* account information;
+* conversations;
+* voice recordings;
+* facial data;
+* camera frames;
+* recognition signatures;
+* contact information;
+* usage records;
+* payment information;
+* private documents;
+* personal preferences.
+
+Any authorized processing of user data requires an appropriate written agreement and compliance with applicable privacy and data-protection requirements.
+
+---
+
+## 14. No Medical, Financial, Legal, or Professional Warranty
+
+BRAHM-AI may provide educational or informational content relating to health, medicine, finance, law, astrology, agriculture, or other specialized domains.
+
+Such output:
+
+* may be incomplete, delayed, experimental, or incorrect;
+* does not constitute diagnosis, prescription, legal advice, financial advice, or another regulated professional service;
+* must not be treated as a substitute for a qualified professional;
+* may require independent verification.
+
+Users remain responsible for decisions made using BRAHM-AI output.
+
+---
+
+## 15. No Warranty
+
+THE MATERIALS AND SERVICES ARE PROVIDED **“AS IS”** AND **“AS AVAILABLE.”**
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR DISCLAIMS ALL EXPRESS, IMPLIED, AND STATUTORY WARRANTIES, INCLUDING WARRANTIES OF:
+
+* MERCHANTABILITY;
+* FITNESS FOR A PARTICULAR PURPOSE;
+* ACCURACY;
+* AVAILABILITY;
+* NON-INFRINGEMENT;
+* SECURITY;
+* RELIABILITY;
+* COMPLETENESS;
+* ERROR-FREE OPERATION.
+
+The Licensor does not guarantee that:
+
+* every feature will remain available;
+* data will always be current or accurate;
+* an AI response will be correct;
+* a third-party service will remain operational;
+* the platform will be uninterrupted;
+* experimental features will be suitable for production use.
+
+---
+
+## 16. Limitation of Liability
+
+To the maximum extent permitted by applicable law, the Licensor will not be liable for any indirect, incidental, special, exemplary, punitive, or consequential loss arising from the Materials or services.
+
+This includes loss of:
+
+* profits;
+* revenue;
+* business opportunity;
+* goodwill;
+* data;
+* digital assets;
+* reputation;
+* service availability;
+* anticipated savings.
+
+The Licensor is not responsible for decisions made solely on the basis of AI-generated, OCR-generated, vision-generated, market-generated, medical-information, Panchang, Jyotish, or automated output.
+
+Nothing in this section excludes liability that cannot legally be excluded under applicable law.
+
+---
+
+## 17. Suspension and Termination
+
+Any permission granted under this License terminates automatically if you violate its terms.
+
+Upon termination, you must:
+
+* stop using the Materials;
+* stop accessing restricted services;
+* delete unauthorized copies;
+* stop distributing derivative material;
+* stop using protected branding;
+* comply with reasonable written remediation instructions.
+
+The Licensor may suspend or terminate platform, repository, API, account, model, or partner access where misuse or risk is identified.
+
+Sections concerning ownership, restrictions, confidentiality, warranties, liability, and enforcement survive termination.
+
+---
+
+## 18. Enforcement
+
+Unauthorized use may result in:
+
+* access suspension;
+* account termination;
+* API-key revocation;
+* takedown requests;
+* repository or hosting complaints;
+* contractual claims;
+* copyright or trademark enforcement;
+* injunctive relief;
+* recovery of damages or costs where permitted;
+* referral to appropriate authorities where unlawful activity is involved.
+
+Failure to enforce a provision immediately does not waive the Licensor’s right to enforce it later.
+
+---
+
+## 19. Exceptions and Written Permission
+
+An exception is valid only when granted through an Authorized Agreement.
+
+Permission may be limited by:
+
+* purpose;
+* duration;
+* territory;
+* user count;
+* API volume;
+* deployment environment;
+* product category;
+* attribution;
+* confidentiality;
+* payment;
+* security requirements;
+* data restrictions.
+
+An informal conversation, demonstration, repository access, or verbal discussion does not constitute a commercial or production license.
+
+---
+
+## 20. Governing Law
+
+This License is governed by the laws of India, without regard to conflict-of-law principles.
+
+Disputes will be subject to the jurisdiction of courts of competent jurisdiction in India unless a separate written agreement specifies another lawful dispute-resolution process or jurisdiction.
+
+---
+
+## 21. Severability
+
+If any provision of this License is found unenforceable, the remaining provisions will continue in effect.
+
+The unenforceable provision will be interpreted or limited as closely as legally possible to its intended purpose.
+
+---
+
+## 22. Entire License
+
+This License represents the complete public permission applicable to the Materials unless a separate Authorized Agreement states otherwise.
+
+Product-specific terms, API terms, privacy policies, acceptable-use policies, and written commercial agreements may impose additional requirements.
+
+Where a valid written agreement conflicts with this License, the written agreement controls only for the parties and Materials covered by that agreement.
+
+---
+
+## 23. Contact for Licensing and Collaboration
+
+For licensing, API access, deployment, research, institutional use, commercial integration, or approved collaboration:
+
+📩 **Email:** [info@ramcoin.org](mailto:info@ramcoin.org)
+🌐 **BRAHM-AI:** https://brahm-ai.in
+🌐 **Ramcoin Ecosystem:** https://www.ramcoin.org
+
+A request should include:
+
+* applicant name and organization;
+* intended use;
+* requested modules or APIs;
+* expected user or request volume;
+* commercial or non-commercial purpose;
+* deployment environment;
+* requested duration and territory.
+
+No permission is granted until confirmed in writing by an authorized representative.
+
+---
+
+## 24. Values Statement
+
+BRAHM-AI is built with the intention of supporting knowledge, dignity, responsibility, and beneficial human use.
+
+This values statement expresses the project’s guiding philosophy and does not replace or limit the legal provisions above.
+
+> 🌺 **“सत्यं शिवं सुन्दरम्”**
+> *That which is true, benevolent, and beautiful.*
+
+---
+
+**BRAHM-AI — Ancient Knowledge. Modern Intelligence. Connected Action.**
+
+© 2025–2026 BRAHM-AI | Ramcoin Foundation | Royal Web 3 Blockchain Ecosystem
+**All Rights Reserved**
