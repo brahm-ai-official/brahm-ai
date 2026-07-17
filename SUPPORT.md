@@ -76,7 +76,7 @@ Planned API areas include:
 
 For early access, partnership, or integration discussions, contact:
 
-**Email:** info@ramcoin.org
+**Email:** info@brahm-ai.in
 
 Please include:
 
@@ -106,7 +106,7 @@ Contact the BRAHM-AI team for:
 - Business AI-agent deployment
 - Infrastructure or API partnership
 
-**Email:** info@ramcoin.org
+**Email:** info@brahm-ai.in
 
 Please review:
 
@@ -215,7 +215,7 @@ Creating duplicate issues or sending repeated messages may delay investigation.
 
 ## 📬 Official Contact
 
-**Email:** info@ramcoin.org  
+**Email:** info@brahm-ai.in
 **Website:** https://brahm-ai.in  
 **GitHub:** https://github.com/brahm-ai-official/brahm-ai
 
