@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use or reference BRAHM-AI in research, documentation, software, media, or academic work, please cite it using these metadata."
+
+title: "BRAHM-AI: India-First Multilingual and Multimodal Artificial Intelligence Ecosystem"
+type: software
+
+authors:
+  - family-names: "Singh"
+    given-names: "Sandeep"
+  - name: "Ramcoin Foundation"
+  - name: "Royal Web 3 Blockchain"
+
+contact:
+  - name: "BRAHM-AI Team"
+    email: "info@ramcoin.org"
+    website: "https://brahm-ai.in"
+
+abstract: >-
+  BRAHM-AI is an India-first, Hindi-first, multilingual and multimodal
+  artificial intelligence ecosystem combining voice interaction, computer
+  vision, OCR, Sanskrit and Indian scripture intelligence, Panchang and
+  Jyotish computation, retrieval-augmented generation, local language models,
+  automation, agriculture intelligence, business AI agents, and planned
+  developer APIs.
+
+keywords:
+  - "artificial intelligence"
+  - "India-first AI"
+  - "Hindi AI"
+  - "multilingual AI"
+  - "multimodal AI"
+  - "voice AI"
+  - "computer vision"
+  - "Sanskrit AI"
+  - "Panchang API"
+  - "Jyotish API"
+  - "scripture intelligence"
+  - "retrieval-augmented generation"
+  - "local LLM"
+  - "AI agents"
+  - "developer API"
+  - "Garudaa LLMG 108"
+  - "BRAHM True"
+  - "BRAHM Voice"
+
+repository-code: "https://github.com/brahm-ai-official/brahm-ai"
+url: "https://brahm-ai.in"
