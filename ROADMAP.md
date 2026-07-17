@@ -947,7 +947,7 @@ Please review:
 
 For API access, technical collaboration, licensing, institutional deployment, or approved partnerships:
 
-- **Email:** info@ramcoin.org
+- **Email:** info@brahm-ai.in
 - **Website:** https://brahm-ai.in
 - **GitHub:** https://github.com/brahm-ai-official/brahm-ai
 - **BRAHM AI Agents:** https://www.brahm-ai-agents.com
