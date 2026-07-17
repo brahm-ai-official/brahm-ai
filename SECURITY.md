@@ -31,7 +31,7 @@ Do not publish security vulnerabilities in a public GitHub Issue, Discussion, so
 
 Send the report privately to:
 
-**Email:** info@ramcoin.org
+**Email:** info@brahm-ai.in
 
 Use the following subject:
 
