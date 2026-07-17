@@ -127,7 +127,7 @@ Follow the private reporting instructions provided in:
 
 Security contact:
 
-**Email:** info@ramcoin.org  
+**Email:** info@brahm-ai.in 
 **Subject:** `Security Report — BRAHM-AI`
 
 ---
