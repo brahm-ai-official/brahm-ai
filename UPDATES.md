@@ -3,6 +3,303 @@
 This log documents daily improvements, bug fixes, new modules, and logic updates made in the BRAHM-Ai ecosystem. It supports transparent tracking and open collaboration.
 ---
 
+## 📅 August 11, 2026
+### 🕉️ **BRAHM AI Acharya — Public Sanskrit Intelligence, Study Workspace & Neural Reading Experience**
+
+- 🕉️ **BRAHM AI Acharya added to the main BRAHM-AI ecosystem**: A dedicated Sanskrit and Indian knowledge intelligence experience is now available at `https://brahm-ai.in/acharya`.
+- 🌐 **Public Acharya experience connected**: Users can access Acharya directly through the BRAHM-AI platform without using an internal development interface.
+- 📖 **Sanskrit and scripture intelligence expanded**: Acharya can understand Sanskrit-related questions, scripture references, contextual philosophical questions, language-learning requests, and multilingual explanations.
+- 🧠 **Acharya operates as more than a scripture search tool**: The system combines language understanding, contextual reasoning, verification, multilingual presentation, and specialized BRAHM intelligence.
+- 📚 **Local scripture corpus used primarily for verification**: Trusted local scripture data verifies Sanskrit text, verse references, chapter references, canonical sources, and supporting evidence before authoritative claims are presented.
+- 🔎 **Verified evidence remains separate from reasoning**: Local scripture data does not replace the complete conversational intelligence layer; verified evidence is supplied to Acharya whenever source confirmation is required.
+- ✅ **Exact-reference requests remain deterministic where possible**: Known chapter, verse, Sarga, mantra, or canonical scripture requests can be validated directly without unnecessary generative processing.
+- 🪷 **Contextual scripture reasoning supported**: Users can ask conceptual, comparative, philosophical, and follow-up questions instead of receiving only database-style scripture retrieval.
+- 🛡️ **Unsupported scripture attribution reduced**: Acharya is designed to avoid inventing verse numbers, Sanskrit quotations, scripture names, or unsupported canonical claims.
+- 💬 **Multi-chat conversation workspace added**: Users can create independent conversations and continue study without mixing unrelated contexts.
+- 🗂️ **Conversation history connected**: Previous Acharya discussions can be reopened and continued through the account-based conversation system.
+- 🔎 **Chat search capability added**: Users can search earlier conversation content and locate important Sanskrit or study references.
+- ✏️ **Conversation management expanded**: Rename, delete, archive, and study-oriented organization are progressively connected to the Acharya workspace.
+- 📚 **Study-focused interface introduced**: Acharya is being developed as a long-term learning and research workspace rather than a single-response Sanskrit chatbot.
+- 🌍 **Multilingual explanations connected**: Users can ask questions in supported languages while canonical Sanskrit evidence remains protected separately from translation and explanation.
+- 🔊 **Fine-tuned neural reading experience stabilized**: Neural speech output has been refined for clearer Indian-language delivery, Sanskrit passages, pauses, pronunciation, and longer study responses.
+- ▶️ **Reply voice controls connected**: Supported answers provide compact Play, Stop, Copy, Share, and voice-download controls.
+- 📖 **Sanskrit-aware speech segmentation improved**: Original Sanskrit passages can remain separate from user-language explanation during speech generation.
+- 🔄 **Text and voice remain synchronized**: Acharya speaks the same validated answer presented to the user rather than generating a separate voice-only answer.
+- 📱 **Mobile Acharya experience refined**: Conversation navigation, language controls, account access, study history, and voice interaction have been optimized for smaller displays.
+- 👤 **BRAHM account integration connected**: Acharya uses the existing BRAHM-AI identity system rather than creating an independent account system.
+- ⚡ **Usage and quota integration connected**: AI usage can work through the existing BRAHM account and token framework while deterministic verified operations remain separated from generative usage.
+- 🛡️ **Public architecture remains protected**: Internal prompts, private datasets, detailed routing logic, model configuration, database structure, and protected inference infrastructure are not exposed through the public interface.
+- 🌐 **BRAHM AI Acharya**: https://brahm-ai.in/acharya
+- 🌐 **Main Platform**: https://brahm-ai.in
+
+#### 🧱 Technical Architecture (User → Language & Intent → Verification → Acharya Intelligence → Validation → Multilingual Response)
+
+- 👤 **User Interaction Layer**
+  - Accepts natural-language questions, Sanskrit references, supported voice input, and contextual follow-up questions.
+  - Maintains a simple conversational experience without requiring users to select technical processing modes.
+
+- 🌍 **Language & Context Layer**
+  - Detects and preserves the user's language and active conversation context.
+  - Allows users to study Sanskrit and Indian knowledge without requiring Sanskrit-language input.
+
+- 🧭 **Intent Intelligence Layer**
+  - Identifies whether the request requires general explanation, Sanskrit analysis, exact scripture verification, contextual scripture reasoning, language assistance, or another supported capability.
+  - Keeps unrelated capabilities from interfering with one another.
+
+- 📖 **Verification & Evidence Layer**
+  - Uses trusted local scripture and Sanskrit resources when canonical verification is required.
+  - Checks exact text, references, chapter or verse identity, and relevant supporting evidence.
+  - Acts primarily as an evidence and verification system rather than the complete conversational answer engine.
+
+- 🧠 **BRAHM Acharya Intelligence Layer**
+  - Uses conversation context, verified evidence, language understanding, and specialized reasoning to prepare the answer.
+  - Handles explanation, comparison, interpretation, follow-up discussion, and learning-oriented responses.
+
+- 🛡️ **Validation Layer**
+  - Protects verified Sanskrit text from accidental rewriting.
+  - Reduces unsupported citations, invented references, and unverified scripture attribution.
+  - Allows uncertainty to remain visible when canonical evidence is insufficient.
+
+- 🌍 **Multilingual Presentation Layer**
+  - Presents explanation in the user's supported language while preserving Sanskrit quotations independently where required.
+  - Keeps original source text, explanation, and translated presentation logically separated.
+
+- 🔊 **Neural Voice Layer**
+  - Converts supported responses into language-aware neural speech.
+  - Handles Sanskrit passages and explanatory prose according to their language and pronunciation requirements.
+
+- 💬 **Study & Conversation Layer**
+  - Maintains multi-chat history, continuing context, conversation search, and study-oriented organization.
+  - Keeps separate conversations independent while allowing relevant context inside an active discussion.
+
+- 👤 **Account & Usage Layer**
+  - Connects Acharya with the existing BRAHM-AI account, usage, and quota ecosystem.
+  - Keeps identity and usage management independent from the core reasoning architecture.
+
+- 🌐 **Unified Experience Layer**
+  - Delivers the final Acharya experience through text, neural voice, conversation history, study tools, and the public BRAHM-AI interface.
+  - Keeps private routing, model configuration, and protected backend implementation outside the public architecture.
+
+---
+
+## 📅 August 8, 2026
+### 🌍 **BRAHM AI Acharya — 11 Indian Languages Ready & Fine-Tuned Neural Voice**
+
+- 🇮🇳 **11 Indian-language interaction paths reached ready state** for the BRAHM AI Acharya experience.
+- 🌍 **Multilingual Acharya flow completed**: Users can ask questions through supported Indian languages without manually translating queries into Hindi or Sanskrit.
+- 🧠 **Common internal reasoning flow stabilized**: Multilingual requests can use the same Acharya knowledge and reasoning capabilities instead of maintaining a separate intelligence engine for every language.
+- 🔄 **Original user language preserved**: The user's detected language remains available for final presentation and voice delivery while internal processing remains consistent.
+- 📖 **Canonical Sanskrit remains unchanged**: Verified Sanskrit quotations are kept separate from translated explanations and are not rewritten merely because the user asked in another language.
+- 🪷 **Scripture explanations became multilingual**: Verified Sanskrit evidence can support explanations in the user's own language.
+- 🔊 **Neural voice fine-tuning completed for the multilingual experience**: Voice delivery was refined for more natural pronunciation, timing, sentence rhythm, pauses, and Indian-language presentation.
+- 🎙️ **Language-aware neural voice routing improved**: Supported languages use the most appropriate available neural speech path instead of forcing one voice configuration across every language.
+- 🕉️ **Sanskrit speech handling refined separately**: Sanskrit quotations and user-language explanations can be processed independently during speech generation.
+- 🗣️ **Mixed Sanskrit + Indian-language responses improved**: Acharya can preserve original Sanskrit while explaining the same passage naturally in another supported language.
+- 🔄 **STT → understanding → reasoning → presentation → TTS synchronization improved** so the user's language remains consistent throughout the interaction.
+- 📱 **Mobile multilingual interaction tested and refined** across language selection, text response, speech playback, and conversation navigation.
+- 🛡️ **Voice fallback handling retained** where a dedicated neural voice is unavailable or unsuitable.
+- 🎯 **Multilingual objective maintained**: Language changes the presentation of knowledge, not the canonical Sanskrit evidence behind it.
+
+#### 🧱 Technical Architecture (Multilingual Input → Common Acharya Intelligence → Native-Language Output)
+
+- 🌍 **Language Detection Layer**
+  - Identifies the user's actual input language and preserves it as presentation metadata.
+
+- 🧠 **Common Intelligence Layer**
+  - Processes the user's intent through one shared Acharya intelligence architecture.
+  - Prevents different languages from creating inconsistent reasoning systems.
+
+- 📖 **Canonical Sanskrit Layer**
+  - Keeps verified Sanskrit evidence independent from translation.
+  - Supplies trusted scripture evidence only when required.
+
+- 🪷 **Explanation Layer**
+  - Builds the conceptual answer from verified evidence and contextual reasoning.
+
+- 🌐 **Native-Language Presentation Layer**
+  - Returns the final explanation in the user's supported language.
+
+- 🔊 **Neural Voice Layer**
+  - Uses language-aware neural speech delivery.
+  - Separates Sanskrit passages from native-language prose when pronunciation requires different handling.
+
+---
+
+## 📅 July 31, 2026
+### 🦅 **Garudaa-LLMG-108 — Local BRAHM Intelligence Model Reaches Independent Deployment Stage**
+
+- 🦅 **Garudaa-LLMG-108 local model development advanced** as BRAHM-AI's independently deployable intelligence and language layer.
+- 🔐 **Local-model direction established**: Garudaa is designed to reduce complete dependence on external AI providers and support private BRAHM-AI inference.
+- 🧠 **Model identity remains BRAHM-specific**: The underlying base model and protected training configuration are intentionally not disclosed in public BRAHM-AI documentation.
+- 🇮🇳 **Indian-language and Hindi-focused evaluation expanded** for BRAHM-AI conversation and specialized knowledge use.
+- 🕉️ **Sanskrit-aware evaluation included** to improve compatibility with BRAHM AI Acharya and Indian knowledge workflows.
+- 📚 **Training and fine-tuning workflow advanced** through controlled dataset preparation, evaluation, tuning, model merge, export, and local deployment testing.
+- 💻 **Local inference successfully established** so the model can run within BRAHM-controlled infrastructure rather than requiring a remote third-party model for every request.
+- ⚙️ **CPU-compatible deployment prepared** for systems where dedicated GPU hardware is not continuously available.
+- 🚀 **GPU-compatible development path retained** for faster inference and future higher-performance deployment.
+- 📦 **Optimized local deployment format prepared** to reduce memory requirements and make practical private inference possible.
+- 🧩 **Garudaa remains one intelligence layer inside BRAHM-AI** rather than replacing verified specialist systems.
+- 📖 **Verified scripture remains independent from model memory**: Garudaa does not become the authoritative scripture database simply because it can generate Sanskrit or Indian-knowledge responses.
+- 🪔 **Deterministic helpers remain authoritative** for Panchang, structured calculations, canonical scripture verification, market data, weather, and other exact-data capabilities.
+- 🧭 **Hybrid model routing retained**: BRAHM-AI can decide whether a request requires Garudaa, verified structured data, another specialist module, or an approved intelligence provider.
+- 🔗 **Future BRAHM True integration prepared**: Garudaa is designed to work inside the central BRAHM intelligence flow instead of creating a competing standalone conversation architecture.
+- 🎙️ **BRAHM Voice compatibility preserved**: Voice can ultimately use Garudaa through the same central response flow rather than building a separate Garudaa voice-answer engine.
+
+### ⚠️ Dedicated GPU Availability
+
+- 🖥️ **Continuous dedicated GPU availability remains one of the largest infrastructure constraints for Garudaa development.**
+- 💻 **Primary BRAHM-AI production infrastructure is currently capable of CPU-based local inference**, but larger local-model workloads naturally run slower without dedicated GPU acceleration.
+- ☁️ **Temporary GPU environments have been used for selected fine-tuning, validation, merge, and export workloads** where higher compute is required.
+- ⏱️ **CPU inference remains functional** and provides an important local/private fallback, although high-complexity generation can require more time.
+- 🔄 **Garudaa architecture remains hardware-independent** so the project is not permanently tied to a specific GPU vendor, cloud provider, or inference service.
+- 🚀 **Future infrastructure objective** is stable dedicated GPU access for faster local reasoning, larger evaluation workloads, and continuous Garudaa serving.
+- 🛡️ **Lack of permanent GPU infrastructure does not change the core architecture**: Verified BRAHM helpers, local evidence systems, and modular intelligence remain operational independently of Garudaa acceleration.
+
+#### 🧱 Technical Architecture (BRAHM Request → Capability Routing → Verified Systems / Garudaa → BRAHM Core → Response)
+
+- 🧭 **BRAHM Capability Router**
+  - Determines whether a request requires deterministic data, verified evidence, Garudaa local intelligence, or another approved reasoning path.
+
+- 📚 **Verified Specialist Systems**
+  - Remain authoritative for exact calculations, trusted scripture verification, structured datasets, and live-data services.
+
+- 🦅 **Garudaa Local Intelligence Layer**
+  - Handles selected conversational, language, explanation, and reasoning workloads through BRAHM-controlled local inference.
+  - Operates independently from the factual databases used by specialist modules.
+
+- 🧠 **BRAHM Core Layer**
+  - Combines conversation context with the selected specialist or model response.
+  - Keeps Garudaa within the existing BRAHM intelligence architecture instead of making the ecosystem dependent on one model.
+
+- 🔊 **Unified Response Layer**
+  - Delivers the final response through BRAHM True, supported voice experiences, or other approved BRAHM interfaces.
+
+---
+
+## 📅 July 26, 2026
+### 🕉️ **BRAHM Sanskrit AI Core Ready — Project Moves into Fine-Tuning for BRAHM AI Acharya**
+
+- ✅ **Initial Sanskrit intelligence core reached ready state** after development work beginning earlier in July.
+- 🕉️ **BRAHM Sanskrit AI began evolving into the broader BRAHM AI Acharya experience** for Sanskrit, scripture understanding, Indian knowledge, contextual learning, and multilingual explanation.
+- 🧠 **Core architecture stabilized sufficiently to begin fine-tuning and deeper evaluation** rather than continuing basic structural development.
+- 📖 **Local scripture role formally established as verification and evidence**: Trusted local scripture collections validate canonical text and references but do not act as the entire Acharya answer engine.
+- 🔎 **Exact scripture verification strengthened** for chapter numbers, verse numbers, Sanskrit passages, source names, and canonical references.
+- 🪷 **Evidence-grounded reasoning developed** so verified local scripture can support natural explanations rather than only returning exact database records.
+- 💬 **Contextual follow-up capability improved**: Users can continue discussion around a verse, concept, Sanskrit term, philosophical question, or prior explanation.
+- 🧠 **General intelligence and scripture verification separated** so normal questions do not unnecessarily trigger local scripture retrieval.
+- 🌍 **Multilingual architecture prepared** so users would eventually be able to study Sanskrit and Indian knowledge in their own language.
+- 🔊 **Sanskrit-aware neural voice work advanced** with separate treatment planned for canonical Sanskrit and explanatory prose.
+- 🛡️ **False-source protection improved**: The system increasingly rejects unsupported Sanskrit quotations and unverified scripture attribution rather than manufacturing references.
+- ⚡ **Compact reasoning and evidence context refined** to reduce unnecessary model load and improve production response time.
+- 🧩 **Modular architecture preserved** so Sanskrit language, verification, reasoning, multilingual presentation, and voice could evolve independently.
+- 🧪 **Fine-tuning phase started** with focus on difficult Sanskrit queries, contextual meaning, source-grounded answers, multilingual consistency, and response quality.
+- 🎯 **Next development objective established**: Move from Sanskrit-engine validation toward a production-ready multilingual BRAHM AI Acharya experience.
+
+#### 🧱 Technical Architecture (Input → Intent → Verification → Reasoning → Validation → Presentation)
+
+- 👤 **Input Layer**
+  - Accepts natural-language questions, Sanskrit text, references, and follow-up conversation.
+
+- 🌍 **Language Understanding Layer**
+  - Identifies language and prepares the request for consistent downstream processing.
+
+- 🧭 **Intent Layer**
+  - Determines whether the query requires Sanskrit analysis, exact scripture verification, contextual explanation, or general reasoning.
+
+- 📖 **Verification Layer**
+  - Uses trusted local scripture evidence only when canonical confirmation is required.
+  - Keeps verified data logically independent from generative reasoning.
+
+- 🧠 **Acharya Intelligence Layer**
+  - Combines relevant evidence with contextual reasoning to prepare the user-facing explanation.
+
+- 🛡️ **Validation Layer**
+  - Checks source consistency, Sanskrit integrity, and unsupported claims before presentation.
+
+- 🌐 **Presentation Layer**
+  - Prepares the response for multilingual text and future neural voice delivery.
+
+---
+
+## 📅 July 14, 2026
+### 👤 **BRAHM-AI Dashboard, Account, Token & Intelligence Access Expanded**
+
+- 🧭 **BRAHM-AI dashboard significantly expanded** after the June unified-platform launch.
+- 👤 **Unified user identity improved** across supported BRAHM-AI experiences.
+- 🔐 **Login and account state connected more consistently** with AI modules and personalized services.
+- 💰 **AI usage and token visibility expanded** in preparation for multiple BRAHM intelligence engines and future developer services.
+- 🦅 **Garudaa usage support prepared** inside the account ecosystem for future local-model access.
+- ⚡ **Quota-aware AI access architecture expanded** without binding user identity directly to one language model.
+- 🔄 **Dashboard balance synchronization improved** so account and AI usage information can update more consistently.
+- 🌍 **Hindi and English dashboard experience refined** as the wider BRAHM ecosystem continued expanding.
+- 🧩 **Account architecture kept modular** so BRAHM True, Voice, Acharya, Garudaa, future APIs, and specialized modules can share identity without becoming one monolithic application.
+- 🪙 **PotliPay-linked AI access continued evolving** as the common usage and payment foundation for BRAHM services.
+- 🔌 **Future developer API usage foundation prepared** for API keys, quotas, plans, and metered intelligence access.
+- 🛡️ **Identity, billing, quota, and answer generation remain separated** so model or service changes do not require redesigning the complete user-account system.
+
+#### 🧱 Technical Architecture (Account → Dashboard → Usage Layer → BRAHM Services)
+
+- 👤 **Identity Layer**
+  - Maintains BRAHM-AI user login and account identity.
+
+- 🧭 **Dashboard Layer**
+  - Presents available BRAHM experiences, account information, usage, and supported access controls.
+
+- 💰 **Usage & Token Layer**
+  - Tracks applicable quotas, purchased balances, and future service-specific usage.
+
+- 🧩 **Service Access Layer**
+  - Connects users with BRAHM True, Voice, Garudaa, Acharya, and future API services according to their available access.
+
+- 🔐 **Separation Layer**
+  - Keeps account identity and usage accounting independent from the model or reasoning engine serving the request.
+
+---
+
+## 📅 July 6, 2026
+### 🕉️ **BRAHM Sanskrit AI Development Begins — Foundation of BRAHM AI Acharya**
+
+- 🚀 **Dedicated development work started on July 6** for a new Sanskrit-focused BRAHM intelligence system that would later evolve into **BRAHM AI Acharya**.
+- 🎯 **Initial objective established**: Build a specialized Sanskrit and Indian knowledge intelligence system rather than another general-purpose Sanskrit chatbot.
+- 🧠 **Architecture-first development chosen** before creating the final public interface.
+- 📖 **Existing BRAHM scripture collections identified as trusted verification resources** for canonical Sanskrit, scripture references, chapter information, and source confirmation.
+- 🔎 **Verification-first principle established**: Authoritative scripture claims should be checked against trusted evidence before being presented as verified.
+- 🪷 **Local scripture deliberately separated from the complete answer engine**: Scripture data supplies evidence and verification while contextual explanation remains an intelligence task.
+- 🌍 **Multilingual vision defined from the beginning**: A user should eventually be able to study Sanskrit and Indian knowledge through their own language instead of being required to ask in Sanskrit.
+- 🧠 **Language-model-independent architecture selected** so future reasoning engines can change without rebuilding the complete Sanskrit knowledge and verification system.
+- 🗣️ **Voice architecture included from the initial design** for user-language explanations and Sanskrit-aware reading.
+- 📚 **Conversation and long-term study concept established** for users who need more than isolated one-question answers.
+- 🛡️ **No-fake-source requirement established**: When reliable scripture evidence cannot be verified, the system should state the limitation rather than inventing a reference.
+- 🧩 **Modular development approach selected** for language intelligence, verification, reasoning, voice, multilingual presentation, documents, and future research capabilities.
+- 🦅 **Local-model compatibility included from the beginning** so the architecture could later work with Garudaa-LLMG-108 without becoming dependent on one reasoning provider.
+- 🎯 **Long-term BRAHM AI Acharya direction defined**: Sanskrit understanding, verified scripture evidence, Indian knowledge, contextual reasoning, multilingual access, neural voice, and study-oriented conversation through one dedicated experience.
+
+#### 🧱 Initial Architecture (User → Language → Intent → Verification → Intelligence → Response)
+
+- 👤 **User Layer**
+  - Allows natural questions instead of forcing users into technical Sanskrit-analysis modes.
+
+- 🌍 **Language Layer**
+  - Detects and prepares user input while allowing Sanskrit knowledge to remain accessible through multiple languages.
+
+- 🧭 **Intent Layer**
+  - Determines whether the request needs Sanskrit understanding, scripture verification, explanation, or general intelligence.
+
+- 📖 **Trusted Evidence Layer**
+  - Uses available local Sanskrit and scripture data to validate authoritative claims where required.
+
+- 🧠 **Intelligence Layer**
+  - Produces contextual explanations using appropriate reasoning together with relevant verified evidence.
+
+- 🛡️ **Validation Layer**
+  - Protects against unsupported source claims and keeps canonical Sanskrit distinct from generated explanation.
+
+- 🌐 **Response Layer**
+  - Returns a natural-language answer and provides the foundation for future multilingual neural voice interaction.
+
+---
+
+
 ## 📅 June 30, 2026
 ### 🌐 **BRAHM-AI Unified Platform — `brahm-ai.in` Becomes the Main AI Ecosystem**
 
