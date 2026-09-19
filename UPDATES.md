@@ -22,11 +22,10 @@ This log documents daily improvements, bug fixes, new modules, and logic updates
 - 🏺 **AR Treasure Hunt development direction retained** for discovering relics, manuscripts, clues, yantras, objects, and hidden experiences.
 - 🥽 **VR world exploration remains part of the future roadmap** for immersive temple and world experiences.
 - 🌐 **BRAHM LOK development moved into its own GitHub workflow** so game development can progress independently from the main BRAHM-AI repository.
-- 🧑‍💻 **Dedicated Game Development Repository**: https://github.com/brahm-ai-official/brahm-lok-game-dev
-- 🌿 **Branch separation introduced**:
-  - `main` is reserved for approved stable game code.
-  - `develop` is used for active integration and development work.
-- 🛠️ **Dedicated experimental workspace introduced**: https://github.com/brahm-ai-official/brahm-lok-work-yug
+-- 🧑‍💻 **Dedicated BRAHM LOK development repository established** so game development, 3D assets, world systems, and future contributor work can evolve independently from the main BRAHM-AI repository.
+- 🌐 **BRAHM LOK GitHub Repository**: https://github.com/brahm-ai-official/brahm-lok-game-dev
+- 🌿 **Stable and active development workflows separated** to protect approved game builds while allowing continuous world, gameplay, and asset development.
+- 🚀 **Repository structure prepared for future developer collaboration** as BRAHM LOK expands into additional worlds, systems, and eras.
 - 🔐 **Repository separation protects the main BRAHM-AI project** from large 3D assets, experimental game code, and frequent world-development changes.
 - 🚀 **GitHub workflow prepares BRAHM LOK for future developer collaboration** while allowing the game architecture to remain independently maintainable.
 - 🎯 **Long-term goal maintained**: BRAHM LOK is being developed as a continuously expanding virtual world rather than a single-map demonstration.
