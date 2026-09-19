@@ -2,6 +2,408 @@
 
 This log documents daily improvements, bug fixes, new modules, and logic updates made in the BRAHM-Ai ecosystem. It supports transparent tracking and open collaboration.
 ---
+## 📅 September 15, 2026
+### 🏹 **BRAHM LOK v1.1 — ERA 01 Asset Pipeline, Character Development & Independent GitHub Workflow**
+
+- 🏹 **BRAHM LOK character-development pipeline expanded** with a new detailed warrior character prepared for the Era 01 world.
+- 🧍 **Higher-quality 3D character assets entered testing** for future exploration, combat, NPC interaction, and cinematic sequences.
+- 🎮 **Playable-world development continued** around the existing browser-based 3D adventure and settlement-building architecture.
+- 🌲 **ARANYA — ERA 01 remains the first BRAHM LOK world** and continues as the foundation for exploration, survival, learning, settlement growth, quests, temples, and ancient-India-inspired environments.
+- 🧩 **Reusable 3D asset strategy strengthened**: Characters, structures, terrain pieces, vegetation, bridges, temples, and environmental objects are being developed as reusable world components rather than one fixed scene.
+- 🏘️ **Settlement progression remains modular**: Kutir, Farm, Gyan Shala, Watchtower, village structures, resources, and future kingdom components can evolve independently as the player progresses.
+- ⚔️ **Combat and equipment direction retained** with supported concepts including Bow, Sword, Staff, health, stamina, exploration, and future enemy or quest encounters.
+- 🪙 **Resource progression maintained** around Gold, Silver, Stone, Wood, Food, Gyan, Karma, and other gameplay-state values.
+- 🧭 **Multiple gameplay perspectives remain part of the design** including Adventure, First Person, Kingdom, and Build-oriented experiences.
+- 🌐 **BRAHM LOK development moved toward an independent GitHub workflow** so game development can progress separately from the main BRAHM-AI repository.
+- 🧑‍💻 **Dedicated development repository established**: `brahm-ai-official/brahm-lok-game-dev`.
+- 🌿 **Branch separation defined**:
+  - `main` is reserved for approved stable/live game code.
+  - `develop` is used for approved development and integration work.
+- 🛠️ **Separate development workspace introduced** through `brahm-ai-official/brahm-lok-work-yug` for active experimentation and controlled work.
+- 🔐 **Game development separation protects the main BRAHM-AI repository** from large 3D assets, experimental game code, and frequent world-development changes.
+- 🚀 **Repository architecture prepares BRAHM LOK for future external development collaboration** without exposing unrelated BRAHM-AI production systems.
+- 🎯 **Long-term goal maintained**: Build BRAHM LOK as a continuously expanding virtual world rather than a one-map demonstration.
+
+#### 🧱 Technical Architecture (Game Repository → Development Branch → Asset Pipeline → World Runtime → Stable Release)
+
+- 🧑‍💻 **Development Repository Layer**
+  - Maintains BRAHM LOK game code, game-specific assets, world logic, and development documentation separately from the primary BRAHM-AI repository.
+
+- 🌿 **Development Branch Layer**
+  - Receives active world development, asset integration, gameplay changes, and tested feature work.
+
+- 🎨 **3D Asset Layer**
+  - Handles characters, huts, temples, terrain pieces, vegetation, bridges, weapons, props, environmental objects, and reusable world assets.
+
+- 🎮 **Gameplay Runtime Layer**
+  - Controls player movement, resources, exploration, building, quests, combat state, and world interaction.
+
+- 🧪 **Validation Layer**
+  - Tests assets, world compatibility, gameplay state, performance, and integration before stable promotion.
+
+- ✅ **Stable Release Layer**
+  - Approved game changes can move into the stable branch and later connect with the public BRAHM-AI experience.
+
+---
+
+## 📅 September 12, 2026
+### 📖 **BRAHM AI Acharya — Thirukkural Knowledge Expansion Begins**
+
+- 📖 **Thirukkural integration started** as a major new Indian knowledge expansion for BRAHM AI Acharya.
+- 🇮🇳 **Full 1,330-Kural base corpus architecture defined** across the traditional 133 chapters.
+- தமிழ் **Original Tamil remains canonical** and is preserved as the authoritative source text.
+- 🧠 **BRAHM AI enrichment is kept separate from canonical text** so generated explanation, translation, Sanskrit rendering, or interpretation cannot silently replace the original Kural.
+- 🪷 **Sanskrit rendering is explicitly treated as BRAHM AI-generated interpretation**, not as an original Sanskrit version of Thirukkural.
+- 🔎 **Base corpus verification prioritized before enrichment**: All Kurals are first imported and structurally validated before detailed chapter-by-chapter interpretation is added.
+- 🧩 **Manual enrichment workflow adopted** based on the scripture-development method already used for Ramayan.
+- 🌍 **Existing Acharya multilingual architecture retained** rather than creating separate Thirukkural translation engines for every language.
+- 🧠 **Hindi-first internal reasoning remains preserved** while final explanation can be presented in the user's own supported language.
+- 🔊 **Kural voice presentation designed to reuse Acharya's existing verse-style reading system** while respecting Tamil as the original source.
+- 📚 **Future enrichment fields planned** for translation, simple meaning, Bhavarth, explanation, ethical context, practical application, topics, keywords, and natural question triggers.
+- 🛡️ **Canonical separation strengthened**: Tamil original, BRAHM AI Sanskrit rendering, translations, and commentary remain distinguishable.
+- 🎯 **Thirukkural integration expands Acharya beyond Sanskrit-only study** toward broader verified Indian knowledge intelligence.
+
+#### 🧱 Technical Architecture (Canonical Tamil → Validation → Enrichment → Acharya Reasoning → Multilingual Presentation)
+
+- தமிழ் **Canonical Source Layer**
+  - Preserves the original 1,330 Tamil Kurals and chapter structure.
+
+- ✅ **Corpus Validation Layer**
+  - Checks completeness, sequence, chapter mapping, missing records, and duplicate entries.
+
+- 📚 **Enrichment Layer**
+  - Adds translation, explanation, Bhavarth, practical context, topics, and supported metadata without modifying the canonical Tamil.
+
+- 🧠 **Acharya Reasoning Layer**
+  - Uses verified Kural context when responding to conceptual or comparative questions.
+
+- 🌍 **Multilingual Presentation Layer**
+  - Returns explanations through the existing BRAHM AI Acharya language pipeline.
+
+- 🔊 **Voice Presentation Layer**
+  - Supports Kural reading and explanatory speech while keeping original and generated content separate.
+
+---
+
+## 📅 September 11, 2026
+### 📖 **BRAHM AI Acharya — Ramayan Scripture Intelligence Expanded & Sundarkand Verification Strengthened**
+
+- 📖 **Valmiki Ramayan knowledge coverage continued expanding** inside the verified Acharya scripture system.
+- 🕉️ **Sundarkand development advanced through later Sargas**, with structured Sanskrit text, references, Hindi explanation, contextual meaning, and natural question routing.
+- ✅ **Sargas 47–52 reached validated and locked states** during the current scripture-development cycle.
+- 🔎 **Explicit-reference queries strengthened** so chapter, Sarga, and verse-based requests can resolve through deterministic local verification.
+- 🧠 **Natural-language scripture routing improved** so users do not always need to provide an exact reference.
+- 🪷 **Contextual meaning remained evidence-bound**: Verified local scripture provides canonical evidence while Acharya produces the user-facing contextual explanation.
+- 🛡️ **Provider-independent scripture answers strengthened**: Queries already answerable from verified local data can avoid unnecessary external model dependency.
+- 🌍 **Multilingual presentation continues above the canonical layer** so translation does not modify the underlying Sanskrit evidence.
+- 🔊 **Verse-aware reading remains compatible with Acharya neural voice** for Sanskrit source passages and explanatory text.
+- 📚 **Incremental scripture locking retained** so completed Sargas can remain stable while later sections continue development.
+- 🎯 **Goal remains source reliability before scale** rather than loading large unverified scripture dumps into the conversational system.
+
+#### 🧱 Technical Architecture (Natural Question → Scripture Intent → Local Verification → Contextual Reasoning → Response)
+
+- 🧭 **Scripture Intent Layer**
+  - Recognizes explicit references as well as natural questions about a verified Ramayan passage.
+
+- 📖 **Canonical Verification Layer**
+  - Retrieves trusted Sanskrit text and structured Sarga or verse information.
+
+- 🧠 **Contextual Reasoning Layer**
+  - Uses the verified evidence to explain narrative, meaning, context, character action, or related concepts.
+
+- 🛡️ **Reference Validation Layer**
+  - Prevents unsupported verse numbering, fabricated quotations, or incorrect narrative attribution.
+
+- 🌍 **Presentation Layer**
+  - Delivers the final explanation in the user's supported language while preserving canonical Sanskrit separately.
+
+---
+
+## 📅 September 11, 2026
+### 🏛️ **BRAHM LOK v1.1 — Live Panchang, BRAHM AI Acharya, VR Temple World & AR Treasure Hunt Direction**
+
+- 🏛️ **BRAHM LOK v1.1 — ERA 01 world vision formally expanded** from a browser-based 3D game into a broader Ancient India-inspired virtual experience.
+- 🌲 **ARANYA — ERA 01 confirmed as the first world** combining forests, settlements, temples, exploration, learning, survival, construction, and story progression.
+- 🕉️ **BRAHM AI Acharya established as the in-world knowledge intelligence system** for supported questions, cultural learning, scripture context, and guided discovery.
+- 🪔 **Live Panchang established as a real-time world feature**, connecting the player's virtual experience with actual Panchang context.
+- 🗺️ **VR-oriented World Map direction introduced** for future immersive exploration of important temple and regional environments.
+- 🛕 **Temple Visit experience added to the game vision**, allowing players to discover and interact with temples and sacred locations inside the world.
+- 📿 **Live Darshan concept introduced** as part of the future temple and real-location experience.
+- 🧭 **Real-location-inspired exploration planned** so virtual environments can eventually connect with important cultural and temple locations.
+- 🏺 **AR Treasure Hunt introduced** as a major future game mode connecting virtual exploration with supported real-world mobile experiences.
+- 📱 **Treasure Hunt AR concept includes discovery of relics, manuscripts, yantras, sacred objects, clues, and hidden locations.**
+- 🎮 **Core gameplay remains playable without VR or AR** so the main world does not depend on specialized hardware.
+- ⚔️ **Build & Fight progression retained** alongside learning and exploration rather than turning BRAHM LOK into only a visual heritage tour.
+- 📚 **Learn & Play direction strengthened**: Knowledge, exploration, quests, Gyan, Karma, temples, and Acharya interaction form part of progression.
+- 🏘️ **Kingdom and settlement growth remains a long-term gameplay system** allowing the player's environment to evolve through collected resources and completed activity.
+- 🌍 **Future-era architecture retained**: Era 01 is designed as the beginning of a larger world rather than the final map.
+- 🚀 **Global developer participation remains part of the long-term vision** after the initial architecture, stable world systems, and contribution workflow mature.
+- 🎯 **BRAHM LOK identity clarified**: The objective is not only to show Ancient India visually, but to allow players to **walk, explore, build, learn, discover, and experience** an evolving virtual world.
+
+#### 🧱 Technical Architecture (3D World → Game Systems → Live Intelligence → Immersive Extensions)
+
+- 🌲 **3D World Layer**
+  - Contains terrain, forests, villages, temples, caves, rivers, bridges, structures, and explorable regions.
+
+- 🎮 **Gameplay Layer**
+  - Manages player movement, survival state, resources, tools, building, quests, combat, Gyan, Karma, and progression.
+
+- 🏘️ **Settlement & Kingdom Layer**
+  - Supports huts, farms, learning spaces, watchtowers, village development, and future kingdom expansion.
+
+- 🪔 **Live Panchang Layer**
+  - Supplies supported real-time Panchang context independently from the static 3D world.
+
+- 🕉️ **BRAHM AI Acharya Layer**
+  - Provides contextual knowledge interaction without embedding the entire Acharya intelligence system directly inside the game client.
+
+- 🗺️ **World Map & Temple Layer**
+  - Supports discovery of temples, regions, sacred locations, and future immersive travel experiences.
+
+- 🏺 **AR Treasure Hunt Layer**
+  - Extends supported discovery mechanics beyond the normal 3D world for future mobile AR experiences.
+
+- 🥽 **VR Experience Layer**
+  - Provides a future immersive presentation path without making VR mandatory for standard gameplay.
+
+---
+
+## 📅 September 10, 2026
+### 🕉️ **BRAHM LOK × BRAHM AI Acharya — In-World Intelligence Integration Testing**
+
+- 🕉️ **BRAHM AI Acharya integration entered active BRAHM LOK testing** so players can access knowledge assistance directly from the game experience.
+- 💬 **Ask Brahm interaction prepared** as an in-world interface instead of forcing the player to leave the game to open a separate AI page.
+- 🔊 **Listen interaction included** for supported spoken Acharya responses inside the game experience.
+- 🧠 **BRAHM LOK does not maintain a separate Acharya brain**: The game connects to the existing Acharya intelligence flow instead of duplicating scripture reasoning inside game code.
+- 🔄 **Shared Acharya response path retained** so future improvements to the main Acharya system can also benefit the game.
+- 🛡️ **Integration work remains isolated from core scripture verification**: Game UI changes do not alter Acharya's canonical Sanskrit or evidence system.
+- 🧪 **Bridge and response compatibility testing continued** during this phase before wider public integration.
+- 🎯 **Design objective established**: BRAHM AI Acharya should feel like part of the virtual world while remaining a separately maintained intelligence system.
+
+#### 🧱 Technical Architecture (Game Interaction → Acharya Bridge → Existing Intelligence → Game Response)
+
+- 🎮 **Game Interaction Layer**
+  - Accepts supported player questions from inside BRAHM LOK.
+
+- 🔗 **Acharya Bridge Layer**
+  - Transfers the request toward the existing BRAHM AI Acharya service.
+
+- 🧠 **Existing Acharya Intelligence**
+  - Handles language, context, verification, reasoning, and supported response generation.
+
+- 🔊 **Game Response Layer**
+  - Returns supported text or voice output to the player without duplicating Acharya's protected backend inside the game.
+
+---
+
+## 📅 September 8, 2026
+### 🌲 **BRAHM LOK v1.1 — ARANYA ERA 01 First Playable World Established**
+
+- 🎮 **BRAHM LOK reached its first recognizable playable-world stage** as a browser-based 3D RPG and settlement-building experience.
+- 🌲 **First world named `ARANYA — ERA 01`** and established as the starting region for the larger BRAHM LOK universe.
+- 🧍 **First playable character integrated** into the initial environment.
+- 🕹️ **Adventure mode established** for world exploration and progression.
+- 👁️ **First Person mode added to the game direction** for closer world interaction.
+- 🏰 **Kingdom mode introduced** as the foundation for later settlement and kingdom progression.
+- 🛠️ **Build mode introduced** for construction and world-development gameplay.
+- 🌾 **Farm structure added** to the settlement system.
+- 🛖 **Kutir development included** as an early settlement-building component.
+- 📚 **Gyan Shala concept added** as a knowledge and learning location inside the world.
+- 🗼 **Watchtower structure added** as another expandable settlement asset.
+- 🪙 **Resource system introduced** using Gold, Silver, Stone, Wood, and other progression resources.
+- 🧠 **Gyan XP and Karma concepts integrated** to allow knowledge and actions to influence progression.
+- ❤️ **Health and stamina gameplay states established** for adventure and survival mechanics.
+- 🏹 **Bow, Sword, and Staff equipment concepts connected** to future exploration and combat.
+- 🕉️ **Ask Brahm and Listen controls introduced** as the foundation for future BRAHM AI Acharya interaction.
+- 📱 **Mobile controls included** so the game can remain accessible beyond desktop keyboard and mouse.
+- 🕓 **In-game time system included** as part of the living-world direction.
+- 🧭 **Core progression established**:
+
+  `Explore → Gather → Meet → Learn → Complete Quests → Gain Gyan/Karma → Build Settlement → Unlock New Regions`
+
+- 🌐 **BRAHM LOK defined as a browser-accessible world**, keeping the first experience lightweight compared with requiring a conventional installed game client.
+- 🎯 **ERA 01 established as the foundation**, not a finished game: Future worlds, temples, quests, NPCs, combat, AI interaction, VR, AR, and deeper Ancient India-inspired environments remain expandable.
+
+#### 🧱 Technical Architecture (Browser 3D Runtime → Player State → World Systems → Progression)
+
+- 🌍 **World Runtime Layer**
+  - Renders the initial Aranya terrain, environmental assets, structures, and interactive regions.
+
+- 🧍 **Player Layer**
+  - Controls movement, perspective, health, stamina, interaction, and equipment state.
+
+- 🪙 **Resource Layer**
+  - Maintains collected materials and progression resources.
+
+- 🏘️ **Build Layer**
+  - Supports settlement structures and future level-based development.
+
+- 📜 **Quest & Progression Layer**
+  - Connects exploration, Gyan, Karma, resource gathering, discoveries, and region unlocking.
+
+- 📱 **Interaction Layer**
+  - Supports desktop and mobile controls while preparing the world for future voice and AI interaction.
+
+---
+
+## 📅 August 26, 2026
+### 🔊 **Vāgbodha — BRAHM-AI Indian AI Voice Studio Enters Public Beta**
+
+- 🔊 **Vāgbodha introduced as BRAHM-AI Voice Intelligence's dedicated Indian AI Voice Studio**.
+- 🇮🇳 **Indian-language voice creation placed at the center of the experience** rather than treating Indian-language speech as an add-on to an English-first voice product.
+- 📚 **Study use case introduced** for revision notes, educational material, explanations, and learning-oriented audio.
+- ✍️ **Create mode introduced** for stories, scripts, narration, and general voice creation.
+- 🪷 **Indic mode introduced** for Indian-language, Sanskrit-aware, shloka, mantra, and pronunciation-sensitive content.
+- 🧠 **Smart language and style detection added** to help prepare text for appropriate voice generation.
+- 🛡️ **Pronunciation Guard introduced** for Indic-aware text preparation before speech generation.
+- 🔤 **Up to 5,000-character script input supported** in the current generation workflow.
+- 🎙️ **Voice selection interface introduced** with culturally aligned public voice identities rather than exposing provider-specific technical names.
+- 🔊 **Ojas introduced as a public male BRAHM voice identity**.
+- 🔊 **Ira introduced as a public female BRAHM voice identity**.
+- ▶️ **Voice-preview experience included** so users can hear supported voice samples before generation.
+- 🌍 **Language-specific voice selection prepared** for Indian-language speech workflows.
+- 🎚️ **Voice style and speed controls included** for supported generation modes.
+- ⚙️ **Generation pipeline organized into visible stages**:
+
+  `Prepare → Understand → Voice → Process → Ready`
+
+- 📂 **Project Audio system introduced** so generated audio can be organized around projects rather than remaining as disconnected individual files.
+- 🗂️ **Recent Projects section added** for quick access to active voice work.
+- 🎧 **Recent Voices section added** to help users locate generated audio.
+- 💰 **Free Beta mode activated** with `0 BHM` charged for supported beta generation.
+- ✅ **Successful-generation billing principle established** so usage is charged only after successful generation when paid usage becomes active.
+- 🪙 **Dedicated BHM-V usage concept introduced** for future Vāgbodha voice-generation accounting.
+- 👤 **BRAHM account and PotliPay ecosystem connection prepared** for future paid voice usage.
+- 🔐 **Underlying provider identity remains hidden from the public interface** so Vāgbodha retains its own BRAHM-AI voice identity and providers can be changed administratively.
+- 🎯 **Product direction established**: Vāgbodha is intended as a complete Indian-language voice workspace rather than a simple Text-to-Speech textbox.
+- 🌐 **Vāgbodha**: https://brahm-ai.in/vagbodha/
+
+#### 🧱 Technical Architecture (Script → Indic Preparation → Voice Intelligence → Audio → Project Library)
+
+- 📝 **Script Layer**
+  - Accepts supported study, creation, Indic, Sanskrit-aware, shloka, and mantra-oriented text.
+
+- 🧠 **Text Intelligence Layer**
+  - Detects supported language and style requirements before voice generation.
+
+- 🛡️ **Pronunciation Preparation Layer**
+  - Prepares Indic and Sanskrit-sensitive text for more reliable spoken output.
+
+- 🎙️ **Voice Selection Layer**
+  - Maps public BRAHM voice identities, language, style, and speed to an appropriate internal voice path.
+
+- 🔊 **Generation Layer**
+  - Produces the requested audio while keeping provider-specific configuration outside the public interface.
+
+- 📂 **Project Audio Layer**
+  - Organizes successful generations into projects and recent-voice history.
+
+- 💰 **Usage Layer**
+  - Supports beta usage now while preparing for future account-aware voice credits and successful-generation billing.
+
+---
+
+## 📅 August 25, 2026
+### 🔊 **Vāgbodha Runtime Stabilized — Real Audio Generation & Project Workflow Verified**
+
+- ✅ **Vāgbodha runtime reached a stable working stage** with successful end-to-end voice generation.
+- 🔊 **Real generated audio confirmed** through the production-oriented voice workflow.
+- 📈 **Generation completion state verified** from request through final ready audio.
+- 💰 **Free Beta usage verified at zero charge** during the current public-beta stage.
+- 🎙️ **Public voice-picker direction finalized** around short Indian and Sanskrit-inspired voice identities.
+- 🔐 **Provider names deliberately removed from public branding** so users interact with BRAHM voice identities rather than infrastructure vendors.
+- ⚙️ **Provider configuration remains replaceable internally** without changing the public Vāgbodha experience.
+- ▶️ **Voice-preview requirement retained** to make language and voice selection easier for users.
+- 🇮🇳 **Culturally aligned naming direction selected** for Vāgbodha's public voices.
+- 📂 **Next development focus established** around projects, generated-audio library, account usage, and future billing integration.
+
+#### 🧱 Technical Architecture (Public Voice Identity → Configurable Voice Runtime → Successful Audio)
+
+- 🎙️ **Public Voice Layer**
+  - Displays BRAHM-managed voice names rather than provider-specific identities.
+
+- 🌍 **Language Selection Layer**
+  - Connects the selected language with an appropriate voice path.
+
+- ⚙️ **Configurable Runtime Layer**
+  - Allows the underlying voice system to evolve without changing the public product interface.
+
+- 🔊 **Audio Generation Layer**
+  - Processes prepared text and returns completed voice output.
+
+- ✅ **Completion & Usage Layer**
+  - Confirms successful generation before final usage handling.
+
+---
+
+## 📅 August 19, 2026
+### 📚 **BRAHM AI Acharya — Knowledge Corpus Expansion & Upanishad Development Direction**
+
+- 📚 **Acharya scripture-development roadmap expanded beyond existing Ramayan, Gita, Vedic, and Sanskrit knowledge collections.**
+- 🕉️ **Upanishad integration direction established** as part of the next verified scripture-expansion phase.
+- देवनागरी **Original Sanskrit presentation remains central** for canonical Upanishadic text.
+- 🔤 **Roman transliteration planned alongside Sanskrit** to improve accessibility for users unable to read Devanagari.
+- 🇮🇳 **Hindi explanation retained as an important internal and user-facing knowledge layer** where appropriate.
+- 🌍 **English explanation included in the structured corpus direction** for broader study and research access.
+- 🧠 **Acharya multilingual architecture remains above the canonical scripture layer** so future language support does not require duplicating scripture databases.
+- 📖 **Canonical text, transliteration, translation, and explanation remain separate fields** rather than being merged into one generated answer.
+- 🔎 **Source verification remains mandatory** before scripture data is treated as canonical.
+- 🛡️ **Generated explanations remain distinguishable from source text** to reduce false attribution.
+- 🎯 **Long-term objective reinforced**: Build Acharya as a verified Indian knowledge and study system rather than a large unstructured text collection.
+
+#### 🧱 Technical Architecture (Canonical Text → Structured Knowledge → Verification → Acharya)
+
+- 📖 **Canonical Scripture Layer**
+  - Stores verified original Sanskrit separately from interpretation.
+
+- 🔤 **Accessibility Layer**
+  - Supports transliteration and structured translations without modifying canonical text.
+
+- ✅ **Verification Layer**
+  - Confirms source, section, text, and reference integrity.
+
+- 🧠 **Acharya Intelligence Layer**
+  - Uses the structured evidence only when relevant to the user's question.
+
+- 🌍 **Multilingual Layer**
+  - Presents the resulting explanation in the supported user language.
+
+---
+
+## 📅 August 16, 2026
+### 🗂️ **BRAHM AI Acharya — Study Organization, Search & Conversation Workspace Expanded**
+
+- 🗂️ **Acharya conversation organization expanded** beyond a basic chronological chat list.
+- 💬 **Dedicated conversation and study organization introduced** to support long-running Sanskrit and Indian knowledge sessions.
+- 🔎 **Conversation-content search improved** so users can locate earlier questions and explanations inside growing study histories.
+- 📚 **Study-oriented grouping direction introduced** to distinguish normal conversations from focused learning work.
+- 🗄️ **Archive workflow added to the conversation experience** for chats users want to retain without keeping them in the primary active list.
+- ✏️ **Conversation naming and management refined** for better navigation across multiple study topics.
+- ➕ **New-creation direction introduced** as Acharya expands beyond question-answer interaction toward structured learning and future creative Sanskrit workflows.
+- 🎙️ **Voice remains integrated as a presentation capability** rather than becoming an independent answer engine.
+- 🌍 **Multilingual presentation continues to reuse one shared reasoning architecture**, keeping language-specific UI changes separate from canonical knowledge.
+- 🧠 **Conversation context remains isolated per chat** to prevent unrelated study sessions from contaminating one another.
+- 📱 **Sidebar and mobile study navigation continued improving** as Acharya's public workspace became larger.
+- 🎯 **Acharya product direction evolved from a single Sanskrit chat page toward a persistent AI study workspace.**
+
+#### 🧱 Technical Architecture (Conversation → Study Context → Acharya → Searchable Workspace)
+
+- 💬 **Conversation Layer**
+  - Maintains independent discussions and their relevant context.
+
+- 🗂️ **Organization Layer**
+  - Supports active conversations, study-oriented grouping, archive behavior, and conversation naming.
+
+- 🔎 **Search Layer**
+  - Finds relevant content within accumulated Acharya conversation history.
+
+- 🧠 **Acharya Intelligence**
+  - Continues to use the same reasoning and verification architecture regardless of how conversations are organized.
+
+- 📱 **Workspace Layer**
+  - Presents conversation, study, search, and voice controls through desktop and mobile interfaces.
+
+---
 
 ## 📅 August 11, 2026
 ### 🕉️ **BRAHM AI Acharya — Public Sanskrit Intelligence, Study Workspace & Neural Reading Experience**
