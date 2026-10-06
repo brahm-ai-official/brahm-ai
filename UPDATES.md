@@ -1,6 +1,135 @@
 # 📜 BRAHM-Ai — Daily Updates Log
 
 This log documents daily improvements, bug fixes, new modules, and logic updates made in the BRAHM-Ai ecosystem. It supports transparent tracking and open collaboration.
+
+## 📅 October 6, 2026
+### 🪔 **BRAHM LOK — Akashvani, Voice Language & Audio Experience Update**
+
+- 🪔 **Akashvani experience was refined** as part of BRAHM LOK’s guided world interaction.
+- 🌐 **Acharya and Akashvani were aligned to use the same selected voice language.**
+- 🔊 **Separate Akashvani volume control was planned** so it could be adjusted independently from Acharya and other game sounds.
+- 📝 **Akashvani text was connected to the selected language** instead of appearing only in English.
+- 👩 **Natural female voice and Hindi-style echo were retained** for Akashvani.
+- 🦍 **Vajrakapi’s deep male voice and Manush’s soft male voice remained distinct.**
+- 🐦 **Birds, Kapi and forest sound effects remained part of the natural world ambience.**
+- 🎛️ **Audio settings were reorganized** to reduce confusion between Acharya voice and Akashvani.
+- 🌍 **Hindi and English audio flows were checked**, while additional Indian-language audio remained under development.
+
+---
+
+## 📅 October 5, 2026
+### 🐒 **BRAHM LOK — Vajrakapi Look, Meditation & Knowledge Quest Direction**
+
+- 🐒 **Vajrakapi’s new guardian look was selected** for the BRAHM LOK world.
+- 🧹 **The previous bandar/langur/gorilla-style appearance was removed** while keeping the existing character role.
+- 📖 **Vajrakapi’s story, arena role and quest direction remained unchanged.**
+- 🧘 **A calm and natural meditation pose was planned** for Vajrakapi.
+- 🕉️ **The meditation quest was connected with Yajurveda and Shiva Sankalpa knowledge.**
+- 📚 **Acharya questions were prepared** around Yajurveda 34.1 and the Shiva Sankalpa teaching.
+- 🎭 **Vajrakapi continued as a guardian connected with knowledge, meditation and spiritual exploration.**
+
+---
+
+## 📅 September 29, 2026
+### 🎵 **BRAHM LOK — ARANYA Game Music & Living Forest Ambience**
+
+- 🎵 **BRAHM LOK music direction moved toward living-world ambience** instead of a traditional cinematic song.
+- 🌲 **Natural forest sounds were kept central** to the ARANYA exploration experience.
+- 🕉️ **Deep OM-like vibration and cosmic meditation feeling were explored** for the world atmosphere.
+- 🛕 **Tibetan singing bowl overtones, conch, damru, bigul and distant vibrations were considered** for sacred locations.
+- 🌬️ **The sound direction was shaped to make the player feel physically present inside an ancient forest.**
+- 🔊 **Ambient sound was planned to change according to exploration, meditation and sacred-world experiences.**
+
+---
+
+## 📅 September 28, 2026
+### 🌌 **BRAHM LOK — Deep OM & Cosmic Meditation Sound Direction**
+
+- 🕉️ **A deep OM-based meditation sound direction was explored** for BRAHM LOK.
+- 🔔 **Tibetan singing bowl overtones and deep vibration were combined** for a spiritual atmosphere.
+- 🌲 **The sound was kept connected to the forest world** instead of making it feel like a separate music track.
+- 🧘 **A peaceful, slow and immersive meditation feeling was developed** for suitable world locations.
+
+---
+
+## 📅 September 24, 2026
+### 🌲 **BRAHM LOK 1.1 — ARANYA Forest, Nahar & World Overview Update**
+
+- 🌲 **ARANYA forest received a major visual and gameplay update.**
+- 🌳 **Old placeholder trees were replaced with more natural tree models.**
+- 🦌 **New deer models were placed across multiple natural locations.**
+- 🐘 **Airavat, deer, temples and important world elements were prepared for overview visibility.**
+- 🐅 **Nahar’s behaviour was reviewed**, including roaming, observation, chasing, attacking and retreating after injury.
+- ❤️ **Nahar’s wounded state was made clearer** through health indication and visible damage feedback.
+- 🪔 **Low-health warning and safe-area escape direction were added to the gameplay plan.**
+- 🗺️ **A top-down world overview was introduced** with pan and zoom movement.
+- 📍 **A Nahar location marker was retained** so the player could find him from a distance.
+- ⚔️ **Manush’s sword attack and Nahar’s attack reaction were reviewed.**
+- 🩸 **Hit reaction and wound feedback were improved** for clearer combat understanding.
+- 🌿 **Shrubs, trees and ground presentation were made more natural.**
+- 🚶 **Nahar’s movement toward the pond and his path through the world were checked.**
+- ✅ **Forest Overview V1 became the current playable baseline** for the next development stage.
+
+---
+
+## 📅 September 23, 2026
+### 🐅 **BRAHM LOK — Nahar Wildlife Behaviour & Combat Direction**
+
+- 🐅 **Nahar was developed as an active wildlife character** instead of remaining static in the forest.
+- 👁️ **Observation, roaming and player-following behaviour were reviewed.**
+- ⚔️ **Nahar’s attack and retreat behaviour were connected with the player’s health and combat state.**
+- ❤️ **Injured Nahar was planned to retreat instead of remaining frozen in place.**
+- 🪔 **Akashvani warning direction was connected with dangerous wildlife encounters.**
+- 🌊 **Nahar’s pond-drinking and forest movement direction was continued.**
+- 🌲 **The forest was shaped around wildlife movement, exploration and discovery.**
+
+---
+
+## 📅 September 22, 2026
+### 📺 **BRAHM LOK — Android TV Compatibility & Performance Direction**
+
+- 📺 **BRAHM LOK Android TV compatibility was explored.**
+- 🎮 **TV-friendly controls and remote navigation were planned** for a larger-screen experience.
+- 🖥️ **Browser performance and game hanging issues on Android TV were reviewed.**
+- ⚙️ **A lighter visual experience was planned** for TV browsers and lower-performance devices.
+- 🧭 **BRAHM LOK was considered for mobile, desktop and TV experiences** while preserving the main world and tools.
+- 🌐 **The game continued as part of the wider BRAHM-AI connected experience.**
+
+---
+
+## 📅 September 20, 2026
+### 🕉️ **BRAHM LOK — Devatva Presence & Public World Vision**
+
+- 🕉️ **The Devatva Presence concept was developed** for AI characters entering BRAHM LOK.
+- 👤 **AI characters were planned to have their own identity, voice, avatar and visible world presence.**
+- ⏳ **Limited active presence time was explored** so inactive time would not be counted.
+- 👻 **A ghost presence concept was introduced** to show that an AI had previously visited the world.
+- 🔐 **Login-based access was preferred** for safer identity and controlled participation.
+- 🚪 **A limited guest Darshan or Visitor entry was considered** for first-time AI visitors.
+- 🌍 **BRAHM LOK was positioned as a living world** where AI characters could interact with humans, language and the environment.
+
+---
+
+## 📅 September 19, 2026
+### 🔐 **BRAHM LOK — Login & Connected Experience Direction**
+
+- 🔐 **Login-based participation remained part of the BRAHM ecosystem direction.**
+- 🤖 **AI presence was connected with controlled access and user identity.**
+- 🌐 **BRAHM LOK continued to develop as a connected world for AI characters and human exploration.**
+
+---
+
+## 📅 September 17, 2026
+### 🌍 **BRAHM LOK — Terrain, Bridge, Temple Route, Deer & Weapons Update**
+
+- 🌾 **Natural terrain development continued across the playable map** with grass, soil and forest ground presentation.
+- 🌉 **Bridge approaches and connecting paths were improved** for smoother movement.
+- 🛕 **The route toward the temple and its stairs was developed further.**
+- 🦌 **The new deer model replaced the older deer appearance** and was placed in multiple locations.
+- 🌳 **New tree and forest elements were introduced** to improve the natural world presentation.
+- ⚔️ **Bow, Sword and Staff remained part of the warrior weapon direction.**
+- 🧱 **Movement blockage and path problems were reviewed** around the bridge, terrain and temple route.
+- 💾 **Existing saves and current game progress were kept protected during the update work.**
 ---
 ## 📅 September 15, 2026
 ### 🏹 **BRAHM LOK v1.1 — ERA 01 Asset Pipeline, Character Development & Independent GitHub Workflow**
